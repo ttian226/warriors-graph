@@ -1,0 +1,21 @@
+{
+  "name": "warriors-graph",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview --host",
+    "data:fetch": "node scripts/fetch.mjs",
+    "data:parse": "node scripts/parse.mjs",
+    "data": "npm run data:fetch && npm run data:parse"
+  },
+  "dependencies": {
+    "3d-force-graph": "^1.80.1",
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "vite": "^8.3.5"
+  }
+}

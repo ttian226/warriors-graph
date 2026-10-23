@@ -1,0 +1,4989 @@
+[
+ {
+  "id": "Ashfoot",
+  "names": [
+   {
+    "stage": "apprentice",
+    "en": "Ashpaw",
+    "zh": null
+   },
+   {
+    "stage": "warrior",
+    "en": "Ashfoot",
+    "zh": null
+   }
+  ],
+  "clans": [
+   {
+    "clan": "WindClan"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "WindClan",
+  "arcs": [
+   "arc1",
+   "arc2",
+   "arc3",
+   "arc4"
+  ],
+  "status": "dead",
+  "deathArc": null,
+  "deathBook": "brs",
+  "gender": "female",
+  "pelt": {
+   "base": "gray",
+   "pattern": "solid"
+  }
+ },
+ {
+  "id": "Ashfur (ShC)",
+  "names": [
+   {
+    "stage": "warrior",
+    "en": "Ashfur",
+    "zh": null
+   }
+  ],
+  "clans": [
+   {
+    "clan": "ShadowClan"
+   }
+  ],
+  "home": "ShadowClan",
+  "arcs": [
+   "arc1"
+  ],
+  "status": "alive",
+  "gender": "male",
+  "pelt": {
+   "base": "gray",
+   "pattern": "solid"
+  }
+ },
+ {
+  "id": "Ashfur (TC)",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Ashkit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Ashpaw",
+    "zh": null
+   },
+   {
+    "stage": "warrior",
+    "en": "Ashfur",
+    "zh": null
+   },
+   {
+    "stage": "leader",
+    "en": "Bramblestar",
+    "zh": "棘星",
+    "check": true
+   }
+  ],
+  "clans": [
+   {
+    "clan": "DarkForest"
+   },
+   {
+    "clan": "ShadowClan",
+    "note": "囚禁",
+    "rawNote": "prisoner"
+   },
+   {
+    "clan": "ThunderClan"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "ThunderClan",
+  "arcs": [
+   "arc1",
+   "arc2",
+   "arc3",
+   "arc4",
+   "arc7"
+  ],
+  "status": "dead",
+  "deathArc": "arc3",
+  "deathBook": "po",
+  "gender": "male",
+  "pelt": {
+   "base": "gray",
+   "pattern": "solid"
+  }
+ },
+ {
+  "id": "Barkface",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Barkkit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Barkpaw",
+    "zh": null
+   },
+   {
+    "stage": "warrior",
+    "en": "Barkface",
+    "zh": null
+   }
+  ],
+  "clans": [
+   {
+    "clan": "WindClan"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "WindClan",
+  "arcs": [
+   "arc1",
+   "arc2",
+   "arc3",
+   "arc4",
+   "arc6"
+  ],
+  "status": "dead",
+  "gender": "male",
+  "pelt": {
+   "base": "brown",
+   "pattern": "solid"
+  }
+ },
+ {
+  "id": "Barley",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Barley",
+    "zh": null
+   }
+  ],
+  "clans": [
+   {
+    "clan": "Loner"
+   },
+   {
+    "clan": "BloodClan"
+   },
+   {
+    "clan": "ThunderClan",
+    "note": "temporary",
+    "rawNote": "temporary"
+   },
+   {
+    "clan": "SkyClan",
+    "note": "temporary",
+    "rawNote": "temporary"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "ThunderClan",
+  "arcs": [
+   "arc1",
+   "arc2",
+   "arc6"
+  ],
+  "status": "dead",
+  "deathArc": "arc9",
+  "deathBook": "cs",
+  "gender": "male",
+  "pelt": {
+   "base": "black",
+   "pattern": "bicolor"
+  }
+ },
+ {
+  "id": "Binkie",
+  "names": [
+   {
+    "stage": "other",
+    "en": "Binkie",
+    "zh": null
+   }
+  ],
+  "clans": [
+   {
+    "clan": "Kittypet"
+   }
+  ],
+  "home": "Kittypet",
+  "arcs": [
+   "arc1"
+  ],
+  "status": "alive",
+  "pelt": null
+ },
+ {
+  "id": "Blackclaw",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Blackkit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Blackpaw",
+    "zh": "黑爪",
+    "check": true
+   },
+   {
+    "stage": "warrior",
+    "en": "Blackclaw",
+    "zh": "黑爪",
+    "check": true
+   }
+  ],
+  "clans": [
+   {
+    "clan": "RiverClan"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "RiverClan",
+  "arcs": [
+   "arc1",
+   "arc2",
+   "arc3",
+   "arc4"
+  ],
+  "status": "dead",
+  "deathArc": "arc4",
+  "deathBook": "om",
+  "gender": "male",
+  "pelt": {
+   "base": "black",
+   "pattern": "solid"
+  }
+ },
+ {
+  "id": "Blackstar",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Blackkit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Blackpaw",
+    "zh": "黑爪",
+    "check": true
+   },
+   {
+    "stage": "warrior",
+    "en": "Blackfoot",
+    "zh": "黑足",
+    "check": true
+   },
+   {
+    "stage": "leader",
+    "en": "Blackstar",
+    "zh": "黑星",
+    "check": true
+   }
+  ],
+  "clans": [
+   {
+    "clan": "ShadowClan"
+   },
+   {
+    "clan": "Loner"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "ShadowClan",
+  "arcs": [
+   "arc1",
+   "arc2",
+   "arc3",
+   "arc4",
+   "arc6"
+  ],
+  "status": "dead",
+  "deathArc": null,
+  "deathBook": "brs",
+  "gender": "male",
+  "pelt": {
+   "base": "white",
+   "pattern": "solid"
+  }
+ },
+ {
+  "id": "Bluestar",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Bluekit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Bluepaw",
+    "zh": "蓝爪",
+    "check": true
+   },
+   {
+    "stage": "warrior",
+    "en": "Bluefur",
+    "zh": "蓝毛",
+    "check": true
+   },
+   {
+    "stage": "leader",
+    "en": "Bluestar",
+    "zh": "蓝星",
+    "check": true
+   }
+  ],
+  "clans": [
+   {
+    "clan": "ThunderClan"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "ThunderClan",
+  "arcs": [
+   "arc1",
+   "arc2",
+   "arc3",
+   "arc4",
+   "arc6",
+   "arc7"
+  ],
+  "status": "dead",
+  "deathArc": "arc1",
+  "deathBook": "os",
+  "gender": "female",
+  "pelt": {
+   "base": "gray",
+   "pattern": "solid"
+  }
+ },
+ {
+  "id": "Bone",
+  "names": [
+   {
+    "stage": "other",
+    "en": "Bone",
+    "zh": null
+   }
+  ],
+  "clans": [
+   {
+    "clan": "Loner"
+   },
+   {
+    "clan": "BloodClan"
+   }
+  ],
+  "home": "BloodClan",
+  "arcs": [
+   "arc1"
+  ],
+  "status": "dead",
+  "deathArc": "arc1",
+  "deathBook": "os",
+  "gender": "male",
+  "pelt": {
+   "base": "black",
+   "pattern": "bicolor"
+  }
+ },
+ {
+  "id": "Boulder",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Boulder",
+    "zh": null
+   }
+  ],
+  "clans": [
+   {
+    "clan": "BloodClan"
+   },
+   {
+    "clan": "Loner"
+   },
+   {
+    "clan": "ShadowClan"
+   }
+  ],
+  "home": "ShadowClan",
+  "arcs": [
+   "arc1",
+   "arc2"
+  ],
+  "status": "dead",
+  "deathArc": null,
+  "deathBook": "tug",
+  "gender": "male",
+  "pelt": {
+   "base": "gray",
+   "pattern": "solid"
+  }
+ },
+ {
+  "id": "Brackenfur",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Brackenkit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Brackenpaw",
+    "zh": "蕨爪",
+    "check": true
+   },
+   {
+    "stage": "warrior",
+    "en": "Brackenfur",
+    "zh": "蕨毛",
+    "check": true
+   }
+  ],
+  "clans": [
+   {
+    "clan": "ThunderClan"
+   }
+  ],
+  "home": "ThunderClan",
+  "arcs": [
+   "arc1",
+   "arc2",
+   "arc3",
+   "arc4",
+   "arc6",
+   "arc7",
+   "arc8"
+  ],
+  "status": "alive",
+  "gender": "male",
+  "pelt": {
+   "base": "golden",
+   "pattern": "tabby"
+  }
+ },
+ {
+  "id": "Brambleclaw",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Bramblekit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Bramblepaw",
+    "zh": "棘爪",
+    "check": true
+   },
+   {
+    "stage": "warrior",
+    "en": "Brambleclaw",
+    "zh": "棘爪",
+    "check": true
+   },
+   {
+    "stage": "leader",
+    "en": "Bramblestar",
+    "zh": "棘星",
+    "check": true
+   }
+  ],
+  "clans": [
+   {
+    "clan": "ThunderClan"
+   },
+   {
+    "clan": "DarkForest",
+    "note": "unwillingly and later prisoner",
+    "rawNote": "unwillingly and later prisoner"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "ThunderClan",
+  "arcs": [
+   "arc1",
+   "arc2",
+   "arc3",
+   "arc4",
+   "arc6",
+   "arc7",
+   "arc8"
+  ],
+  "status": "dead",
+  "deathArc": "arc9",
+  "deathBook": "cs",
+  "gender": "male",
+  "pelt": {
+   "base": "brown",
+   "pattern": "tabby"
+  }
+ },
+ {
+  "id": "Brightflower",
+  "names": [
+   {
+    "stage": "warrior",
+    "en": "Brightflower",
+    "zh": "亮花",
+    "check": true
+   }
+  ],
+  "clans": [
+   {
+    "clan": "ShadowClan"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "ShadowClan",
+  "arcs": [
+   "arc1"
+  ],
+  "status": "dead",
+  "gender": "female",
+  "pelt": {
+   "base": "ginger",
+   "pattern": "tabby"
+  }
+ },
+ {
+  "id": "Brightheart",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Brightkit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Brightpaw",
+    "zh": "亮爪",
+    "check": true
+   },
+   {
+    "stage": "warrior",
+    "en": "Lostface",
+    "zh": null
+   },
+   {
+    "stage": "warrior",
+    "en": "Brightheart",
+    "zh": "亮心",
+    "check": true
+   }
+  ],
+  "clans": [
+   {
+    "clan": "ThunderClan"
+   }
+  ],
+  "home": "ThunderClan",
+  "arcs": [
+   "arc1",
+   "arc2",
+   "arc3",
+   "arc4",
+   "arc6",
+   "arc7",
+   "arc8"
+  ],
+  "status": "alive",
+  "gender": "female",
+  "pelt": {
+   "base": "white",
+   "pattern": "solid"
+  }
+ },
+ {
+  "id": "Brindleface",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Brindlekit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Brindlepaw",
+    "zh": null
+   },
+   {
+    "stage": "warrior",
+    "en": "Brindleface",
+    "zh": null
+   }
+  ],
+  "clans": [
+   {
+    "clan": "ThunderClan"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "ThunderClan",
+  "arcs": [
+   "arc1",
+   "arc4"
+  ],
+  "status": "dead",
+  "deathArc": "arc1",
+  "deathBook": "os",
+  "gender": "female",
+  "pelt": {
+   "base": "gray",
+   "pattern": "tabby"
+  }
+ },
+ {
+  "id": "Brokenstar",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Brokenkit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Brokenpaw",
+    "zh": "断爪",
+    "check": true
+   },
+   {
+    "stage": "warrior",
+    "en": "Brokentail",
+    "zh": "断尾",
+    "check": true
+   },
+   {
+    "stage": "leader",
+    "en": "Brokenstar",
+    "zh": "断星",
+    "check": true
+   }
+  ],
+  "clans": [
+   {
+    "clan": "DarkForest"
+   },
+   {
+    "clan": "ShadowClan",
+    "note": "被流放",
+    "rawNote": "exiled"
+   },
+   {
+    "clan": "ThunderClan",
+    "note": "囚禁",
+    "rawNote": "prisoner"
+   },
+   {
+    "clan": "Loner"
+   }
+  ],
+  "home": "ShadowClan",
+  "arcs": [
+   "arc1",
+   "arc4"
+  ],
+  "status": "dead",
+  "deathArc": "arc1",
+  "deathBook": "os",
+  "gender": "male",
+  "pelt": {
+   "base": "brown",
+   "pattern": "tabby"
+  }
+ },
+ {
+  "id": "Brownpaw",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Brownkit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Brownpaw",
+    "zh": null
+   }
+  ],
+  "clans": [
+   {
+    "clan": "ShadowClan"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "ShadowClan",
+  "arcs": [
+   "arc1"
+  ],
+  "status": "dead",
+  "gender": "male",
+  "pelt": {
+   "base": "brown",
+   "pattern": "solid"
+  }
+ },
+ {
+  "id": "Cedarheart",
+  "names": [
+   {
+    "stage": "apprentice",
+    "en": "Cedarpaw",
+    "zh": null
+   },
+   {
+    "stage": "warrior",
+    "en": "Cedarheart",
+    "zh": null
+   }
+  ],
+  "clans": [
+   {
+    "clan": "ShadowClan"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "ShadowClan",
+  "arcs": [
+   "arc1",
+   "arc2",
+   "arc3",
+   "arc4"
+  ],
+  "status": "dead",
+  "deathArc": null,
+  "deathBook": "brs",
+  "gender": "male",
+  "pelt": {
+   "base": "gray",
+   "pattern": "solid"
+  }
+ },
+ {
+  "id": "Cinderfur",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Cinderkit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Cinderpaw",
+    "zh": null
+   },
+   {
+    "stage": "warrior",
+    "en": "Cinderfur",
+    "zh": null
+   }
+  ],
+  "clans": [
+   {
+    "clan": "ShadowClan"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "ShadowClan",
+  "arcs": [
+   "arc1"
+  ],
+  "status": "dead",
+  "deathArc": "arc1",
+  "deathBook": "os",
+  "gender": "male",
+  "pelt": {
+   "base": "gray",
+   "pattern": "solid"
+  }
+ },
+ {
+  "id": "Cinderpelt",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Cinderkit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Cinderpaw",
+    "zh": null
+   },
+   {
+    "stage": "warrior",
+    "en": "Cinderpelt",
+    "zh": null
+   }
+  ],
+  "clans": [
+   {
+    "clan": "ThunderClan"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "ThunderClan",
+  "arcs": [
+   "arc1",
+   "arc2",
+   "arc3",
+   "arc4",
+   "arc6",
+   "arc7"
+  ],
+  "status": "dead",
+  "deathArc": "arc2",
+  "deathBook": "np",
+  "gender": "female",
+  "pelt": {
+   "base": "gray",
+   "pattern": "solid"
+  }
+ },
+ {
+  "id": "Clawface",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Clawkit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Clawpaw",
+    "zh": null
+   },
+   {
+    "stage": "warrior",
+    "en": "Clawface",
+    "zh": null
+   }
+  ],
+  "clans": [
+   {
+    "clan": "ShadowClan",
+    "note": "被流放",
+    "rawNote": "exiled"
+   },
+   {
+    "clan": "Loner"
+   },
+   {
+    "clan": "DarkForest"
+   }
+  ],
+  "home": "ShadowClan",
+  "arcs": [
+   "arc1",
+   "arc7"
+  ],
+  "status": "dead",
+  "deathArc": "arc1",
+  "deathBook": "os",
+  "gender": "male",
+  "pelt": {
+   "base": "brown",
+   "pattern": "solid"
+  }
+ },
+ {
+  "id": "Cloudtail",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Cloudkit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Cloudpaw",
+    "zh": "云爪",
+    "check": true
+   },
+   {
+    "stage": "warrior",
+    "en": "Cloudtail",
+    "zh": "云尾",
+    "check": true
+   }
+  ],
+  "clans": [
+   {
+    "clan": "Kittypet"
+   },
+   {
+    "clan": "ThunderClan"
+   }
+  ],
+  "home": "ThunderClan",
+  "arcs": [
+   "arc1",
+   "arc2",
+   "arc3",
+   "arc4",
+   "arc6",
+   "arc7",
+   "arc8"
+  ],
+  "status": "alive",
+  "gender": "male",
+  "pelt": {
+   "base": "white",
+   "pattern": "solid"
+  }
+ },
+ {
+  "id": "Crookedstar",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Stormkit",
+    "zh": null
+   },
+   {
+    "stage": "kit",
+    "en": "Crookedkit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Crookedpaw",
+    "zh": null
+   },
+   {
+    "stage": "warrior",
+    "en": "Crookedjaw",
+    "zh": null
+   },
+   {
+    "stage": "leader",
+    "en": "Crookedstar",
+    "zh": null
+   }
+  ],
+  "clans": [
+   {
+    "clan": "RiverClan"
+   },
+   {
+    "clan": "Loner"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "RiverClan",
+  "arcs": [
+   "arc1",
+   "arc2",
+   "arc4",
+   "arc6",
+   "arc8"
+  ],
+  "status": "dead",
+  "deathArc": null,
+  "deathBook": "lh",
+  "gender": "male",
+  "pelt": {
+   "base": "brown",
+   "pattern": "tabby"
+  }
+ },
+ {
+  "id": "Crowfur",
+  "names": [
+   {
+    "stage": "warrior",
+    "en": "Crowfur",
+    "zh": "鸦毛",
+    "check": true
+   }
+  ],
+  "clans": [
+   {
+    "clan": "WindClan"
+   }
+  ],
+  "home": "WindClan",
+  "arcs": [
+   "arc1"
+  ],
+  "status": "alive",
+  "gender": "male",
+  "pelt": {
+   "base": "black",
+   "pattern": "solid"
+  }
+ },
+ {
+  "id": "Dappletail",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Dapplekit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Dapplepaw",
+    "zh": null
+   },
+   {
+    "stage": "warrior",
+    "en": "Dappletail",
+    "zh": null
+   }
+  ],
+  "clans": [
+   {
+    "clan": "ThunderClan"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "ThunderClan",
+  "arcs": [
+   "arc1",
+   "arc2"
+  ],
+  "status": "dead",
+  "deathArc": "arc2",
+  "deathBook": "np",
+  "gender": "female",
+  "pelt": {
+   "base": "tortie",
+   "pattern": "tortie"
+  }
+ },
+ {
+  "id": "Darkflower",
+  "names": [
+   {
+    "stage": "warrior",
+    "en": "Darkflower",
+    "zh": "暗花",
+    "check": true
+   }
+  ],
+  "clans": [
+   {
+    "clan": "ShadowClan"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "ShadowClan",
+  "arcs": [
+   "arc1"
+  ],
+  "status": "dead",
+  "gender": "female",
+  "pelt": {
+   "base": "black",
+   "pattern": "solid"
+  }
+ },
+ {
+  "id": "Darkstripe",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Darkkit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Darkpaw",
+    "zh": "暗爪",
+    "check": true
+   },
+   {
+    "stage": "warrior",
+    "en": "Darkstripe",
+    "zh": "暗纹",
+    "check": true
+   }
+  ],
+  "clans": [
+   {
+    "clan": "ThunderClan",
+    "note": "被流放",
+    "rawNote": "exiled"
+   },
+   {
+    "clan": "Loner"
+   },
+   {
+    "clan": "BloodClan"
+   },
+   {
+    "clan": "DarkForest"
+   }
+  ],
+  "home": "ThunderClan",
+  "arcs": [
+   "arc1",
+   "arc2",
+   "arc4",
+   "arc7"
+  ],
+  "status": "dead",
+  "deathArc": "arc1",
+  "deathBook": "os",
+  "gender": "male",
+  "pelt": {
+   "base": "gray",
+   "pattern": "tabby"
+  }
+ },
+ {
+  "id": "Dawncloud",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Dawnkit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Dawnpaw",
+    "zh": null
+   },
+   {
+    "stage": "warrior",
+    "en": "Dawncloud",
+    "zh": null
+   }
+  ],
+  "clans": [
+   {
+    "clan": "ShadowClan"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "ShadowClan",
+  "arcs": [
+   "arc1"
+  ],
+  "status": "dead",
+  "gender": "female",
+  "pelt": {
+   "base": "ginger",
+   "pattern": "tabby"
+  }
+ },
+ {
+  "id": "Deadfoot",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Hopkit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Deadpaw",
+    "zh": null
+   },
+   {
+    "stage": "warrior",
+    "en": "Deadfoot",
+    "zh": null
+   }
+  ],
+  "clans": [
+   {
+    "clan": "WindClan"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "WindClan",
+  "arcs": [
+   "arc1",
+   "arc2"
+  ],
+  "status": "dead",
+  "gender": "male",
+  "pelt": {
+   "base": "black",
+   "pattern": "solid"
+  }
+ },
+ {
+  "id": "Dustpelt",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Dustkit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Dustpaw",
+    "zh": "尘爪",
+    "check": true
+   },
+   {
+    "stage": "warrior",
+    "en": "Dustpelt",
+    "zh": "尘毛",
+    "check": true
+   }
+  ],
+  "clans": [
+   {
+    "clan": "ThunderClan"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "ThunderClan",
+  "arcs": [
+   "arc1",
+   "arc2",
+   "arc3",
+   "arc4"
+  ],
+  "status": "dead",
+  "deathArc": null,
+  "deathBook": "brs",
+  "gender": "male",
+  "pelt": {
+   "base": "brown",
+   "pattern": "tabby"
+  }
+ },
+ {
+  "id": "Elderkit",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Elderkit",
+    "zh": null
+   }
+  ],
+  "clans": [
+   {
+    "clan": "ThunderClan"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "ThunderClan",
+  "arcs": [
+   "arc1"
+  ],
+  "status": "dead",
+  "deathArc": "arc1",
+  "deathBook": "os",
+  "gender": "male",
+  "pelt": {
+   "base": "gray",
+   "pattern": "solid"
+  }
+ },
+ {
+  "id": "Feathertail",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Featherkit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Featherpaw",
+    "zh": "羽爪",
+    "check": true
+   },
+   {
+    "stage": "warrior",
+    "en": "Feathertail",
+    "zh": "羽尾",
+    "check": true
+   }
+  ],
+  "clans": [
+   {
+    "clan": "RiverClan"
+   },
+   {
+    "clan": "ThunderClan",
+    "note": "formerly and refugee",
+    "rawNote": "formerly and refugee"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "RiverClan",
+  "arcs": [
+   "arc1",
+   "arc2",
+   "arc3",
+   "arc4",
+   "arc7",
+   "arc8"
+  ],
+  "status": "dead",
+  "deathArc": "arc2",
+  "deathBook": "np",
+  "gender": "female",
+  "pelt": {
+   "base": "silver",
+   "pattern": "tabby"
+  }
+ },
+ {
+  "id": "Ferncloud",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Fernkit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Fernpaw",
+    "zh": "蕨爪",
+    "check": true
+   },
+   {
+    "stage": "warrior",
+    "en": "Ferncloud",
+    "zh": "蕨云",
+    "check": true
+   }
+  ],
+  "clans": [
+   {
+    "clan": "ThunderClan"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "ThunderClan",
+  "arcs": [
+   "arc1",
+   "arc2",
+   "arc3",
+   "arc4"
+  ],
+  "status": "dead",
+  "deathArc": "arc4",
+  "deathBook": "om",
+  "gender": "female",
+  "pelt": {
+   "base": "gray",
+   "pattern": "solid"
+  }
+ },
+ {
+  "id": "Filou",
+  "names": [
+   {
+    "stage": "other",
+    "en": "Filou",
+    "zh": null
+   }
+  ],
+  "clans": [
+   {
+    "clan": "Kittypet"
+   }
+  ],
+  "home": "Kittypet",
+  "arcs": [
+   "arc1"
+  ],
+  "status": "alive",
+  "pelt": {
+   "base": "ginger",
+   "pattern": "tabby"
+  }
+ },
+ {
+  "id": "Firestar",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Rusty",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Firepaw",
+    "zh": "火爪",
+    "check": true
+   },
+   {
+    "stage": "warrior",
+    "en": "Fireheart",
+    "zh": "火心",
+    "check": true
+   },
+   {
+    "stage": "leader",
+    "en": "Firestar",
+    "zh": "火星",
+    "check": true
+   }
+  ],
+  "clans": [
+   {
+    "clan": "Kittypet"
+   },
+   {
+    "clan": "ThunderClan"
+   },
+   {
+    "clan": "SkyClan",
+    "note": "短暂",
+    "rawNote": "temporarily"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "ThunderClan",
+  "arcs": [
+   "arc1",
+   "arc2",
+   "arc3",
+   "arc4",
+   "arc6",
+   "arc7",
+   "arc8"
+  ],
+  "status": "dead",
+  "deathArc": "arc4",
+  "deathBook": "om",
+  "gender": "male",
+  "pelt": {
+   "base": "ginger",
+   "pattern": "tabby"
+  }
+ },
+ {
+  "id": "Frostfur",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Frostkit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Frostpaw",
+    "zh": "霜爪",
+    "check": true
+   },
+   {
+    "stage": "warrior",
+    "en": "Frostfur",
+    "zh": "霜毛",
+    "check": true
+   }
+  ],
+  "clans": [
+   {
+    "clan": "Loner"
+   },
+   {
+    "clan": "ThunderClan"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "ThunderClan",
+  "arcs": [
+   "arc1",
+   "arc2",
+   "arc4"
+  ],
+  "status": "dead",
+  "deathArc": null,
+  "deathBook": "ehc",
+  "gender": "female",
+  "pelt": {
+   "base": "white",
+   "pattern": "solid"
+  }
+ },
+ {
+  "id": "Goldenflower",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Goldenkit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Goldenpaw",
+    "zh": "金爪",
+    "check": true
+   },
+   {
+    "stage": "warrior",
+    "en": "Goldenflower",
+    "zh": "金花",
+    "check": true
+   }
+  ],
+  "clans": [
+   {
+    "clan": "ThunderClan"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "ThunderClan",
+  "arcs": [
+   "arc1",
+   "arc2"
+  ],
+  "status": "dead",
+  "deathArc": null,
+  "deathBook": "ehc",
+  "gender": "female",
+  "pelt": {
+   "base": "ginger",
+   "pattern": "tabby"
+  }
+ },
+ {
+  "id": "Gorsepaw (WiC)",
+  "names": [
+   {
+    "stage": "apprentice",
+    "en": "Gorsepaw",
+    "zh": null
+   }
+  ],
+  "clans": [
+   {
+    "clan": "WindClan"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "WindClan",
+  "arcs": [
+   "arc1"
+  ],
+  "status": "dead",
+  "deathArc": "arc1",
+  "deathBook": "os",
+  "gender": "male",
+  "pelt": {
+   "base": "brown",
+   "pattern": "tabby"
+  }
+ },
+ {
+  "id": "Graypool",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Graykit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Graypaw",
+    "zh": "灰爪",
+    "check": true
+   },
+   {
+    "stage": "warrior",
+    "en": "Graypool",
+    "zh": "灰池",
+    "check": true
+   }
+  ],
+  "clans": [
+   {
+    "clan": "RiverClan"
+   },
+   {
+    "clan": "WindClan"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "RiverClan",
+  "arcs": [
+   "arc1",
+   "arc4"
+  ],
+  "status": "dead",
+  "deathArc": "arc1",
+  "deathBook": "os",
+  "gender": "female",
+  "pelt": {
+   "base": "gray",
+   "pattern": "solid"
+  }
+ },
+ {
+  "id": "Graystripe",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Graykit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Graypaw",
+    "zh": "灰爪",
+    "check": true
+   },
+   {
+    "stage": "warrior",
+    "en": "Graystripe",
+    "zh": "灰条",
+    "check": true
+   }
+  ],
+  "clans": [
+   {
+    "clan": "ThunderClan"
+   },
+   {
+    "clan": "RiverClan",
+    "note": "被流放",
+    "rawNote": "exiled"
+   },
+   {
+    "clan": "Kittypet"
+   },
+   {
+    "clan": "Loner"
+   },
+   {
+    "clan": "Tribe",
+    "note": "temporary",
+    "rawNote": "temporary"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "ThunderClan",
+  "arcs": [
+   "arc1",
+   "arc2",
+   "arc3",
+   "arc4",
+   "arc6",
+   "arc7",
+   "arc8"
+  ],
+  "status": "dead",
+  "deathArc": "arc7",
+  "deathBook": "tbc",
+  "gender": "male",
+  "pelt": {
+   "base": "gray",
+   "pattern": "solid"
+  }
+ },
+ {
+  "id": "Greenflower",
+  "names": [
+   {
+    "stage": "warrior",
+    "en": "Greenflower",
+    "zh": null
+   }
+  ],
+  "clans": [
+   {
+    "clan": "RiverClan"
+   }
+  ],
+  "home": "RiverClan",
+  "arcs": [
+   "arc1"
+  ],
+  "status": "alive",
+  "gender": "female",
+  "pelt": {
+   "base": "brown",
+   "pattern": "tabby"
+  }
+ },
+ {
+  "id": "Halftail",
+  "names": [
+   {
+    "stage": "warrior",
+    "en": "Sparrowpelt",
+    "zh": null
+   },
+   {
+    "stage": "warrior",
+    "en": "Halftail",
+    "zh": null
+   }
+  ],
+  "clans": [
+   {
+    "clan": "ThunderClan"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "ThunderClan",
+  "arcs": [
+   "arc1"
+  ],
+  "status": "dead",
+  "deathArc": "arc1",
+  "deathBook": "os",
+  "gender": "male",
+  "pelt": {
+   "base": "brown",
+   "pattern": "tabby"
+  }
+ },
+ {
+  "id": "Hattie",
+  "names": [
+   {
+    "stage": "other",
+    "en": "Hattie",
+    "zh": null
+   }
+  ],
+  "clans": [
+   {
+    "clan": "Kittypet"
+   }
+  ],
+  "home": "Kittypet",
+  "arcs": [
+   "arc1"
+  ],
+  "status": "alive",
+  "gender": "female",
+  "pelt": {
+   "base": "brown",
+   "pattern": "tabby"
+  }
+ },
+ {
+  "id": "Heavystep",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Heavykit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Heavypaw",
+    "zh": null
+   },
+   {
+    "stage": "warrior",
+    "en": "Heavystep",
+    "zh": null
+   }
+  ],
+  "clans": [
+   {
+    "clan": "RiverClan"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "RiverClan",
+  "arcs": [
+   "arc1",
+   "arc2",
+   "arc3"
+  ],
+  "status": "dead",
+  "deathArc": "arc2",
+  "deathBook": "np",
+  "gender": "male",
+  "pelt": {
+   "base": "brown",
+   "pattern": "tabby"
+  }
+ },
+ {
+  "id": "Henry",
+  "names": [
+   {
+    "stage": "other",
+    "en": "Henry",
+    "zh": null
+   }
+  ],
+  "clans": [
+   {
+    "clan": "Kittypet"
+   }
+  ],
+  "home": "Kittypet",
+  "arcs": [
+   "arc1"
+  ],
+  "status": "alive",
+  "gender": "male",
+  "pelt": {
+   "base": "unknown",
+   "pattern": "tabby"
+  }
+ },
+ {
+  "id": "Jaggedtooth",
+  "names": [
+   {
+    "stage": "other",
+    "en": "Snag",
+    "zh": null
+   },
+   {
+    "stage": "warrior",
+    "en": "Jaggedtooth",
+    "zh": null
+   }
+  ],
+  "clans": [
+   {
+    "clan": "Loner"
+   },
+   {
+    "clan": "ShadowClan"
+   },
+   {
+    "clan": "BloodClan"
+   }
+  ],
+  "home": "BloodClan",
+  "arcs": [
+   "arc1"
+  ],
+  "status": "alive",
+  "gender": "male",
+  "pelt": {
+   "base": "ginger",
+   "pattern": "tabby"
+  }
+ },
+ {
+  "id": "Leopardstar",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Leopardkit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Leopardpaw",
+    "zh": "豹爪",
+    "check": true
+   },
+   {
+    "stage": "warrior",
+    "en": "Leopardfur",
+    "zh": "豹毛",
+    "check": true
+   },
+   {
+    "stage": "leader",
+    "en": "Leopardstar",
+    "zh": "豹星",
+    "check": true
+   }
+  ],
+  "clans": [
+   {
+    "clan": "RiverClan"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "RiverClan",
+  "arcs": [
+   "arc1",
+   "arc2",
+   "arc3",
+   "arc4",
+   "arc6",
+   "arc8"
+  ],
+  "status": "dead",
+  "gender": "female",
+  "pelt": {
+   "base": "golden",
+   "pattern": "tabby"
+  }
+ },
+ {
+  "id": "Lionheart",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Lionkit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Lionpaw",
+    "zh": "狮爪",
+    "check": true
+   },
+   {
+    "stage": "warrior",
+    "en": "Lionheart",
+    "zh": "狮心",
+    "check": true
+   }
+  ],
+  "clans": [
+   {
+    "clan": "ThunderClan"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "ThunderClan",
+  "arcs": [
+   "arc1",
+   "arc2",
+   "arc3",
+   "arc4"
+  ],
+  "status": "dead",
+  "deathArc": "arc1",
+  "deathBook": "os",
+  "gender": "male",
+  "pelt": {
+   "base": "golden",
+   "pattern": "tabby"
+  }
+ },
+ {
+  "id": "Littlecloud",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Littlekit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Littlepaw",
+    "zh": "小爪",
+    "check": true
+   },
+   {
+    "stage": "warrior",
+    "en": "Littlecloud",
+    "zh": "小云",
+    "check": true
+   }
+  ],
+  "clans": [
+   {
+    "clan": "ShadowClan"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "ShadowClan",
+  "arcs": [
+   "arc1",
+   "arc2",
+   "arc3",
+   "arc4",
+   "arc6"
+  ],
+  "status": "dead",
+  "deathArc": "arc6",
+  "deathBook": "vs",
+  "gender": "male",
+  "pelt": {
+   "base": "brown",
+   "pattern": "tabby"
+  }
+ },
+ {
+  "id": "Livy",
+  "names": [
+   {
+    "stage": "other",
+    "en": "Livy",
+    "zh": null
+   }
+  ],
+  "clans": [
+   {
+    "clan": "Kittypet"
+   }
+  ],
+  "home": "Kittypet",
+  "arcs": [
+   "arc1"
+  ],
+  "status": "alive",
+  "pelt": {
+   "base": "white",
+   "pattern": "solid"
+  }
+ },
+ {
+  "id": "Longtail",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Longkit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Longpaw",
+    "zh": "长爪",
+    "check": true
+   },
+   {
+    "stage": "warrior",
+    "en": "Longtail",
+    "zh": "长尾",
+    "check": true
+   }
+  ],
+  "clans": [
+   {
+    "clan": "ThunderClan"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "ThunderClan",
+  "arcs": [
+   "arc1",
+   "arc2",
+   "arc3",
+   "arc4",
+   "arc6"
+  ],
+  "status": "dead",
+  "deathArc": "arc4",
+  "deathBook": "om",
+  "gender": "male",
+  "pelt": {
+   "base": "brown",
+   "pattern": "tabby"
+  }
+ },
+ {
+  "id": "Loudbelly",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Loudkit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Loudpaw",
+    "zh": null
+   },
+   {
+    "stage": "warrior",
+    "en": "Loudbelly",
+    "zh": null
+   }
+  ],
+  "clans": [
+   {
+    "clan": "RiverClan"
+   },
+   {
+    "clan": "Loner"
+   }
+  ],
+  "home": "Loner",
+  "arcs": [
+   "arc1",
+   "arc2"
+  ],
+  "status": "dead",
+  "deathArc": null,
+  "deathBook": "ehc",
+  "gender": "male",
+  "pelt": {
+   "base": "brown",
+   "pattern": "solid"
+  }
+ },
+ {
+  "id": "Luna",
+  "names": [
+   {
+    "stage": "other",
+    "en": "Luna",
+    "zh": null
+   }
+  ],
+  "clans": [
+   {
+    "clan": "Kittypet"
+   }
+  ],
+  "home": "Kittypet",
+  "arcs": [
+   "arc1"
+  ],
+  "status": "alive",
+  "pelt": {
+   "base": "brown",
+   "pattern": "solid"
+  }
+ },
+ {
+  "id": "Mistlekit (TC)",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Mistlekit",
+    "zh": null
+   }
+  ],
+  "clans": [
+   {
+    "clan": "ThunderClan"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "ThunderClan",
+  "arcs": [
+   "arc1"
+  ],
+  "status": "dead",
+  "gender": "female",
+  "pelt": {
+   "base": "gray",
+   "pattern": "tabby"
+  }
+ },
+ {
+  "id": "Mistystar",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Mistykit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Mistypaw",
+    "zh": "雾爪",
+    "check": true
+   },
+   {
+    "stage": "warrior",
+    "en": "Mistyfoot",
+    "zh": "雾足",
+    "check": true
+   },
+   {
+    "stage": "leader",
+    "en": "Mistystar",
+    "zh": "雾星",
+    "check": true
+   }
+  ],
+  "clans": [
+   {
+    "clan": "ThunderClan",
+    "note": "formerly and refugee",
+    "rawNote": "formerly and refugee"
+   },
+   {
+    "clan": "RiverClan"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "RiverClan",
+  "arcs": [
+   "arc1",
+   "arc2",
+   "arc3",
+   "arc4",
+   "arc6",
+   "arc7",
+   "arc8"
+  ],
+  "status": "dead",
+  "deathArc": "arc8",
+  "deathBook": "asc",
+  "gender": "female",
+  "pelt": {
+   "base": "gray",
+   "pattern": "solid"
+  }
+ },
+ {
+  "id": "Morningflower",
+  "names": [
+   {
+    "stage": "apprentice",
+    "en": "Morningpaw",
+    "zh": null
+   },
+   {
+    "stage": "warrior",
+    "en": "Morningflower",
+    "zh": null
+   }
+  ],
+  "clans": [
+   {
+    "clan": "WindClan"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "WindClan",
+  "arcs": [
+   "arc1",
+   "arc2",
+   "arc3"
+  ],
+  "status": "dead",
+  "gender": "female",
+  "pelt": {
+   "base": "tortie",
+   "pattern": "tortie"
+  }
+ },
+ {
+  "id": "Mosskit (TC)",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Mosskit",
+    "zh": null
+   }
+  ],
+  "clans": [
+   {
+    "clan": "ThunderClan"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "ThunderClan",
+  "arcs": [
+   "arc1",
+   "arc4"
+  ],
+  "status": "dead",
+  "deathArc": null,
+  "deathBook": "bp",
+  "gender": "female",
+  "pelt": {
+   "base": "gray",
+   "pattern": "bicolor"
+  }
+ },
+ {
+  "id": "Mosspelt",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Mosskit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Mosspaw",
+    "zh": null
+   },
+   {
+    "stage": "warrior",
+    "en": "Mosspelt",
+    "zh": null
+   }
+  ],
+  "clans": [
+   {
+    "clan": "ShadowClan"
+   },
+   {
+    "clan": "RiverClan"
+   }
+  ],
+  "home": "RiverClan",
+  "arcs": [
+   "arc1",
+   "arc2",
+   "arc3",
+   "arc4",
+   "arc6",
+   "arc7",
+   "arc8"
+  ],
+  "status": "alive",
+  "gender": "female",
+  "pelt": {
+   "base": "tortie",
+   "pattern": "tortie"
+  }
+ },
+ {
+  "id": "Mousefur",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Mousekit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Mousepaw",
+    "zh": "鼠爪",
+    "check": true
+   },
+   {
+    "stage": "warrior",
+    "en": "Mousefur",
+    "zh": "鼠毛",
+    "check": true
+   }
+  ],
+  "clans": [
+   {
+    "clan": "ThunderClan"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "ThunderClan",
+  "arcs": [
+   "arc1",
+   "arc2",
+   "arc3",
+   "arc4"
+  ],
+  "status": "dead",
+  "deathArc": "arc4",
+  "deathBook": "om",
+  "gender": "female",
+  "pelt": {
+   "base": "brown",
+   "pattern": "solid"
+  }
+ },
+ {
+  "id": "Mousewing",
+  "names": [
+   {
+    "stage": "warrior",
+    "en": "Mousewing",
+    "zh": null
+   }
+  ],
+  "clans": [
+   {
+    "clan": "ShadowClan"
+   }
+  ],
+  "home": "ShadowClan",
+  "arcs": [
+   "arc1"
+  ],
+  "status": "alive",
+  "gender": "male",
+  "pelt": {
+   "base": "black",
+   "pattern": "solid"
+  }
+ },
+ {
+  "id": "Mudclaw (WiC)",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Mudkit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Mudpaw",
+    "zh": "泥爪",
+    "check": true
+   },
+   {
+    "stage": "warrior",
+    "en": "Mudclaw",
+    "zh": "泥爪",
+    "check": true
+   }
+  ],
+  "clans": [
+   {
+    "clan": "WindClan"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "WindClan",
+  "arcs": [
+   "arc1",
+   "arc2",
+   "arc4"
+  ],
+  "status": "dead",
+  "deathArc": "arc2",
+  "deathBook": "np",
+  "gender": "male",
+  "pelt": {
+   "base": "brown",
+   "pattern": "tabby"
+  }
+ },
+ {
+  "id": "Mudfur",
+  "names": [
+   {
+    "stage": "warrior",
+    "en": "Mudfur",
+    "zh": "泥毛",
+    "check": true
+   }
+  ],
+  "clans": [
+   {
+    "clan": "RiverClan",
+    "note": "formerly exiled",
+    "rawNote": "formerly exiled"
+   },
+   {
+    "clan": "Loner"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "RiverClan",
+  "arcs": [
+   "arc1",
+   "arc2",
+   "arc3",
+   "arc4",
+   "arc8"
+  ],
+  "status": "dead",
+  "deathArc": "arc2",
+  "deathBook": "np",
+  "gender": "male",
+  "pelt": {
+   "base": "brown",
+   "pattern": "solid"
+  }
+ },
+ {
+  "id": "Nami",
+  "names": [
+   {
+    "stage": "other",
+    "en": "Nami",
+    "zh": null
+   }
+  ],
+  "clans": [
+   {
+    "clan": "Kittypet"
+   }
+  ],
+  "home": "Kittypet",
+  "arcs": [
+   "arc1"
+  ],
+  "status": "alive",
+  "pelt": {
+   "base": "brown",
+   "pattern": "bicolor"
+  }
+ },
+ {
+  "id": "Nightstar (ShC)",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Nightkit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Nightpaw",
+    "zh": "夜爪",
+    "check": true
+   },
+   {
+    "stage": "warrior",
+    "en": "Nightpelt",
+    "zh": "夜毛",
+    "check": true
+   },
+   {
+    "stage": "leader",
+    "en": "Nightstar",
+    "zh": "夜星",
+    "check": true
+   }
+  ],
+  "clans": [
+   {
+    "clan": "ShadowClan"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "ShadowClan",
+  "arcs": [
+   "arc1",
+   "arc2",
+   "arc4"
+  ],
+  "status": "dead",
+  "deathArc": "arc1",
+  "deathBook": "os",
+  "gender": "male",
+  "pelt": {
+   "base": "black",
+   "pattern": "solid"
+  }
+ },
+ {
+  "id": "Nightwhisper",
+  "names": [
+   {
+    "stage": "other",
+    "en": "Mowgli",
+    "zh": null
+   },
+   {
+    "stage": "warrior",
+    "en": "Nightwhisper",
+    "zh": null
+   }
+  ],
+  "clans": [
+   {
+    "clan": "Loner"
+   },
+   {
+    "clan": "ShadowClan"
+   }
+  ],
+  "home": "ShadowClan",
+  "arcs": [
+   "arc1"
+  ],
+  "status": "alive",
+  "gender": "male",
+  "pelt": {
+   "base": "brown",
+   "pattern": "solid"
+  }
+ },
+ {
+  "id": "Oakfur",
+  "names": [
+   {
+    "stage": "apprentice",
+    "en": "Oakpaw",
+    "zh": "橡爪",
+    "check": true
+   },
+   {
+    "stage": "warrior",
+    "en": "Oakfur",
+    "zh": "橡毛",
+    "check": true
+   }
+  ],
+  "clans": [
+   {
+    "clan": "SkyClan"
+   },
+   {
+    "clan": "ThunderClan",
+    "note": "避难",
+    "rawNote": "refugee"
+   },
+   {
+    "clan": "RiverClan",
+    "note": "囚禁",
+    "rawNote": "prisoner"
+   },
+   {
+    "clan": "ShadowClan"
+   }
+  ],
+  "home": "ShadowClan",
+  "arcs": [
+   "arc1",
+   "arc2",
+   "arc3",
+   "arc4",
+   "arc6",
+   "arc7",
+   "arc8"
+  ],
+  "status": "alive",
+  "gender": "male",
+  "pelt": {
+   "base": "brown",
+   "pattern": "solid"
+  }
+ },
+ {
+  "id": "Oakheart",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Oakkit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Oakpaw",
+    "zh": "橡爪",
+    "check": true
+   },
+   {
+    "stage": "warrior",
+    "en": "Oakheart",
+    "zh": "橡心",
+    "check": true
+   }
+  ],
+  "clans": [
+   {
+    "clan": "RiverClan"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "RiverClan",
+  "arcs": [
+   "arc1",
+   "arc2",
+   "arc4"
+  ],
+  "status": "dead",
+  "deathArc": null,
+  "deathBook": "rd",
+  "gender": "male",
+  "pelt": {
+   "base": "ginger",
+   "pattern": "solid"
+  }
+ },
+ {
+  "id": "One-eye",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Whitekit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Whitepaw",
+    "zh": "白爪",
+    "check": true
+   },
+   {
+    "stage": "warrior",
+    "en": "White-eye",
+    "zh": null
+   },
+   {
+    "stage": "warrior",
+    "en": "One-eye",
+    "zh": null
+   }
+  ],
+  "clans": [
+   {
+    "clan": "ThunderClan"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "ThunderClan",
+  "arcs": [
+   "arc1"
+  ],
+  "status": "dead",
+  "gender": "female",
+  "pelt": {
+   "base": "gray",
+   "pattern": "solid"
+  }
+ },
+ {
+  "id": "Onestar",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Onekit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Onepaw",
+    "zh": "一爪",
+    "check": true
+   },
+   {
+    "stage": "warrior",
+    "en": "Onewhisker",
+    "zh": "一须",
+    "check": true
+   },
+   {
+    "stage": "leader",
+    "en": "Onestar",
+    "zh": "一星",
+    "check": true
+   }
+  ],
+  "clans": [
+   {
+    "clan": "WindClan"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "WindClan",
+  "arcs": [
+   "arc1",
+   "arc2",
+   "arc3",
+   "arc4",
+   "arc6",
+   "arc7"
+  ],
+  "status": "dead",
+  "deathArc": "arc6",
+  "deathBook": "vs",
+  "gender": "male",
+  "pelt": {
+   "base": "brown",
+   "pattern": "tabby"
+  }
+ },
+ {
+  "id": "Patchpelt",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Patchkit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Patchpaw",
+    "zh": null
+   },
+   {
+    "stage": "warrior",
+    "en": "Patchpelt",
+    "zh": null
+   }
+  ],
+  "clans": [
+   {
+    "clan": "ThunderClan"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "ThunderClan",
+  "arcs": [
+   "arc1"
+  ],
+  "status": "dead",
+  "deathArc": "arc1",
+  "deathBook": "os",
+  "gender": "male",
+  "pelt": {
+   "base": "black",
+   "pattern": "bicolor"
+  }
+ },
+ {
+  "id": "Perchkit",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Perchkit",
+    "zh": null
+   }
+  ],
+  "clans": [
+   {
+    "clan": "RiverClan"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "RiverClan",
+  "arcs": [
+   "arc1"
+  ],
+  "status": "dead",
+  "gender": "male",
+  "pelt": {
+   "base": "black",
+   "pattern": "solid"
+  }
+ },
+ {
+  "id": "Pikepaw (MO)",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Pikekit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Pikepaw",
+    "zh": null
+   }
+  ],
+  "clans": [
+   {
+    "clan": "RiverClan"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "RiverClan",
+  "arcs": [
+   "arc1"
+  ],
+  "status": "dead",
+  "gender": "male",
+  "pelt": {
+   "base": "gray",
+   "pattern": "solid"
+  }
+ },
+ {
+  "id": "Princess",
+  "names": [
+   {
+    "stage": "other",
+    "en": "Princess",
+    "zh": null
+   }
+  ],
+  "clans": [
+   {
+    "clan": "Kittypet"
+   }
+  ],
+  "home": "Kittypet",
+  "arcs": [
+   "arc1"
+  ],
+  "status": "alive",
+  "gender": "female",
+  "pelt": {
+   "base": "brown",
+   "pattern": "tabby"
+  }
+ },
+ {
+  "id": "Raggedstar",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Raggedkit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Raggedpaw",
+    "zh": null
+   },
+   {
+    "stage": "warrior",
+    "en": "Raggedpelt",
+    "zh": null
+   },
+   {
+    "stage": "leader",
+    "en": "Raggedstar",
+    "zh": null
+   }
+  ],
+  "clans": [
+   {
+    "clan": "ShadowClan"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "ShadowClan",
+  "arcs": [
+   "arc1",
+   "arc3",
+   "arc4"
+  ],
+  "status": "dead",
+  "deathArc": "arc1",
+  "deathBook": "os",
+  "gender": "male",
+  "pelt": {
+   "base": "brown",
+   "pattern": "tabby"
+  }
+ },
+ {
+  "id": "Rainwhisker",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Rainkit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Rainpaw",
+    "zh": "雨爪",
+    "check": true
+   },
+   {
+    "stage": "warrior",
+    "en": "Rainwhisker",
+    "zh": "雨须",
+    "check": true
+   }
+  ],
+  "clans": [
+   {
+    "clan": "ThunderClan"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "ThunderClan",
+  "arcs": [
+   "arc1",
+   "arc2"
+  ],
+  "status": "dead",
+  "deathArc": "arc3",
+  "deathBook": "po",
+  "gender": "male",
+  "pelt": {
+   "base": "gray",
+   "pattern": "solid"
+  }
+ },
+ {
+  "id": "Ravenpaw",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Ravenkit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Ravenpaw",
+    "zh": "乌爪",
+    "check": true
+   }
+  ],
+  "clans": [
+   {
+    "clan": "Loner"
+   },
+   {
+    "clan": "ThunderClan"
+   },
+   {
+    "clan": "SkyClan",
+    "note": "短暂",
+    "rawNote": "temporarily"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "ThunderClan",
+  "arcs": [
+   "arc1",
+   "arc2"
+  ],
+  "status": "dead",
+  "gender": "male",
+  "pelt": {
+   "base": "black",
+   "pattern": "solid"
+  }
+ },
+ {
+  "id": "Redtail",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Redkit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Redpaw",
+    "zh": "红爪",
+    "check": true
+   },
+   {
+    "stage": "warrior",
+    "en": "Redtail",
+    "zh": "红尾",
+    "check": true
+   }
+  ],
+  "clans": [
+   {
+    "clan": "ThunderClan"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "ThunderClan",
+  "arcs": [
+   "arc1",
+   "arc4",
+   "arc7"
+  ],
+  "status": "dead",
+  "deathArc": "arc1",
+  "deathBook": "os",
+  "gender": "male",
+  "pelt": {
+   "base": "tortie",
+   "pattern": "tortie"
+  }
+ },
+ {
+  "id": "Reedtail",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Reedkit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Reedpaw",
+    "zh": null
+   },
+   {
+    "stage": "warrior",
+    "en": "Reedtail",
+    "zh": null
+   }
+  ],
+  "clans": [
+   {
+    "clan": "RiverClan"
+   }
+  ],
+  "home": "RiverClan",
+  "arcs": [
+   "arc1"
+  ],
+  "status": "alive",
+  "gender": "male",
+  "pelt": {
+   "base": "gray",
+   "pattern": "tabby"
+  }
+ },
+ {
+  "id": "Reedwhisker",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Reedkit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Reedpaw",
+    "zh": null
+   },
+   {
+    "stage": "warrior",
+    "en": "Reedwhisker",
+    "zh": null
+   }
+  ],
+  "clans": [
+   {
+    "clan": "RiverClan"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "RiverClan",
+  "arcs": [
+   "arc1",
+   "arc2",
+   "arc3",
+   "arc4",
+   "arc6",
+   "arc7",
+   "arc8"
+  ],
+  "status": "dead",
+  "deathArc": "arc8",
+  "deathBook": "asc",
+  "gender": "male",
+  "pelt": {
+   "base": "black",
+   "pattern": "solid"
+  }
+ },
+ {
+  "id": "Rippleclaw",
+  "names": [
+   {
+    "stage": "warrior",
+    "en": "Rippleclaw",
+    "zh": null
+   }
+  ],
+  "clans": [
+   {
+    "clan": "RiverClan"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "RiverClan",
+  "arcs": [
+   "arc1"
+  ],
+  "status": "dead",
+  "gender": "male",
+  "pelt": {
+   "base": "black",
+   "pattern": "tabby"
+  }
+ },
+ {
+  "id": "Rosetail",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Rosekit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Rosepaw",
+    "zh": null
+   },
+   {
+    "stage": "warrior",
+    "en": "Rosetail",
+    "zh": null
+   }
+  ],
+  "clans": [
+   {
+    "clan": "ThunderClan"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "ThunderClan",
+  "arcs": [
+   "arc1"
+  ],
+  "status": "dead",
+  "deathArc": "arc1",
+  "deathBook": "os",
+  "gender": "female",
+  "pelt": {
+   "base": "gray",
+   "pattern": "tabby"
+  }
+ },
+ {
+  "id": "Rowanclaw",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Rowankit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Rowanpaw",
+    "zh": null
+   },
+   {
+    "stage": "warrior",
+    "en": "Rowanclaw",
+    "zh": null
+   },
+   {
+    "stage": "leader",
+    "en": "Rowanstar",
+    "zh": null
+   }
+  ],
+  "clans": [
+   {
+    "clan": "ShadowClan"
+   },
+   {
+    "clan": "ThunderClan",
+    "note": "避难",
+    "rawNote": "refugee"
+   },
+   {
+    "clan": "SkyClan"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "ShadowClan",
+  "arcs": [
+   "arc1",
+   "arc2",
+   "arc3",
+   "arc4",
+   "arc6"
+  ],
+  "status": "dead",
+  "deathArc": "arc6",
+  "deathBook": "vs",
+  "gender": "male",
+  "pelt": {
+   "base": "ginger",
+   "pattern": "tabby"
+  }
+ },
+ {
+  "id": "Runningbrook",
+  "names": [
+   {
+    "stage": "apprentice",
+    "en": "Runningpaw",
+    "zh": "奔爪",
+    "check": true
+   },
+   {
+    "stage": "warrior",
+    "en": "Runningbrook",
+    "zh": null
+   }
+  ],
+  "clans": [
+   {
+    "clan": "WindClan"
+   }
+  ],
+  "home": "WindClan",
+  "arcs": [
+   "arc1"
+  ],
+  "status": "dead",
+  "deathArc": null,
+  "deathBook": "oc",
+  "gender": "female",
+  "pelt": {
+   "base": "gray",
+   "pattern": "tabby"
+  }
+ },
+ {
+  "id": "Runningnose",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Runningkit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Runningpaw",
+    "zh": "奔爪",
+    "check": true
+   },
+   {
+    "stage": "warrior",
+    "en": "Runningnose",
+    "zh": null
+   }
+  ],
+  "clans": [
+   {
+    "clan": "ShadowClan"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "ShadowClan",
+  "arcs": [
+   "arc1",
+   "arc2",
+   "arc3",
+   "arc4"
+  ],
+  "status": "dead",
+  "gender": "male",
+  "pelt": {
+   "base": "gray",
+   "pattern": "bicolor"
+  }
+ },
+ {
+  "id": "Runningwind",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Runningkit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Runningpaw",
+    "zh": "奔爪",
+    "check": true
+   },
+   {
+    "stage": "warrior",
+    "en": "Runningwind",
+    "zh": "奔风",
+    "check": true
+   }
+  ],
+  "clans": [
+   {
+    "clan": "ThunderClan"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "ThunderClan",
+  "arcs": [
+   "arc1",
+   "arc4"
+  ],
+  "status": "dead",
+  "deathArc": "arc1",
+  "deathBook": "os",
+  "gender": "male",
+  "pelt": {
+   "base": "brown",
+   "pattern": "tabby"
+  }
+ },
+ {
+  "id": "Russetfur",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Red",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Russetpaw",
+    "zh": null
+   },
+   {
+    "stage": "warrior",
+    "en": "Russetfur",
+    "zh": null
+   }
+  ],
+  "clans": [
+   {
+    "clan": "ShadowClan"
+   },
+   {
+    "clan": "Loner"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "ShadowClan",
+  "arcs": [
+   "arc1",
+   "arc2",
+   "arc3",
+   "arc4"
+  ],
+  "status": "dead",
+  "deathArc": "arc4",
+  "deathBook": "om",
+  "gender": "female",
+  "pelt": {
+   "base": "ginger",
+   "pattern": "tabby"
+  }
+ },
+ {
+  "id": "Sandstorm",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Sandkit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Sandpaw",
+    "zh": "沙爪",
+    "check": true
+   },
+   {
+    "stage": "warrior",
+    "en": "Sandstorm",
+    "zh": "沙暴",
+    "check": true
+   }
+  ],
+  "clans": [
+   {
+    "clan": "ThunderClan"
+   },
+   {
+    "clan": "SkyClan",
+    "note": "temporary",
+    "rawNote": "temporary"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "ThunderClan",
+  "arcs": [
+   "arc1",
+   "arc2",
+   "arc3",
+   "arc4",
+   "arc6"
+  ],
+  "status": "dead",
+  "deathArc": "arc6",
+  "deathBook": "vs",
+  "gender": "female",
+  "pelt": {
+   "base": "ginger",
+   "pattern": "solid"
+  }
+ },
+ {
+  "id": "Scourge",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Tiny",
+    "zh": null
+   },
+   {
+    "stage": "other",
+    "en": "Scourge",
+    "zh": null
+   }
+  ],
+  "clans": [
+   {
+    "clan": "BloodClan"
+   }
+  ],
+  "home": "BloodClan",
+  "arcs": [
+   "arc1"
+  ],
+  "status": "dead",
+  "deathArc": "arc1",
+  "deathBook": "os",
+  "gender": "male",
+  "pelt": {
+   "base": "black",
+   "pattern": "solid"
+  }
+ },
+ {
+  "id": "Shadepelt (TPB)",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Shadekit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Shadepaw",
+    "zh": null
+   },
+   {
+    "stage": "warrior",
+    "en": "Shadepelt",
+    "zh": null
+   }
+  ],
+  "clans": [
+   {
+    "clan": "RiverClan"
+   },
+   {
+    "clan": "Loner"
+   }
+  ],
+  "home": "Loner",
+  "arcs": [
+   "arc1",
+   "arc2"
+  ],
+  "status": "dead",
+  "deathArc": null,
+  "deathBook": "ehc",
+  "gender": "female",
+  "pelt": {
+   "base": "gray",
+   "pattern": "solid"
+  }
+ },
+ {
+  "id": "Silverpaw (TPB)",
+  "names": [
+   {
+    "stage": "apprentice",
+    "en": "Silverpaw",
+    "zh": "银爪",
+    "check": true
+   }
+  ],
+  "clans": [
+   {
+    "clan": "RiverClan"
+   }
+  ],
+  "home": "RiverClan",
+  "arcs": [
+   "arc1"
+  ],
+  "status": "alive",
+  "pelt": null
+ },
+ {
+  "id": "Silverstream",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Silverkit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Silverpaw",
+    "zh": "银爪",
+    "check": true
+   },
+   {
+    "stage": "warrior",
+    "en": "Silverstream",
+    "zh": "银溪",
+    "check": true
+   }
+  ],
+  "clans": [
+   {
+    "clan": "RiverClan"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "RiverClan",
+  "arcs": [
+   "arc1",
+   "arc2",
+   "arc3",
+   "arc4",
+   "arc7"
+  ],
+  "status": "dead",
+  "deathArc": "arc1",
+  "deathBook": "os",
+  "gender": "female",
+  "pelt": {
+   "base": "silver",
+   "pattern": "tabby"
+  }
+ },
+ {
+  "id": "Smallear",
+  "names": [
+   {
+    "stage": "apprentice",
+    "en": "Smallpaw",
+    "zh": null
+   },
+   {
+    "stage": "warrior",
+    "en": "Smallear",
+    "zh": null
+   }
+  ],
+  "clans": [
+   {
+    "clan": "ThunderClan"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "ThunderClan",
+  "arcs": [
+   "arc1"
+  ],
+  "status": "dead",
+  "gender": "male",
+  "pelt": {
+   "base": "gray",
+   "pattern": "solid"
+  }
+ },
+ {
+  "id": "Smudge",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Smudge",
+    "zh": null
+   }
+  ],
+  "clans": [
+   {
+    "clan": "Kittypet"
+   }
+  ],
+  "home": "Kittypet",
+  "arcs": [
+   "arc1"
+  ],
+  "status": "alive",
+  "gender": "male",
+  "pelt": {
+   "base": "black",
+   "pattern": "bicolor"
+  }
+ },
+ {
+  "id": "Snowkit (TPB)",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Snowkit",
+    "zh": null
+   }
+  ],
+  "clans": [
+   {
+    "clan": "ThunderClan"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "ThunderClan",
+  "arcs": [
+   "arc1"
+  ],
+  "status": "dead",
+  "deathArc": null,
+  "deathBook": "ehc",
+  "gender": "male",
+  "pelt": {
+   "base": "white",
+   "pattern": "solid"
+  }
+ },
+ {
+  "id": "Sootfur",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Sootkit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Sootpaw",
+    "zh": null
+   },
+   {
+    "stage": "warrior",
+    "en": "Sootfur",
+    "zh": null
+   }
+  ],
+  "clans": [
+   {
+    "clan": "ThunderClan"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "ThunderClan",
+  "arcs": [
+   "arc1",
+   "arc2"
+  ],
+  "status": "dead",
+  "deathArc": "arc2",
+  "deathBook": "np",
+  "gender": "male",
+  "pelt": {
+   "base": "gray",
+   "pattern": "solid"
+  }
+ },
+ {
+  "id": "Sorreltail",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Sorrelkit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Sorrelpaw",
+    "zh": null
+   },
+   {
+    "stage": "warrior",
+    "en": "Sorreltail",
+    "zh": null
+   }
+  ],
+  "clans": [
+   {
+    "clan": "ThunderClan"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "ThunderClan",
+  "arcs": [
+   "arc1",
+   "arc2",
+   "arc3",
+   "arc4"
+  ],
+  "status": "dead",
+  "deathArc": null,
+  "deathBook": "ds",
+  "gender": "female",
+  "pelt": {
+   "base": "tortie",
+   "pattern": "tortie"
+  }
+ },
+ {
+  "id": "Speckletail",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Specklekit",
+    "zh": null
+   },
+   {
+    "stage": "warrior",
+    "en": "Speckletail",
+    "zh": null
+   }
+  ],
+  "clans": [
+   {
+    "clan": "ThunderClan"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "ThunderClan",
+  "arcs": [
+   "arc1",
+   "arc2"
+  ],
+  "status": "dead",
+  "deathArc": null,
+  "deathBook": "ehc",
+  "gender": "female",
+  "pelt": {
+   "base": "golden",
+   "pattern": "tabby"
+  }
+ },
+ {
+  "id": "Spottedleaf",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Spottedkit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Spottedpaw",
+    "zh": "斑爪",
+    "check": true
+   },
+   {
+    "stage": "warrior",
+    "en": "Spottedleaf",
+    "zh": "斑叶",
+    "check": true
+   }
+  ],
+  "clans": [
+   {
+    "clan": "StarClan"
+   },
+   {
+    "clan": "ThunderClan"
+   }
+  ],
+  "home": "ThunderClan",
+  "arcs": [
+   "arc1",
+   "arc2",
+   "arc3",
+   "arc4"
+  ],
+  "status": "dead",
+  "deathArc": "arc1",
+  "deathBook": "os",
+  "gender": "female",
+  "pelt": {
+   "base": "tortie",
+   "pattern": "tortie"
+  }
+ },
+ {
+  "id": "Stonefur",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Stonekit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Stonepaw",
+    "zh": "石爪",
+    "check": true
+   },
+   {
+    "stage": "warrior",
+    "en": "Stonefur",
+    "zh": "石毛",
+    "check": true
+   }
+  ],
+  "clans": [
+   {
+    "clan": "RiverClan"
+   },
+   {
+    "clan": "ThunderClan"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "RiverClan",
+  "arcs": [
+   "arc1",
+   "arc8"
+  ],
+  "status": "dead",
+  "deathArc": "arc1",
+  "deathBook": "os",
+  "gender": "male",
+  "pelt": {
+   "base": "gray",
+   "pattern": "solid"
+  }
+ },
+ {
+  "id": "Stormfur",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Stormkit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Stormpaw",
+    "zh": "暴爪",
+    "check": true
+   },
+   {
+    "stage": "other",
+    "en": "Stormfur",
+    "zh": "暴毛",
+    "check": true
+   }
+  ],
+  "clans": [
+   {
+    "clan": "ThunderClan",
+    "note": "formerly and refugee",
+    "rawNote": "formerly and refugee"
+   },
+   {
+    "clan": "RiverClan",
+    "note": "formerly and exiled",
+    "rawNote": "formerly and exiled"
+   },
+   {
+    "clan": "Loner"
+   },
+   {
+    "clan": "Tribe"
+   }
+  ],
+  "home": "Tribe",
+  "arcs": [
+   "arc1",
+   "arc2",
+   "arc3",
+   "arc4",
+   "arc7",
+   "arc8"
+  ],
+  "status": "alive",
+  "gender": "male",
+  "pelt": {
+   "base": "gray",
+   "pattern": "solid"
+  }
+ },
+ {
+  "id": "Stumpytail",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Stumpykit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Stumpypaw",
+    "zh": null
+   },
+   {
+    "stage": "warrior",
+    "en": "Stumpytail",
+    "zh": null
+   }
+  ],
+  "clans": [
+   {
+    "clan": "Loner"
+   },
+   {
+    "clan": "ShadowClan"
+   },
+   {
+    "clan": "DarkForest"
+   }
+  ],
+  "home": "ShadowClan",
+  "arcs": [
+   "arc1"
+  ],
+  "status": "dead",
+  "gender": "male",
+  "pelt": {
+   "base": "brown",
+   "pattern": "solid"
+  }
+ },
+ {
+  "id": "Swankit",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Swankit",
+    "zh": null
+   }
+  ],
+  "clans": [
+   {
+    "clan": "RiverClan"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "RiverClan",
+  "arcs": [
+   "arc1"
+  ],
+  "status": "dead",
+  "pelt": {
+   "base": "silver",
+   "pattern": "tabby"
+  }
+ },
+ {
+  "id": "Swiftpaw (TPB)",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Swiftkit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Swiftpaw",
+    "zh": "迅爪",
+    "check": true
+   }
+  ],
+  "clans": [
+   {
+    "clan": "ThunderClan"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "ThunderClan",
+  "arcs": [
+   "arc1",
+   "arc3",
+   "arc4"
+  ],
+  "status": "dead",
+  "deathArc": "arc1",
+  "deathBook": "os",
+  "gender": "male",
+  "pelt": {
+   "base": "black",
+   "pattern": "bicolor"
+  }
+ },
+ {
+  "id": "Tallpoppy",
+  "names": [
+   {
+    "stage": "warrior",
+    "en": "Tallpoppy",
+    "zh": null
+   }
+  ],
+  "clans": [
+   {
+    "clan": "ShadowClan"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "ShadowClan",
+  "arcs": [
+   "arc1",
+   "arc2",
+   "arc3",
+   "arc4"
+  ],
+  "status": "dead",
+  "deathArc": null,
+  "deathBook": "brs",
+  "gender": "female",
+  "pelt": {
+   "base": "brown",
+   "pattern": "tabby"
+  }
+ },
+ {
+  "id": "Tallstar",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Tallkit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Tallpaw",
+    "zh": "高爪",
+    "check": true
+   },
+   {
+    "stage": "warrior",
+    "en": "Talltail",
+    "zh": "高尾",
+    "check": true
+   },
+   {
+    "stage": "leader",
+    "en": "Tallstar",
+    "zh": "高星",
+    "check": true
+   }
+  ],
+  "clans": [
+   {
+    "clan": "WindClan"
+   },
+   {
+    "clan": "Kittypet"
+   },
+   {
+    "clan": "Loner"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "WindClan",
+  "arcs": [
+   "arc1",
+   "arc2",
+   "arc3",
+   "arc6",
+   "arc7"
+  ],
+  "status": "dead",
+  "deathArc": "arc2",
+  "deathBook": "np",
+  "gender": "male",
+  "pelt": {
+   "base": "black",
+   "pattern": "bicolor"
+  }
+ },
+ {
+  "id": "Tawnyfur",
+  "names": [
+   {
+    "stage": "apprentice",
+    "en": "Tawnypaw",
+    "zh": "褐爪",
+    "check": true
+   },
+   {
+    "stage": "warrior",
+    "en": "Tawnyfur",
+    "zh": "褐毛",
+    "check": true
+   }
+  ],
+  "clans": [
+   {
+    "clan": "WindClan"
+   }
+  ],
+  "home": "WindClan",
+  "arcs": [
+   "arc1"
+  ],
+  "status": "alive",
+  "gender": "female",
+  "pelt": {
+   "base": "golden",
+   "pattern": "solid"
+  }
+ },
+ {
+  "id": "Tawnypelt",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Tawnykit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Tawnypaw",
+    "zh": "褐爪",
+    "check": true
+   },
+   {
+    "stage": "warrior",
+    "en": "Tawnypelt",
+    "zh": "褐皮",
+    "check": true
+   }
+  ],
+  "clans": [
+   {
+    "clan": "ThunderClan",
+    "note": "formerly and refugee",
+    "rawNote": "formerly and refugee"
+   },
+   {
+    "clan": "SkyClan"
+   },
+   {
+    "clan": "Tribe",
+    "note": "短暂",
+    "rawNote": "temporarily"
+   },
+   {
+    "clan": "RiverClan",
+    "note": "囚禁",
+    "rawNote": "prisoner"
+   },
+   {
+    "clan": "ShadowClan"
+   }
+  ],
+  "home": "ShadowClan",
+  "arcs": [
+   "arc1",
+   "arc2",
+   "arc3",
+   "arc4",
+   "arc6",
+   "arc7",
+   "arc8"
+  ],
+  "status": "alive",
+  "gender": "female",
+  "pelt": {
+   "base": "tortie",
+   "pattern": "tortie"
+  }
+ },
+ {
+  "id": "Taylor",
+  "names": [
+   {
+    "stage": "other",
+    "en": "Taylor",
+    "zh": null
+   }
+  ],
+  "clans": [
+   {
+    "clan": "Kittypet"
+   }
+  ],
+  "home": "Kittypet",
+  "arcs": [
+   "arc1"
+  ],
+  "status": "alive",
+  "pelt": {
+   "base": "gray",
+   "pattern": "bicolor"
+  }
+ },
+ {
+  "id": "Thistleclaw",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Thistlekit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Thistlepaw",
+    "zh": "蓟爪",
+    "check": true
+   },
+   {
+    "stage": "warrior",
+    "en": "Thistleclaw",
+    "zh": "蓟爪",
+    "check": true
+   }
+  ],
+  "clans": [
+   {
+    "clan": "ThunderClan"
+   },
+   {
+    "clan": "DarkForest"
+   }
+  ],
+  "home": "ThunderClan",
+  "arcs": [
+   "arc1",
+   "arc4",
+   "arc7"
+  ],
+  "status": "dead",
+  "deathArc": "arc1",
+  "deathBook": "os",
+  "gender": "male",
+  "pelt": {
+   "base": "gray",
+   "pattern": "tabby"
+  }
+ },
+ {
+  "id": "Thornclaw",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Thornkit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Thornpaw",
+    "zh": "刺爪",
+    "check": true
+   },
+   {
+    "stage": "warrior",
+    "en": "Thornclaw",
+    "zh": "刺爪",
+    "check": true
+   }
+  ],
+  "clans": [
+   {
+    "clan": "ThunderClan"
+   }
+  ],
+  "home": "ThunderClan",
+  "arcs": [
+   "arc1",
+   "arc2",
+   "arc3",
+   "arc4",
+   "arc6",
+   "arc7",
+   "arc8"
+  ],
+  "status": "alive",
+  "gender": "male",
+  "pelt": {
+   "base": "golden",
+   "pattern": "tabby"
+  }
+ },
+ {
+  "id": "Tigerstar (TPB)",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Tigerkit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Tigerpaw",
+    "zh": "虎爪",
+    "check": true
+   },
+   {
+    "stage": "warrior",
+    "en": "Tigerclaw",
+    "zh": "虎爪",
+    "check": true
+   },
+   {
+    "stage": "leader",
+    "en": "Tigerstar",
+    "zh": "虎星",
+    "check": true
+   }
+  ],
+  "clans": [
+   {
+    "clan": "DarkForest"
+   },
+   {
+    "clan": "ThunderClan",
+    "note": "被流放",
+    "rawNote": "exiled"
+   },
+   {
+    "clan": "ShadowClan"
+   },
+   {
+    "clan": "Loner"
+   }
+  ],
+  "home": "ShadowClan",
+  "arcs": [
+   "arc1",
+   "arc2",
+   "arc3",
+   "arc4",
+   "arc6",
+   "arc7",
+   "arc8"
+  ],
+  "status": "dead",
+  "deathArc": "arc1",
+  "deathBook": "os",
+  "gender": "male",
+  "pelt": {
+   "base": "brown",
+   "pattern": "tabby"
+  }
+ },
+ {
+  "id": "Tommy",
+  "names": [
+   {
+    "stage": "other",
+    "en": "Tommy",
+    "zh": null
+   }
+  ],
+  "clans": [
+   {
+    "clan": "Kittypet"
+   }
+  ],
+  "home": "Kittypet",
+  "arcs": [
+   "arc1"
+  ],
+  "status": "alive",
+  "pelt": {
+   "base": "brown",
+   "pattern": "bicolor"
+  }
+ },
+ {
+  "id": "Tornear",
+  "names": [
+   {
+    "stage": "apprentice",
+    "en": "Tornpaw",
+    "zh": null
+   },
+   {
+    "stage": "warrior",
+    "en": "Tornear",
+    "zh": null
+   }
+  ],
+  "clans": [
+   {
+    "clan": "WindClan"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "WindClan",
+  "arcs": [
+   "arc1",
+   "arc2",
+   "arc3",
+   "arc4"
+  ],
+  "status": "dead",
+  "deathArc": null,
+  "deathBook": "brs",
+  "gender": "male",
+  "pelt": {
+   "base": "gray",
+   "pattern": "tabby"
+  }
+ },
+ {
+  "id": "Tulipkit",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Tulipkit",
+    "zh": null
+   }
+  ],
+  "clans": [
+   {
+    "clan": "ThunderClan"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "ThunderClan",
+  "arcs": [
+   "arc1"
+  ],
+  "status": "dead",
+  "deathArc": "arc1",
+  "deathBook": "os",
+  "gender": "male",
+  "pelt": {
+   "base": "gray",
+   "pattern": "solid"
+  }
+ },
+ {
+  "id": "Webfoot",
+  "names": [
+   {
+    "stage": "apprentice",
+    "en": "Webpaw",
+    "zh": null
+   },
+   {
+    "stage": "warrior",
+    "en": "Webfoot",
+    "zh": null
+   }
+  ],
+  "clans": [
+   {
+    "clan": "WindClan"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "WindClan",
+  "arcs": [
+   "arc1",
+   "arc2",
+   "arc3",
+   "arc4"
+  ],
+  "status": "dead",
+  "gender": "male",
+  "pelt": {
+   "base": "gray",
+   "pattern": "tabby"
+  }
+ },
+ {
+  "id": "Wetfoot",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Wetkit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Wetpaw",
+    "zh": null
+   },
+   {
+    "stage": "warrior",
+    "en": "Wetfoot",
+    "zh": null
+   }
+  ],
+  "clans": [
+   {
+    "clan": "ShadowClan"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "ShadowClan",
+  "arcs": [
+   "arc1"
+  ],
+  "status": "dead",
+  "gender": "male",
+  "pelt": {
+   "base": "gray",
+   "pattern": "tabby"
+  }
+ },
+ {
+  "id": "Whiteclaw",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Whitekit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Whitepaw",
+    "zh": "白爪",
+    "check": true
+   },
+   {
+    "stage": "warrior",
+    "en": "Whiteclaw",
+    "zh": "白爪",
+    "check": true
+   }
+  ],
+  "clans": [
+   {
+    "clan": "RiverClan"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "RiverClan",
+  "arcs": [
+   "arc1"
+  ],
+  "status": "dead",
+  "deathArc": "arc1",
+  "deathBook": "os",
+  "gender": "male",
+  "pelt": {
+   "base": "brown",
+   "pattern": "solid"
+  }
+ },
+ {
+  "id": "Whitestorm",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Whitekit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Whitepaw",
+    "zh": "白爪",
+    "check": true
+   },
+   {
+    "stage": "warrior",
+    "en": "Whitestorm",
+    "zh": "白风",
+    "check": true
+   }
+  ],
+  "clans": [
+   {
+    "clan": "ThunderClan"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "ThunderClan",
+  "arcs": [
+   "arc1",
+   "arc3",
+   "arc4"
+  ],
+  "status": "dead",
+  "deathArc": "arc1",
+  "deathBook": "os",
+  "gender": "male",
+  "pelt": {
+   "base": "white",
+   "pattern": "solid"
+  }
+ },
+ {
+  "id": "Whitetail (WiC)",
+  "names": [
+   {
+    "stage": "apprentice",
+    "en": "Whitepaw",
+    "zh": "白爪",
+    "check": true
+   },
+   {
+    "stage": "warrior",
+    "en": "Whitetail",
+    "zh": "白尾",
+    "check": true
+   }
+  ],
+  "clans": [
+   {
+    "clan": "WindClan"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "WindClan",
+  "arcs": [
+   "arc1",
+   "arc2",
+   "arc3",
+   "arc4",
+   "arc6"
+  ],
+  "status": "dead",
+  "deathArc": null,
+  "deathBook": "sqh",
+  "gender": "female",
+  "pelt": {
+   "base": "white",
+   "pattern": "solid"
+  }
+ },
+ {
+  "id": "Whitethroat",
+  "names": [
+   {
+    "stage": "warrior",
+    "en": "Whitethroat",
+    "zh": null
+   }
+  ],
+  "clans": [
+   {
+    "clan": "ShadowClan"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "ShadowClan",
+  "arcs": [
+   "arc1",
+   "arc2"
+  ],
+  "status": "dead",
+  "deathArc": "arc1",
+  "deathBook": "os",
+  "gender": "male",
+  "pelt": {
+   "base": "black",
+   "pattern": "solid"
+  }
+ },
+ {
+  "id": "Willowpelt",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Willowkit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Willowpaw",
+    "zh": "柳爪",
+    "check": true
+   },
+   {
+    "stage": "warrior",
+    "en": "Willowpelt",
+    "zh": "柳毛",
+    "check": true
+   }
+  ],
+  "clans": [
+   {
+    "clan": "ThunderClan"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "ThunderClan",
+  "arcs": [
+   "arc1"
+  ],
+  "status": "dead",
+  "deathArc": null,
+  "deathBook": "fq",
+  "gender": "female",
+  "pelt": {
+   "base": "silver",
+   "pattern": "solid"
+  }
+ },
+ {
+  "id": "Yellowfang",
+  "names": [
+   {
+    "stage": "kit",
+    "en": "Yellowkit",
+    "zh": null
+   },
+   {
+    "stage": "apprentice",
+    "en": "Yellowpaw",
+    "zh": "黄爪",
+    "check": true
+   },
+   {
+    "stage": "warrior",
+    "en": "Yellowfang",
+    "zh": "黄牙",
+    "check": true
+   }
+  ],
+  "clans": [
+   {
+    "clan": "ShadowClan",
+    "note": "被流放",
+    "rawNote": "exiled"
+   },
+   {
+    "clan": "Loner"
+   },
+   {
+    "clan": "ThunderClan",
+    "note": "formerly prisoner",
+    "rawNote": "formerly prisoner"
+   },
+   {
+    "clan": "StarClan"
+   }
+  ],
+  "home": "ShadowClan",
+  "arcs": [
+   "arc1",
+   "arc2",
+   "arc3",
+   "arc4",
+   "arc6"
+  ],
+  "status": "dead",
+  "deathArc": "arc1",
+  "deathBook": "os",
+  "gender": "female",
+  "pelt": {
+   "base": "gray",
+   "pattern": "solid"
+  }
+ },
+ {
+  "id": "Zack",
+  "names": [
+   {
+    "stage": "other",
+    "en": "Zack",
+    "zh": null
+   }
+  ],
+  "clans": [
+   {
+    "clan": "Kittypet"
+   }
+  ],
+  "home": "Kittypet",
+  "arcs": [
+   "arc1"
+  ],
+  "status": "alive",
+  "pelt": {
+   "base": "white",
+   "pattern": "solid"
+  }
+ }
+]

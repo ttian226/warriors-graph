@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <link rel="icon" href="data:," />
+  <title>猫武士星图</title>
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body>
+  <div id="graph"></div>
+
+  <div id="topbar">
+    <div class="search">
+      <input id="search" type="search" placeholder="搜索猫名（中 / 英）" autocomplete="off" />
+      <ul id="results" hidden></ul>
+    </div>
+    <div class="tools">
+      <button id="bloomBtn" type="button">辉光 开</button>
+      <span id="fps"></span>
+    </div>
+  </div>
+
+  <div id="legend"></div>
+
+  <aside id="panel" hidden>
+    <button id="panelClose" type="button" aria-label="关闭">×</button>
+    <div id="panelBody"></div>
+  </aside>
+
+  <footer>数据来源 <a href="https://warriors.fandom.com" target="_blank" rel="noopener">Warriors Wiki</a>（CC BY-SA）· 中文名为自动拼合，标「待核」者待校对</footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

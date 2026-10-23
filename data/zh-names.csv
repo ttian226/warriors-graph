@@ -1,0 +1,304 @@
+page,stage,en,zh,source,check
+Ashfoot,apprentice,Ashpaw,,none,0
+Ashfoot,warrior,Ashfoot,,none,0
+Ashfur (ShC),warrior,Ashfur,,none,0
+Ashfur (TC),kit,Ashkit,,kit,0
+Ashfur (TC),apprentice,Ashpaw,,none,0
+Ashfur (TC),warrior,Ashfur,,none,0
+Ashfur (TC),leader,Bramblestar,棘星,parts,1
+Barkface,kit,Barkkit,,kit,0
+Barkface,apprentice,Barkpaw,,none,0
+Barkface,warrior,Barkface,,none,0
+Barley,kit,Barley,,kit,0
+Binkie,other,Binkie,,none,0
+Blackclaw,kit,Blackkit,,kit,0
+Blackclaw,apprentice,Blackpaw,黑爪,parts,1
+Blackclaw,warrior,Blackclaw,黑爪,parts,1
+Blackstar,kit,Blackkit,,kit,0
+Blackstar,apprentice,Blackpaw,黑爪,parts,1
+Blackstar,warrior,Blackfoot,黑足,parts,1
+Blackstar,leader,Blackstar,黑星,parts,1
+Bluestar,kit,Bluekit,,kit,0
+Bluestar,apprentice,Bluepaw,蓝爪,parts,1
+Bluestar,warrior,Bluefur,蓝毛,parts,1
+Bluestar,leader,Bluestar,蓝星,parts,1
+Bone,other,Bone,,none,0
+Boulder,kit,Boulder,,kit,0
+Brackenfur,kit,Brackenkit,,kit,0
+Brackenfur,apprentice,Brackenpaw,蕨爪,parts,1
+Brackenfur,warrior,Brackenfur,蕨毛,parts,1
+Brambleclaw,kit,Bramblekit,,kit,0
+Brambleclaw,apprentice,Bramblepaw,棘爪,parts,1
+Brambleclaw,warrior,Brambleclaw,棘爪,parts,1
+Brambleclaw,leader,Bramblestar,棘星,parts,1
+Brightflower,warrior,Brightflower,亮花,parts,1
+Brightheart,kit,Brightkit,,kit,0
+Brightheart,apprentice,Brightpaw,亮爪,parts,1
+Brightheart,warrior,Lostface,,none,0
+Brightheart,warrior,Brightheart,亮心,parts,1
+Brindleface,kit,Brindlekit,,kit,0
+Brindleface,apprentice,Brindlepaw,,none,0
+Brindleface,warrior,Brindleface,,none,0
+Brokenstar,kit,Brokenkit,,kit,0
+Brokenstar,apprentice,Brokenpaw,断爪,parts,1
+Brokenstar,warrior,Brokentail,断尾,parts,1
+Brokenstar,leader,Brokenstar,断星,parts,1
+Brownpaw,kit,Brownkit,,kit,0
+Brownpaw,apprentice,Brownpaw,,none,0
+Cedarheart,apprentice,Cedarpaw,,none,0
+Cedarheart,warrior,Cedarheart,,none,0
+Cinderfur,kit,Cinderkit,,kit,0
+Cinderfur,apprentice,Cinderpaw,,none,0
+Cinderfur,warrior,Cinderfur,,none,0
+Cinderpelt,kit,Cinderkit,,kit,0
+Cinderpelt,apprentice,Cinderpaw,,none,0
+Cinderpelt,warrior,Cinderpelt,,none,0
+Clawface,kit,Clawkit,,kit,0
+Clawface,apprentice,Clawpaw,,none,0
+Clawface,warrior,Clawface,,none,0
+Cloudtail,kit,Cloudkit,,kit,0
+Cloudtail,apprentice,Cloudpaw,云爪,parts,1
+Cloudtail,warrior,Cloudtail,云尾,parts,1
+Crookedstar,kit,Stormkit,,kit,0
+Crookedstar,kit,Crookedkit,,kit,0
+Crookedstar,apprentice,Crookedpaw,,none,0
+Crookedstar,warrior,Crookedjaw,,none,0
+Crookedstar,leader,Crookedstar,,none,0
+Crowfur,warrior,Crowfur,鸦毛,parts,1
+Dappletail,kit,Dapplekit,,kit,0
+Dappletail,apprentice,Dapplepaw,,none,0
+Dappletail,warrior,Dappletail,,none,0
+Darkflower,warrior,Darkflower,暗花,parts,1
+Darkstripe,kit,Darkkit,,kit,0
+Darkstripe,apprentice,Darkpaw,暗爪,parts,1
+Darkstripe,warrior,Darkstripe,暗纹,override,1
+Dawncloud,kit,Dawnkit,,kit,0
+Dawncloud,apprentice,Dawnpaw,,none,0
+Dawncloud,warrior,Dawncloud,,none,0
+Deadfoot,kit,Hopkit,,kit,0
+Deadfoot,apprentice,Deadpaw,,none,0
+Deadfoot,warrior,Deadfoot,,none,0
+Dustpelt,kit,Dustkit,,kit,0
+Dustpelt,apprentice,Dustpaw,尘爪,parts,1
+Dustpelt,warrior,Dustpelt,尘毛,parts,1
+Elderkit,kit,Elderkit,,kit,0
+Feathertail,kit,Featherkit,,kit,0
+Feathertail,apprentice,Featherpaw,羽爪,parts,1
+Feathertail,warrior,Feathertail,羽尾,parts,1
+Ferncloud,kit,Fernkit,,kit,0
+Ferncloud,apprentice,Fernpaw,蕨爪,parts,1
+Ferncloud,warrior,Ferncloud,蕨云,parts,1
+Filou,other,Filou,,none,0
+Firestar,kit,Rusty,,kit,0
+Firestar,apprentice,Firepaw,火爪,parts,1
+Firestar,warrior,Fireheart,火心,parts,1
+Firestar,leader,Firestar,火星,parts,1
+Frostfur,kit,Frostkit,,kit,0
+Frostfur,apprentice,Frostpaw,霜爪,parts,1
+Frostfur,warrior,Frostfur,霜毛,parts,1
+Goldenflower,kit,Goldenkit,,kit,0
+Goldenflower,apprentice,Goldenpaw,金爪,parts,1
+Goldenflower,warrior,Goldenflower,金花,parts,1
+Gorsepaw (WiC),apprentice,Gorsepaw,,none,0
+Graypool,kit,Graykit,,kit,0
+Graypool,apprentice,Graypaw,灰爪,parts,1
+Graypool,warrior,Graypool,灰池,parts,1
+Graystripe,kit,Graykit,,kit,0
+Graystripe,apprentice,Graypaw,灰爪,parts,1
+Graystripe,warrior,Graystripe,灰条,override,1
+Greenflower,warrior,Greenflower,,none,0
+Halftail,warrior,Sparrowpelt,,none,0
+Halftail,warrior,Halftail,,none,0
+Hattie,other,Hattie,,none,0
+Heavystep,kit,Heavykit,,kit,0
+Heavystep,apprentice,Heavypaw,,none,0
+Heavystep,warrior,Heavystep,,none,0
+Henry,other,Henry,,none,0
+Jaggedtooth,other,Snag,,none,0
+Jaggedtooth,warrior,Jaggedtooth,,none,0
+Leopardstar,kit,Leopardkit,,kit,0
+Leopardstar,apprentice,Leopardpaw,豹爪,parts,1
+Leopardstar,warrior,Leopardfur,豹毛,parts,1
+Leopardstar,leader,Leopardstar,豹星,parts,1
+Lionheart,kit,Lionkit,,kit,0
+Lionheart,apprentice,Lionpaw,狮爪,parts,1
+Lionheart,warrior,Lionheart,狮心,parts,1
+Littlecloud,kit,Littlekit,,kit,0
+Littlecloud,apprentice,Littlepaw,小爪,parts,1
+Littlecloud,warrior,Littlecloud,小云,parts,1
+Livy,other,Livy,,none,0
+Longtail,kit,Longkit,,kit,0
+Longtail,apprentice,Longpaw,长爪,parts,1
+Longtail,warrior,Longtail,长尾,parts,1
+Loudbelly,kit,Loudkit,,kit,0
+Loudbelly,apprentice,Loudpaw,,none,0
+Loudbelly,warrior,Loudbelly,,none,0
+Luna,other,Luna,,none,0
+Mistlekit (TC),kit,Mistlekit,,kit,0
+Mistystar,kit,Mistykit,,kit,0
+Mistystar,apprentice,Mistypaw,雾爪,parts,1
+Mistystar,warrior,Mistyfoot,雾足,parts,1
+Mistystar,leader,Mistystar,雾星,parts,1
+Morningflower,apprentice,Morningpaw,,none,0
+Morningflower,warrior,Morningflower,,none,0
+Mosskit (TC),kit,Mosskit,,kit,0
+Mosspelt,kit,Mosskit,,kit,0
+Mosspelt,apprentice,Mosspaw,,none,0
+Mosspelt,warrior,Mosspelt,,none,0
+Mousefur,kit,Mousekit,,kit,0
+Mousefur,apprentice,Mousepaw,鼠爪,parts,1
+Mousefur,warrior,Mousefur,鼠毛,parts,1
+Mousewing,warrior,Mousewing,,none,0
+Mudclaw (WiC),kit,Mudkit,,kit,0
+Mudclaw (WiC),apprentice,Mudpaw,泥爪,parts,1
+Mudclaw (WiC),warrior,Mudclaw,泥爪,parts,1
+Mudfur,warrior,Mudfur,泥毛,parts,1
+Nami,other,Nami,,none,0
+Nightstar (ShC),kit,Nightkit,,kit,0
+Nightstar (ShC),apprentice,Nightpaw,夜爪,parts,1
+Nightstar (ShC),warrior,Nightpelt,夜毛,parts,1
+Nightstar (ShC),leader,Nightstar,夜星,parts,1
+Nightwhisper,other,Mowgli,,none,0
+Nightwhisper,warrior,Nightwhisper,,none,0
+Oakfur,apprentice,Oakpaw,橡爪,parts,1
+Oakfur,warrior,Oakfur,橡毛,parts,1
+Oakheart,kit,Oakkit,,kit,0
+Oakheart,apprentice,Oakpaw,橡爪,parts,1
+Oakheart,warrior,Oakheart,橡心,parts,1
+One-eye,kit,Whitekit,,kit,0
+One-eye,apprentice,Whitepaw,白爪,parts,1
+One-eye,warrior,White-eye,,none,0
+One-eye,warrior,One-eye,,none,0
+Onestar,kit,Onekit,,kit,0
+Onestar,apprentice,Onepaw,一爪,parts,1
+Onestar,warrior,Onewhisker,一须,parts,1
+Onestar,leader,Onestar,一星,parts,1
+Patchpelt,kit,Patchkit,,kit,0
+Patchpelt,apprentice,Patchpaw,,none,0
+Patchpelt,warrior,Patchpelt,,none,0
+Perchkit,kit,Perchkit,,kit,0
+Pikepaw (MO),kit,Pikekit,,kit,0
+Pikepaw (MO),apprentice,Pikepaw,,none,0
+Princess,other,Princess,,none,0
+Raggedstar,kit,Raggedkit,,kit,0
+Raggedstar,apprentice,Raggedpaw,,none,0
+Raggedstar,warrior,Raggedpelt,,none,0
+Raggedstar,leader,Raggedstar,,none,0
+Rainwhisker,kit,Rainkit,,kit,0
+Rainwhisker,apprentice,Rainpaw,雨爪,parts,1
+Rainwhisker,warrior,Rainwhisker,雨须,parts,1
+Ravenpaw,kit,Ravenkit,,kit,0
+Ravenpaw,apprentice,Ravenpaw,乌爪,parts,1
+Redtail,kit,Redkit,,kit,0
+Redtail,apprentice,Redpaw,红爪,parts,1
+Redtail,warrior,Redtail,红尾,parts,1
+Reedtail,kit,Reedkit,,kit,0
+Reedtail,apprentice,Reedpaw,,none,0
+Reedtail,warrior,Reedtail,,none,0
+Reedwhisker,kit,Reedkit,,kit,0
+Reedwhisker,apprentice,Reedpaw,,none,0
+Reedwhisker,warrior,Reedwhisker,,none,0
+Rippleclaw,warrior,Rippleclaw,,none,0
+Rosetail,kit,Rosekit,,kit,0
+Rosetail,apprentice,Rosepaw,,none,0
+Rosetail,warrior,Rosetail,,none,0
+Rowanclaw,kit,Rowankit,,kit,0
+Rowanclaw,apprentice,Rowanpaw,,none,0
+Rowanclaw,warrior,Rowanclaw,,none,0
+Rowanclaw,leader,Rowanstar,,none,0
+Runningbrook,apprentice,Runningpaw,奔爪,parts,1
+Runningbrook,warrior,Runningbrook,,none,0
+Runningnose,kit,Runningkit,,kit,0
+Runningnose,apprentice,Runningpaw,奔爪,parts,1
+Runningnose,warrior,Runningnose,,none,0
+Runningwind,kit,Runningkit,,kit,0
+Runningwind,apprentice,Runningpaw,奔爪,parts,1
+Runningwind,warrior,Runningwind,奔风,parts,1
+Russetfur,kit,Red,,kit,0
+Russetfur,apprentice,Russetpaw,,none,0
+Russetfur,warrior,Russetfur,,none,0
+Sandstorm,kit,Sandkit,,kit,0
+Sandstorm,apprentice,Sandpaw,沙爪,parts,1
+Sandstorm,warrior,Sandstorm,沙暴,override,1
+Scourge,kit,Tiny,,kit,0
+Scourge,other,Scourge,,none,0
+Shadepelt (TPB),kit,Shadekit,,kit,0
+Shadepelt (TPB),apprentice,Shadepaw,,none,0
+Shadepelt (TPB),warrior,Shadepelt,,none,0
+Silverpaw (TPB),apprentice,Silverpaw,银爪,parts,1
+Silverstream,kit,Silverkit,,kit,0
+Silverstream,apprentice,Silverpaw,银爪,parts,1
+Silverstream,warrior,Silverstream,银溪,parts,1
+Smallear,apprentice,Smallpaw,,none,0
+Smallear,warrior,Smallear,,none,0
+Smudge,kit,Smudge,,kit,0
+Snowkit (TPB),kit,Snowkit,,kit,0
+Sootfur,kit,Sootkit,,kit,0
+Sootfur,apprentice,Sootpaw,,none,0
+Sootfur,warrior,Sootfur,,none,0
+Sorreltail,kit,Sorrelkit,,kit,0
+Sorreltail,apprentice,Sorrelpaw,,none,0
+Sorreltail,warrior,Sorreltail,,none,0
+Speckletail,kit,Specklekit,,kit,0
+Speckletail,warrior,Speckletail,,none,0
+Spottedleaf,kit,Spottedkit,,kit,0
+Spottedleaf,apprentice,Spottedpaw,斑爪,parts,1
+Spottedleaf,warrior,Spottedleaf,斑叶,parts,1
+Stonefur,kit,Stonekit,,kit,0
+Stonefur,apprentice,Stonepaw,石爪,parts,1
+Stonefur,warrior,Stonefur,石毛,parts,1
+Stormfur,kit,Stormkit,,kit,0
+Stormfur,apprentice,Stormpaw,暴爪,parts,1
+Stormfur,other,Stormfur,暴毛,parts,1
+Stumpytail,kit,Stumpykit,,kit,0
+Stumpytail,apprentice,Stumpypaw,,none,0
+Stumpytail,warrior,Stumpytail,,none,0
+Swankit,kit,Swankit,,kit,0
+Swiftpaw (TPB),kit,Swiftkit,,kit,0
+Swiftpaw (TPB),apprentice,Swiftpaw,迅爪,parts,1
+Tallpoppy,warrior,Tallpoppy,,none,0
+Tallstar,kit,Tallkit,,kit,0
+Tallstar,apprentice,Tallpaw,高爪,parts,1
+Tallstar,warrior,Talltail,高尾,parts,1
+Tallstar,leader,Tallstar,高星,parts,1
+Tawnyfur,apprentice,Tawnypaw,褐爪,parts,1
+Tawnyfur,warrior,Tawnyfur,褐毛,parts,1
+Tawnypelt,kit,Tawnykit,,kit,0
+Tawnypelt,apprentice,Tawnypaw,褐爪,parts,1
+Tawnypelt,warrior,Tawnypelt,褐皮,override,1
+Taylor,other,Taylor,,none,0
+Thistleclaw,kit,Thistlekit,,kit,0
+Thistleclaw,apprentice,Thistlepaw,蓟爪,parts,1
+Thistleclaw,warrior,Thistleclaw,蓟爪,parts,1
+Thornclaw,kit,Thornkit,,kit,0
+Thornclaw,apprentice,Thornpaw,刺爪,parts,1
+Thornclaw,warrior,Thornclaw,刺爪,parts,1
+Tigerstar (TPB),kit,Tigerkit,,kit,0
+Tigerstar (TPB),apprentice,Tigerpaw,虎爪,parts,1
+Tigerstar (TPB),warrior,Tigerclaw,虎爪,parts,1
+Tigerstar (TPB),leader,Tigerstar,虎星,parts,1
+Tommy,other,Tommy,,none,0
+Tornear,apprentice,Tornpaw,,none,0
+Tornear,warrior,Tornear,,none,0
+Tulipkit,kit,Tulipkit,,kit,0
+Webfoot,apprentice,Webpaw,,none,0
+Webfoot,warrior,Webfoot,,none,0
+Wetfoot,kit,Wetkit,,kit,0
+Wetfoot,apprentice,Wetpaw,,none,0
+Wetfoot,warrior,Wetfoot,,none,0
+Whiteclaw,kit,Whitekit,,kit,0
+Whiteclaw,apprentice,Whitepaw,白爪,parts,1
+Whiteclaw,warrior,Whiteclaw,白爪,parts,1
+Whitestorm,kit,Whitekit,,kit,0
+Whitestorm,apprentice,Whitepaw,白爪,parts,1
+Whitestorm,warrior,Whitestorm,白风,override,1
+Whitetail (WiC),apprentice,Whitepaw,白爪,parts,1
+Whitetail (WiC),warrior,Whitetail,白尾,parts,1
+Whitethroat,warrior,Whitethroat,,none,0
+Willowpelt,kit,Willowkit,,kit,0
+Willowpelt,apprentice,Willowpaw,柳爪,parts,1
+Willowpelt,warrior,Willowpelt,柳毛,parts,1
+Yellowfang,kit,Yellowkit,,kit,0
+Yellowfang,apprentice,Yellowpaw,黄爪,parts,1
+Yellowfang,warrior,Yellowfang,黄牙,parts,1
+Zack,other,Zack,,none,0
