@@ -31,6 +31,9 @@
 - [x] P1 前端切换到正式数据（`src/data.js` 为共用数据层）
 - [ ] 中文名：词根表 `config/zh-parts.csv` 已覆盖 112 个名字；缺约 40 个前缀（Ash、Cinder、Reed、Rowan…）待大陆版确认；单词名（Princess、Scourge…）走 `config/zh-overrides.csv`
 - [ ] P1 iPad 实测性能
+- [x] P2 视觉（2026-10-23）：程序生成猫脸 `src/avatar.js`（底色×花纹×族群色外圈，同组合共用 canvas）；LOD：相机距离 200→130 星点渐隐、猫脸渐显；详情面板/搜索结果显示头像。星团、流动光点、名字标签、辉光开关在 demo 阶段已完成
+  - 猫脸放在单独的 `avatarScene`，以 RenderPass 叠加在 bloom **之后**，否则会被辉光晕成白光
+  - 合成在线性空间，低透明度经 sRGB 输出会被放大：压暗头像用 0.012 而不是 0.07
 
 ## 解析要点（踩过的坑）
 

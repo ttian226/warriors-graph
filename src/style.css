@@ -212,3 +212,7 @@ button.chip:active { background: rgba(255, 255, 255, 0.1); }
 }
 .star-label.selected { font-size: 15px; font-weight: 600; color: #fff; }
 footer a { color: inherit; pointer-events: auto; }
+
+/* —— 头像 —— */
+#panelBody .avatar { width: 64px; height: 64px; display: block; margin-bottom: 8px; }
+.avatar-sm { width: 28px; height: 28px; flex: none; }

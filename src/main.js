@@ -3,6 +3,8 @@ import * as THREE from 'three';
 import { CSS2DRenderer, CSS2DObject } from 'three/examples/jsm/renderers/CSS2DRenderer.js';
 import { UnrealBloomPass } from 'three/examples/jsm/postprocessing/UnrealBloomPass.js';
 import { OutputPass } from 'three/examples/jsm/postprocessing/OutputPass.js';
+import { RenderPass } from 'three/examples/jsm/postprocessing/RenderPass.js';
+import { avatarCanvas } from './avatar.js';
 import { CLANS, RELS, STAGES, STATUS, arcById, cats, edges, catById, relIndex, displayName, relationsOf } from './data.js';
 
 const nodes = cats.map((cat) => ({ id: cat.id, cat, clan: cat.home, deg: 0 }));
@@ -48,6 +50,19 @@ for (const [type, { color }] of Object.entries(RELS)) {
 }
 
 const starSize = (nd) => 10 + Math.sqrt(nd.deg) * 6;
+const avatarSize = (nd) => 9 + Math.sqrt(nd.deg) * 2;
+
+const avatarScene = new THREE.Scene();
+const avatarTextures = new Map();
+function avatarTexture(cat) {
+  const cv = avatarCanvas(cat.pelt, CLANS[cat.home]?.color || '#c4c8d4');
+  if (!avatarTextures.has(cv)) {
+    const tex = new THREE.CanvasTexture(cv);
+    tex.colorSpace = THREE.SRGBColorSpace;
+    avatarTextures.set(cv, tex);
+  }
+  return avatarTextures.get(cv);
+}
 
 function makeNodeObject(nd) {
   const group = new THREE.Group();
@@ -64,17 +79,30 @@ function makeNodeObject(nd) {
   sprite.scale.set(s, s, 1);
   group.add(sprite);
 
+  // 拉近后显示的猫脸头像（LOD）：放在 avatarScene 里，辉光之后再画，避免被晕成白光
+  const avatar = new THREE.Sprite(
+    new THREE.SpriteMaterial({ map: avatarTexture(nd.cat), transparent: true, opacity: 0, depthWrite: false }),
+  );
+  const a = avatarSize(nd);
+  avatar.scale.set(a, a, 1);
+  avatar.renderOrder = 2;
+  avatar.visible = false;
+  avatarScene.add(avatar);
+
   // 标签用 HTML 渲染：不被辉光晕糊，iPad 上文字清晰
   const div = document.createElement('div');
   div.className = 'star-label';
   div.textContent = displayName(nd.cat);
   const label = new CSS2DObject(div);
-  label.center.set(0.5, -0.6);
+  label.center.set(0.5, 0);
+  label.position.y = -avatarSize(nd) * 0.55;
   label.visible = false;
   group.add(label);
 
   nd.__sprite = sprite;
+  nd.__avatar = avatar;
   nd.__label = label;
+  nd.__focus = 1;
   return group;
 }
 
@@ -94,6 +122,8 @@ const graph = new ForceGraph3D(el, { controlType: 'orbit', extraRenderers: [new 
   .d3AlphaDecay(0.018)
   .d3VelocityDecay(0.35)
   .graphData({ nodes, links });
+
+if (import.meta.env.DEV) window.__graph = graph; // 调试用
 
 graph.renderer().setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
 
@@ -164,6 +194,9 @@ function clusterForce(strength) {
 graph.scene().background = new THREE.Color('#04050c');
 const bloom = new UnrealBloomPass(new THREE.Vector2(innerWidth, innerHeight), 0.9, 0.5, 0.1);
 graph.postProcessingComposer().addPass(bloom);
+const avatarPass = new RenderPass(avatarScene, graph.camera());
+avatarPass.clear = false;
+graph.postProcessingComposer().addPass(avatarPass);
 graph.postProcessingComposer().addPass(new OutputPass());
 const bloomBtn = document.getElementById('bloomBtn');
 let bloomOn = readPref('bloom', true);
@@ -234,19 +267,21 @@ function applyHighlight() {
   for (const nd of nodes) {
     if (!nd.__sprite) continue;
     const on = !selectedId || focusSet.has(nd.id);
-    nd.__sprite.material.opacity = on ? 1 : 0.07;
-    const s = starSize(nd) * (nd.id === selectedId ? 1.25 : 1);
-    nd.__sprite.scale.set(s, s, 1);
+    nd.__focus = on ? 1 : 0.07;
+    const k = nd.id === selectedId ? 1.25 : 1;
+    nd.__sprite.scale.set(starSize(nd) * k, starSize(nd) * k, 1);
+    nd.__avatar.scale.set(avatarSize(nd) * k, avatarSize(nd) * k, 1);
     nd.__label.element.classList.toggle('selected', nd.id === selectedId);
   }
   graph
     .linkMaterial((l) => linkMats[`${l.type}:${linkState(l)}`])
     .linkDirectionalParticles((l) => (linkState(l) === 'hl' ? 3 : 0));
+  updateLod();
   updateLabels(true);
 }
 
 function flyTo(nd, ms = 1200) {
-  const dist = 200;
+  const dist = 150;
   const len = Math.hypot(nd.x, nd.y, nd.z) || 1;
   const r = 1 + dist / len;
   graph.cameraPosition({ x: nd.x * r, y: nd.y * r, z: nd.z * r }, { x: nd.x, y: nd.y, z: nd.z }, ms);
@@ -256,7 +291,7 @@ graph.onNodeClick((nd) => select(nd.id));
 graph.onBackgroundClick(() => clearSelection());
 
 // 名字标签：选中的猫及其邻居，或离相机很近的星
-const NEAR = 120;
+const NEAR = 165; // 与头像 LOD 的过渡区间中点一致：看得到脸就看得到名字
 let frame = 0;
 function updateLabels(force = false) {
   if (!force && frame++ % 6) return;
@@ -268,11 +303,30 @@ function updateLabels(force = false) {
   }
 }
 
+// 头像 LOD：相机距离在 AVATAR_FAR→AVATAR_NEAR 之间时，星点渐隐、猫脸渐显
+const AVATAR_FAR = 200;
+const AVATAR_NEAR = 130;
+function updateLod() {
+  const cam = graph.camera().position;
+  for (const nd of nodes) {
+    if (!nd.__sprite || nd.x === undefined) continue;
+    const d = Math.hypot(cam.x - nd.x, cam.y - nd.y, cam.z - nd.z);
+    const t = Math.min(1, Math.max(0, (AVATAR_FAR - d) / (AVATAR_FAR - AVATAR_NEAR)));
+    const ease = t * t * (3 - 2 * t);
+    nd.__sprite.material.opacity = (1 - 0.85 * ease) * nd.__focus;
+    // 合成在线性空间进行，低透明度经 sRGB 输出会被放大，所以压暗的头像要用更小的系数
+    nd.__avatar.material.opacity = ease * (nd.__focus === 1 ? 1 : 0.012);
+    nd.__avatar.visible = ease > 0.01;
+    if (nd.__avatar.visible) nd.__avatar.position.set(nd.x, nd.y, nd.z);
+  }
+}
+
 // FPS 计数
 const fpsEl = document.getElementById('fps');
 let fpsFrames = 0;
 let fpsT = performance.now();
 (function loop() {
+  updateLod();
   updateLabels();
   fpsFrames++;
   const now = performance.now();
@@ -300,6 +354,13 @@ function nameHtml(nm) {
   return `${esc(nm.zh)}${nm.check ? ' <span class="tag">待核</span>' : ''}`;
 }
 
+const avatarUrls = new Map();
+function avatarUrl(cat) {
+  const cv = avatarCanvas(cat.pelt, CLANS[cat.home]?.color || '#c4c8d4');
+  if (!avatarUrls.has(cv)) avatarUrls.set(cv, cv.toDataURL());
+  return avatarUrls.get(cv);
+}
+
 function catChip(id) {
   const cat = catById.get(id);
   const clan = CLANS[cat.home];
@@ -324,6 +385,7 @@ function renderPanel(cat) {
   const meta = [{ male: '公猫', female: '母猫' }[cat.gender], STATUS[cat.status] + death, CLANS[cat.home]?.zh].filter(Boolean);
 
   panelBody.innerHTML = `
+    <img class="avatar" src="${avatarUrl(cat)}" alt="" />
     <h2>${nameHtml(last)}</h2>
     <div class="en">${esc(cat.names.map((nm) => nm.en).join(' → '))}</div>
     <div class="meta">${meta.join(' · ')}</div>
@@ -361,7 +423,7 @@ searchEl.addEventListener('input', () => {
         .map((h) => {
           const cat = catById.get(h.id);
           const clan = CLANS[cat.home];
-          return `<li data-id="${esc(h.id)}"><span class="dot" style="color:${clan?.color}"></span>${esc(displayName(cat))}<span class="sub">${esc(cat.names.at(-1).en)} · ${clan?.zh || ''}</span></li>`;
+          return `<li data-id="${esc(h.id)}"><img class="avatar-sm" src="${avatarUrl(cat)}" alt="" />${esc(displayName(cat))}<span class="sub">${esc(cat.names.at(-1).en)} · ${clan?.zh || ''}</span></li>`;
         })
         .join('')
     : '<li class="sub">没有找到</li>';
