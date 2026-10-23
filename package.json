@@ -9,7 +9,8 @@
     "preview": "vite preview --host",
     "data:fetch": "node scripts/fetch.mjs",
     "data:parse": "node scripts/parse.mjs",
-    "data": "npm run data:fetch && npm run data:parse"
+    "data": "npm run data:fetch && npm run data:zh && npm run data:parse",
+    "data:zh": "node scripts/zh-sources.mjs"
   },
   "dependencies": {
     "3d-force-graph": "^1.80.1",

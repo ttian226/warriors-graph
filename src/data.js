@@ -15,6 +15,11 @@ export const CLANS = {
   Tribe: { zh: '急水部落', color: '#e5c89c' },
   Kittypet: { zh: '宠物猫', color: '#ffc9ee' },
   Loner: { zh: '独行猫', color: '#c4c8d4' },
+  // 以下群体的大陆版译名未确认，先显示英文
+  Sisters: { zh: 'The Sisters', color: '#f2a7c9' },
+  Ancients: { zh: 'The Ancients', color: '#b9a6e8' },
+  Kin: { zh: 'The Kin', color: '#d98b6b' },
+  StormClan: { zh: 'StormClan', color: '#9fb7d8' },
 };
 export const RELS = {
   parent: { zh: '血缘', color: '#ffd27a' },

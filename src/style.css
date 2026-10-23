@@ -100,21 +100,68 @@ html, body {
   background: currentColor;
 }
 
-/* —— 图例 —— */
-#legend {
+/* —— 底部：图例（可点筛选）+ 时间轴 —— */
+#bottom {
   position: fixed;
   left: 16px;
-  bottom: max(36px, calc(env(safe-area-inset-bottom) + 24px));
+  right: 16px;
+  bottom: max(30px, calc(env(safe-area-inset-bottom) + 22px));
   display: flex;
   flex-direction: column;
-  gap: 6px;
-  font-size: 12px;
-  color: var(--muted);
+  gap: 10px;
   pointer-events: none;
 }
-#legend .row { display: flex; flex-wrap: wrap; gap: 4px 12px; }
-#legend span { display: inline-flex; align-items: center; gap: 6px; }
+#bottom > * { pointer-events: auto; }
+body.panel-open #bottom { right: 372px; }
+@media (orientation: portrait) {
+  body.panel-open #bottom { display: none; }
+}
+
+#legend { display: flex; flex-direction: column; gap: 4px; font-size: 12px; color: var(--muted); align-self: flex-start; }
+#legend .row { display: flex; flex-wrap: wrap; gap: 2px 4px; }
+#legend button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 30px;
+  padding: 0 8px;
+  border: 0;
+  border-radius: 15px;
+  background: none;
+  color: inherit;
+  font: inherit;
+}
+#legend button.off { opacity: 0.3; text-decoration: line-through; }
 #legend .bar { width: 14px; height: 2px; border-radius: 1px; background: currentColor; flex: none; }
+
+#timeline {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  max-width: 720px;
+  padding: 6px 14px 6px 6px;
+  border-radius: 26px;
+  border: 1px solid var(--line);
+  background: var(--panel);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+}
+#timeline button {
+  height: 40px;
+  min-width: 40px;
+  padding: 0 14px;
+  border-radius: 20px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--text);
+  font: inherit;
+  font-size: 14px;
+}
+#timeline button.on { background: rgba(255, 210, 122, 0.16); color: var(--accent); border-color: rgba(255, 210, 122, 0.4); }
+#timeline:not(.active) #tlRange, #timeline:not(.active) #tlLabel { opacity: 0.35; }
+#tlRange { flex: 1; min-width: 120px; height: 40px; accent-color: #ffd27a; }
+#tlLabel { min-width: 128px; font-size: 13px; color: var(--muted); white-space: nowrap; font-variant-numeric: tabular-nums; }
+#tlLabel b { color: var(--text); font-weight: 600; }
 
 footer {
   position: fixed;

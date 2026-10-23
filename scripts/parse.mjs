@@ -7,6 +7,14 @@ const root = new URL('../', import.meta.url).pathname;
 const readJson = async (p) => JSON.parse(await readFile(`${root}${p}`, 'utf8'));
 const pages = await readJson('data/raw/pages.json');
 const redirects = await readJson('data/raw/redirects.json');
+const books = await readJson('data/raw/books.json');
+
+// 链接目标可能是重定向页，统一解析到实际页名
+const resolve = (t) => {
+  let cur = t;
+  for (let i = 0; i < 5 && redirects[cur]; i++) cur = redirects[cur];
+  return cur;
+};
 const { arcs } = await readJson('config/arcs.json');
 
 // —— 字段映射 ——
@@ -15,11 +23,16 @@ const { arcs } = await readJson('config/arcs.json');
 const NAME_FIELDS = {
   kit: 'kit', kkittypet: 'kit',
   kittypet: 'other', loner: 'other', bloner: 'other', rogue: 'other', brogue: 'other', rrogue: 'other',
-  refugee: 'other', rrefugee: 'other', prisoner: 'other', pprisoner: 'other', bloodclan: 'other', 'cave-guard': 'other',
+  refugee: 'other', rrefugee: 'other', prisoner: 'other', pprisoner: 'other', bloodclan: 'other',
   apprentice: 'apprentice', mca: 'apprentice',
   warrior: 'warrior', 'senior warrior': 'warrior', queen: 'warrior', mc: 'warrior', tmc: 'warrior',
   deputy: 'warrior', elder: 'warrior', elderloner: 'warrior',
   leader: 'leader', temporaryleader: 'leader',
+  // 部落、远古猫、族群黎明等特殊称谓
+  'to-be': 'kit', trainee: 'apprentice', 'ancestor app': 'apprentice',
+  'prey-hunter': 'warrior', 'cave-guard': 'warrior', prowler: 'warrior', sharpclaw: 'warrior', healer: 'warrior',
+  'kit-mother': 'warrior', ancient: 'warrior', aancient: 'warrior', 'ancestor guide': 'warrior', 'medicine cat': 'warrior',
+  unknown: 'other', 'guardian cats': 'other', 'cats of the park': 'other', ancestors: 'other',
 };
 
 // 关系字段 → [边类型, 方向]；self→other 表示「本猫是 source」
@@ -48,11 +61,49 @@ const CLAN_TEMPLATES = {
   Kittypet: 'Kittypet', Loner: 'Loner', Rogue: 'Loner', 'Tribe of Rushing Water': 'Tribe',
   'LionClan (modern)': null, 'TigerClan (modern)': null, None: null,
   'Ghost residence': null, 'Unnamed afterlife': null, 'Tribe of Endless Hunting': null,
+  // 族群黎明：各营地是五大族的前身
+  "Clear Sky's camp": 'SkyClan', 'SkyClan ancestor': 'SkyClan', "Tall Shadow's camp": 'ShadowClan',
+  "River Ripple's camp": 'RiverClan', "Wind Runner's camp": 'WindClan', "Thunder's camp": 'ThunderClan',
+  'Ancient Tribe': 'Tribe', 'The Ancients': 'Ancients', 'The ancestors': 'Ancients',
+  'The Sisters': 'Sisters', 'The Kin': 'Kin', StormClan: 'StormClan',
+  'Cats of the Park': 'Loner', 'The wildcats': 'Loner', "Slash's group": 'Loner', "Slash's camp": 'Loner',
+  "Stick's group": 'Loner', "Dodge's group": 'Loner',
+  'The rebels': null, 'The guardian cats': null, WarriorClan: null, Unknown: null, Custom: null,
+  'LionClan (mythological)': null, 'TigerClan (mythological)': null, LeopardClan: null,
 };
 const AFTERLIFE = new Set(['StarClan', 'DarkForest']);
 
-const arcByCategory = new Map(arcs.map((a) => [a.category, a.id]));
-const arcByCode = new Map(arcs.map((a) => [a.code, a.id]));
+const arcByCategory = new Map(arcs.filter((a) => a.category).map((a) => [a.category.toLowerCase(), a.id]));
+const arcByCode = new Map(arcs.filter((a) => a.code).map((a) => [a.code, a.id]));
+const arcOrder = new Map(arcs.map((a, i) => [a.id, i]));
+
+// 书名 → 部：正传各部的书（如 os1 Into the Wild）与部名本身（如 The Prophecies Begin (novel arc)）
+const arcByTitle = new Map();
+for (const [code, title] of Object.entries(books)) {
+  const arc = arcByCode.get(code.replace(/\d+$/, ''));
+  if (arc) arcByTitle.set(title.toLowerCase(), arc);
+}
+for (const a of arcs) if (a.code) arcByTitle.set(`${a.en} (novel arc)`.toLowerCase(), a.id);
+
+// 分类 → 部：整部分类（如 The Prophecies Begin characters）之外，单本书的分类也算（第九部的整部分类在页面上取不到）
+for (const [title, arc] of arcByTitle) {
+  arcByCategory.set(`${title} characters`, arc);
+  arcByCategory.set(`${title.replace(/ \((book|novel arc)\)$/, '')} characters`, arc);
+}
+
+// 死于哪一部：death 字段引用的书属于正传某部就用它；否则（死在外传里）取 deadbooks 中最早的正传部
+function deathArcOf(f) {
+  const code = /r\/book\|([a-z]+)\d*/.exec(f.death || '')?.[1];
+  if (code && arcByCode.has(code)) return arcByCode.get(code);
+  const deadArcs = linkTargets(f.deadbooks || '')
+    .map((t) => arcByTitle.get(t.toLowerCase()))
+    .filter(Boolean)
+    .sort((a, b) => arcOrder.get(a) - arcOrder.get(b));
+  return deadArcs[0] || null;
+}
+
+// 冒名：信息框把冒用的名字也写进名字字段（如第七部 Ashfur 附身冒充 Bramblestar 当族长），不算本猫的名字
+const IMPOSTOR_NAMES = { 'Ashfur (TC)': ['Bramblestar'] };
 
 // 字段给的阶段不可靠（如 mca=Cinderpaw, Cinderpelt），按名字后缀校正
 function stageOf(en, field) {
@@ -74,10 +125,17 @@ const suffixes = parts.filter((p) => p.type === 'suffix').sort((a, b) => b.part.
 const overrides = new Map(
   parseCsv(await readFile(`${root}config/zh-overrides.csv`, 'utf8')).map((o) => [`${o.page}|${o.en}`, o]),
 );
+// 自动导入的大陆版名字（scripts/zh-sources.mjs）：*|英文名 按名字匹配；页名|* 只对该猫的最后一个名字生效
+const sources = new Map(
+  parseCsv(await readFile(`${root}config/zh-sources.csv`, 'utf8')).map((o) => [`${resolve(o.page)}|${o.en}`, o]),
+);
 
-function zhName(page, en, stage) {
+// 优先级：人工校对 → 自动导入 → 幼崽名留英文 → 词根拼合
+function zhName(page, en, stage, isLast) {
   const o = overrides.get(`${page}|${en}`) || overrides.get(`*|${en}`);
   if (o) return { zh: o.zh || null, source: 'override', check: o.verified !== '1' };
+  const src = sources.get(`*|${en}`) || (isLast && sources.get(`${page}|*`));
+  if (src) return { zh: src.zh, source: 'import', check: true };
   if (stage === 'kit') return { zh: null, source: 'kit', check: false }; // 幼崽名一律显示英文
   const lower = en.toLowerCase();
   for (const s of suffixes) {
@@ -167,11 +225,6 @@ function homeClan(current, past) {
 }
 
 // —— 主流程 ——
-const resolve = (t) => {
-  let cur = t;
-  for (let i = 0; i < 5 && redirects[cur]; i++) cur = redirects[cur];
-  return cur;
-};
 
 const cats = [];
 const rawEdges = [];
@@ -183,22 +236,24 @@ for (const page of Object.values(pages)) {
   const f = templateParams(page.infobox);
 
   // 名字：按信息框字段顺序，去重
-  const names = [];
+  const raw = [];
   for (const [key, val] of Object.entries(f)) {
     const stage = NAME_FIELDS[key];
     if (!stage) continue;
     for (const en of nameList(val)) {
-      if (names.some((n) => n.en === en)) continue;
-      const st = stageOf(en, stage);
-      const z = zhName(id, en, st);
-      names.push({ stage: st, en, zh: z.zh, ...(z.check ? { check: true } : {}) });
-      zhRows.push([id, st, en, z.zh || '', z.source, z.check ? 1 : 0]);
+      if (raw.some((n) => n.en === en) || IMPOSTOR_NAMES[id]?.includes(en)) continue;
+      raw.push({ stage: stageOf(en, stage), en });
     }
   }
-  if (!names.length) {
-    names.push({ stage: 'other', en: id.replace(/ \(.*\)$/, ''), zh: null });
+  if (!raw.length) {
+    raw.push({ stage: 'other', en: id.replace(/ \(.*\)$/, '') });
     warnings.push(`${id}: 信息框里没有名字字段，用页名代替`);
   }
+  const names = raw.map(({ stage, en }, i) => {
+    const z = zhName(id, en, stage, i === raw.length - 1);
+    zhRows.push([id, stage, en, z.zh || '', z.source, z.check ? 1 : 0]);
+    return { stage, en, zh: z.zh, ...(z.check ? { check: true } : {}) };
+  });
 
   // 族群：Wiki 的 pastaffie 不按时间排序，只记录经历过哪些及备注；主族群另行推断
   const current = clanEntries(f.affie || f.lastknown || '', id); // lastknown：下落不明的猫的最后归属
@@ -207,8 +262,7 @@ for (const page of Object.values(pages)) {
   for (const c of [...past, ...current]) if (!clans.some((x) => x.clan === c.clan)) clans.push(c);
 
   // 出场的部、死亡的部
-  const arcSet = new Set(page.categories.map((c) => arcByCategory.get(c)).filter(Boolean));
-  const deathCode = /r\/book\|([a-z]+)\d*/.exec(f.death || '')?.[1];
+  const arcSet = new Set(page.categories.map((c) => arcByCategory.get(c.toLowerCase())).filter(Boolean));
   const dead = page.categories.includes('Deceased characters');
 
   const cat = {
@@ -216,9 +270,9 @@ for (const page of Object.values(pages)) {
     names,
     clans,
     home: homeClan(current, past),
-    arcs: arcs.map((a) => a.id).filter((a) => arcSet.has(a)),
+    arcs: arcSet.size ? arcs.map((a) => a.id).filter((a) => arcSet.has(a)) : ['extra'],
     status: dead ? 'dead' : 'alive',
-    ...(dead && deathCode ? { deathArc: arcByCode.get(deathCode) || null, deathBook: deathCode } : {}),
+    ...(dead ? { deathArc: deathArcOf(f) } : {}),
     gender: page.categories.includes('Toms') ? 'male' : page.categories.includes('She-cats') ? 'female' : undefined,
     pelt: parsePelt(page.wikitext || ''),
   };

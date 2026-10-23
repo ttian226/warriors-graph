@@ -4,7 +4,7 @@ import * as THREE from 'three';
 import { CSS2DRenderer, CSS2DObject } from 'three/examples/jsm/renderers/CSS2DRenderer.js';
 import { UnrealBloomPass } from 'three/examples/jsm/postprocessing/UnrealBloomPass.js';
 import { OutputPass } from 'three/examples/jsm/postprocessing/OutputPass.js';
-import { CLANS, RELS, cats, edges, relIndex, displayName } from './data.js';
+import { ARCS, CLANS, RELS, cats, edges, relIndex, displayName } from './data.js';
 import { readPref, writePref } from './util.js';
 
 const el = document.getElementById('graph');
@@ -39,7 +39,7 @@ const starTexture = (() => {
   return tex;
 })();
 
-const LINK_OPACITY = { normal: 0.14, hl: 0.75, dim: 0.025 };
+const LINK_OPACITY = { normal: 0.14, hl: 0.75, dim: 0.025, off: 0 };
 const linkMats = {};
 for (const [type, { color }] of Object.entries(RELS)) {
   for (const [state, opacity] of Object.entries(LINK_OPACITY)) {
@@ -231,17 +231,39 @@ function linkKey(l) {
   return [s, t];
 }
 
+// —— 时间轴与筛选 ——
+// timeline：null 表示显示全部（族群色）；否则为 ARCS 下标，只点亮到该部为止出场过的猫
+const arcIndex = new Map(ARCS.map((a, i) => [a.id, i]));
+const STARCLAN_COLOR = new THREE.Color(CLANS.StarClan.color);
+const filter = { timeline: null, hiddenClans: new Set(), hiddenRels: new Set() };
+for (const nd of nodes) {
+  nd.debut = Math.min(...(nd.cat.arcs.length ? nd.cat.arcs : ['extra']).map((a) => arcIndex.get(a) ?? ARCS.length - 1));
+  nd.death = nd.cat.deathArc ? arcIndex.get(nd.cat.deathArc) : null;
+  nd.clanColor = new THREE.Color(CLANS[nd.clan]?.color || '#ffffff');
+}
+
+function nodeShown(nd) {
+  if (filter.hiddenClans.has(nd.clan)) return false;
+  return filter.timeline === null || nd.debut <= filter.timeline;
+}
+
 function linkState(l) {
-  if (!selectedId) return 'normal';
   const [s, t] = linkKey(l);
+  if (filter.hiddenRels.has(l.type) || !nodeShown(nodeById.get(s)) || !nodeShown(nodeById.get(t))) return 'off';
+  if (!selectedId) return 'normal';
   return s === selectedId || t === selectedId ? 'hl' : 'dim';
 }
 
 function applyHighlight() {
   for (const nd of nodes) {
     if (!nd.__sprite) continue;
-    const on = !selectedId || focusSet.has(nd.id);
-    nd.__sprite.material.opacity = on ? 1 : 0.07;
+    const shown = nodeShown(nd);
+    const on = shown && (!selectedId || focusSet.has(nd.id));
+    // 筛掉的星淡出而不删除，避免布局跳动
+    nd.__sprite.material.opacity = !shown ? 0.02 : on ? 1 : 0.07;
+    const dead = filter.timeline !== null && nd.death !== null && nd.death <= filter.timeline;
+    nd.__sprite.material.color.copy(dead ? STARCLAN_COLOR : nd.clanColor);
+    nd.__shown = shown;
     const k = nd.id === selectedId ? 1.25 : 1;
     nd.__sprite.scale.set(starSize(nd) * k, starSize(nd) * k, 1);
     nd.__label.element.classList.toggle('selected', nd.id === selectedId);
@@ -252,6 +274,24 @@ function applyHighlight() {
   updateLabels(true);
 }
 
+function setFilter(next) {
+  const prev = filter.timeline;
+  Object.assign(filter, next);
+  // 时间轴前进时，本部新出场的猫「点亮」
+  if (filter.timeline !== null && filter.timeline !== prev) {
+    const now = performance.now();
+    for (const nd of nodes) if (nd.debut === filter.timeline && !filter.hiddenClans.has(nd.clan)) nd.__pulse = now;
+  }
+  applyHighlight();
+}
+
+// 每个部的新出场数，给时间轴标注用
+function debutCounts() {
+  const counts = ARCS.map(() => 0);
+  for (const nd of nodes) counts[nd.debut]++;
+  return counts;
+}
+
 function flyTo(nd, ms = 1200) {
   const dist = 150;
   const len = Math.hypot(nd.x, nd.y, nd.z) || 1;
@@ -259,7 +299,7 @@ function flyTo(nd, ms = 1200) {
   graph.cameraPosition({ x: nd.x * r, y: nd.y * r, z: nd.z * r }, { x: nd.x, y: nd.y, z: nd.z }, ms);
 }
 
-graph.onNodeClick((nd) => handlers.onPick(nd.id));
+graph.onNodeClick((nd) => (nd.__shown === false ? handlers.onBackground() : handlers.onPick(nd.id)));
 graph.onBackgroundClick(() => handlers.onBackground());
 
 // 名字标签：选中的猫及其邻居，或离相机很近的星
@@ -271,10 +311,21 @@ function updateLabels(force = false) {
   for (const nd of nodes) {
     if (!nd.__label || nd.x === undefined) continue;
     const near = Math.hypot(cam.x - nd.x, cam.y - nd.y, cam.z - nd.z) < NEAR;
-    nd.__label.visible = focusSet.has(nd.id) || (near && !selectedId);
+    nd.__label.visible = nd.__shown !== false && (focusSet.has(nd.id) || (near && !selectedId));
   }
 }
 
+// 「点亮」动画：0.9 秒内星点先放大再回落
+const PULSE_MS = 900;
+function updatePulses(now) {
+  for (const nd of nodes) {
+    if (!nd.__pulse) continue;
+    const t = (now - nd.__pulse) / PULSE_MS;
+    const k = t >= 1 ? 1 : 1 + 1.6 * Math.sin(Math.PI * t);
+    nd.__sprite.scale.set(starSize(nd) * k, starSize(nd) * k, 1);
+    if (t >= 1) nd.__pulse = 0;
+  }
+}
 
 // FPS 计数
 const fpsEl = document.getElementById('fps');
@@ -286,6 +337,7 @@ let fpsT = performance.now();
   updateLabels();
   fpsFrames++;
   const now = performance.now();
+  updatePulses(now);
   if (now - fpsT >= 1000) {
     fpsEl.textContent = `${Math.round((fpsFrames * 1000) / (now - fpsT))} fps · ${nodes.length} 星`;
     fpsFrames = 0;
@@ -310,6 +362,6 @@ function resume() {
 const handlers = { onPick: () => {}, onBackground: () => {} };
 export function initGalaxy(h) {
   Object.assign(handlers, h);
-  return { select, clear: clearSelection, pause, resume };
+  return { select, clear: clearSelection, pause, resume, setFilter, debutCounts };
 }
 

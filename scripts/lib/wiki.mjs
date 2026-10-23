@@ -1,9 +1,13 @@
-// Warriors Wiki MediaWiki API 客户端：响应缓存到 data/raw/api/，限速，带明确的 User-Agent。
+// MediaWiki API 客户端（默认 Warriors Wiki 英文站）：响应缓存到 data/raw/api/，限速，带明确的 User-Agent。
 import { createHash } from 'node:crypto';
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
 
-const API = 'https://warriors.fandom.com/api.php';
+export const WIKIS = {
+  en: 'https://warriors.fandom.com/api.php',
+  zhFandom: 'https://warriors.fandom.com/zh/api.php',
+  zhWikipedia: 'https://zh.wikipedia.org/w/api.php',
+};
 const UA = 'warriors-graph/0.1 (personal non-commercial fan project; static family-tree viewer)';
 const CACHE_DIR = new URL('../../data/raw/api/', import.meta.url).pathname;
 const MIN_INTERVAL_MS = 1000;
@@ -11,10 +15,10 @@ const MIN_INTERVAL_MS = 1000;
 let lastRequest = 0;
 export const stats = { cached: 0, fetched: 0 };
 
-export async function api(params) {
+export async function api(params, base = WIKIS.en) {
   const query = new URLSearchParams({ format: 'json', formatversion: '2', ...params });
   query.sort();
-  const key = createHash('sha1').update(query.toString()).digest('hex');
+  const key = createHash('sha1').update(`${base === WIKIS.en ? '' : base}${query}`).digest('hex');
   const file = join(CACHE_DIR, `${key}.json`);
 
   try {
@@ -27,7 +31,7 @@ export async function api(params) {
   if (wait > 0) await new Promise((r) => setTimeout(r, wait));
   lastRequest = Date.now();
 
-  const res = await fetch(`${API}?${query}`, { headers: { 'User-Agent': UA } });
+  const res = await fetch(`${base}?${query}`, { headers: { 'User-Agent': UA } });
   if (!res.ok) throw new Error(`HTTP ${res.status} for ${query}`);
   const data = await res.json();
   if (data.error) throw new Error(`API error ${data.error.code}: ${data.error.info}`);
@@ -39,10 +43,10 @@ export async function api(params) {
 }
 
 // 自动跟随 continue 翻页，把每页结果交给 onPage
-export async function apiAll(params, onPage) {
+export async function apiAll(params, onPage, base = WIKIS.en) {
   let cont = {};
   for (;;) {
-    const data = await api({ ...params, ...cont });
+    const data = await api({ ...params, ...cont }, base);
     onPage(data);
     if (!data.continue) return;
     cont = data.continue;

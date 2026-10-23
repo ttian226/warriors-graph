@@ -1,4 +1,4 @@
-// 抓取：启用的部 → 角色页正文 + 分类 + 信息框子页 + 关系链接的重定向。
+// 抓取：全部角色 → 角色页正文 + 分类 + 信息框子页 + 关系链接的重定向 + 书目数据。
 // 输出 data/raw/pages.json 与 data/raw/redirects.json，供 parse.mjs 离线解析。
 // 用法：node scripts/fetch.mjs
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
@@ -6,15 +6,11 @@ import { api, apiAll, categoryMembers, chunk, stats } from './lib/wiki.mjs';
 import { findTemplate, linkTargets } from './lib/wikitext.mjs';
 
 const root = new URL('../', import.meta.url).pathname;
-const { arcs } = JSON.parse(await readFile(`${root}config/arcs.json`, 'utf8'));
 
-// 1. 角色列表
-const titles = new Set();
-for (const arc of arcs.filter((a) => a.enabled)) {
-  const members = await categoryMembers(arc.category);
-  console.log(`${arc.id} ${arc.en}: ${members.length} 个页面`);
-  members.forEach((t) => titles.add(t));
-}
+// 1. 角色列表：全部角色分类（各部归属由页面分类决定，parse 阶段处理）
+const { sourceCategory } = JSON.parse(await readFile(`${root}config/arcs.json`, 'utf8'));
+const titles = new Set(await categoryMembers(sourceCategory));
+console.log(`${sourceCategory}: ${titles.size} 个页面`);
 
 // 2. 正文 + 分类（每批 50 页）
 const pages = {};
@@ -66,7 +62,13 @@ for (const batch of chunk([...targets], 50)) {
   for (const r of d.query.redirects || []) redirects[r.from] = r.to;
 }
 
+// 5. 书目数据（书名 ↔ 书目代码），用于从 deadbooks 推断死于哪一部
+const bookLua = (await api({ action: 'parse', page: 'Module:References/Book Data', prop: 'wikitext' })).parse.wikitext;
+const books = {};
+for (const m of bookLua.matchAll(/\['([a-z]+\d*)'\]\s*=\s*\{[^{}]*?\['base'\]\s*=\s*["']([^"']+)["']/g)) books[m[1]] = m[2];
+
 await mkdir(`${root}data/raw`, { recursive: true });
+await writeFile(`${root}data/raw/books.json`, JSON.stringify(books, null, 1));
 await writeFile(`${root}data/raw/pages.json`, JSON.stringify(pages, null, 1));
 await writeFile(`${root}data/raw/redirects.json`, JSON.stringify(redirects, null, 1));
 

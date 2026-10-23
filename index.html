@@ -30,7 +30,15 @@
     </div>
   </div>
 
-  <div id="legend"></div>
+  <div id="bottom">
+    <div id="legend"></div>
+    <div id="timeline">
+      <button id="tlToggle" type="button">时间轴</button>
+      <button id="tlPlay" type="button" aria-label="播放">▶</button>
+      <input id="tlRange" type="range" min="0" max="9" step="1" value="0" />
+      <span id="tlLabel"></span>
+    </div>
+  </div>
 
   <aside id="panel" hidden>
     <button id="panelClose" type="button" aria-label="关闭">×</button>

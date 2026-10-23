@@ -91,15 +91,19 @@ export function buildFamily(centerId, up, down) {
     edges.push({ source: uid, target: id, kind: 'descent' });
   }
 
-  // 养亲也经过一个小节点，路径长度与亲生一致，同代才能对齐
+  // 养亲：同一组养父母共用一个结合点（与亲生一样经过一跳，同代才能对齐）
+  const adopts = new Map();
   for (const [id] of gen) {
-    for (const p of rels(id, '养父母')) {
-      if (!gen.has(p)) continue;
-      const aid = `a:${p}|${id}`;
-      nodes.push({ id: aid, kind: 'adopt', parents: [p] });
-      edges.push({ source: p, target: aid, kind: 'adoptive' });
-      edges.push({ source: aid, target: id, kind: 'adoptive' });
+    const parents = rels(id, '养父母').filter((p) => gen.has(p)).sort();
+    if (!parents.length) continue;
+    const key = parents.join('|');
+    if (!adopts.has(key)) {
+      const aid = `a:${key}`;
+      adopts.set(key, aid);
+      nodes.push({ id: aid, kind: 'adopt', parents });
+      for (const p of parents) edges.push({ source: p, target: aid, kind: 'adoptive' });
     }
+    edges.push({ source: adopts.get(key), target: id, kind: 'adoptive' });
   }
 
   // 没有共同子女的伴侣也连到一个结合点上，表示「一对」

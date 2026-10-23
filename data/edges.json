@@ -1,5 +1,560 @@
 [
  {
+  "source": "Barley's mother",
+  "target": "Barley",
+  "type": "parent"
+ },
+ {
+  "source": "Barley",
+  "target": "Ravenpaw",
+  "type": "mate"
+ },
+ {
+  "source": "Brackenwing",
+  "target": "Barkface",
+  "type": "parent"
+ },
+ {
+  "source": "Redclaw",
+  "target": "Barkface",
+  "type": "parent"
+ },
+ {
+  "source": "Hawkheart",
+  "target": "Barkface",
+  "type": "mentor"
+ },
+ {
+  "source": "Barkface",
+  "target": "Kestrelflight",
+  "type": "mentor"
+ },
+ {
+  "source": "Ashfoot",
+  "target": "Deadfoot",
+  "type": "mate"
+ },
+ {
+  "source": "Ashfoot",
+  "target": "Crowfeather",
+  "type": "parent"
+ },
+ {
+  "source": "Ashfoot",
+  "target": "Eaglekit (WiC)",
+  "type": "parent"
+ },
+ {
+  "source": "Ashfoot",
+  "target": "Downkit",
+  "type": "parent"
+ },
+ {
+  "source": "Ashfoot",
+  "target": "Hillkit",
+  "type": "parent"
+ },
+ {
+  "source": "Wrenflight (WiC)",
+  "target": "Ashfoot",
+  "type": "parent"
+ },
+ {
+  "source": "Stagleap (WiC)",
+  "target": "Ashfoot",
+  "type": "parent"
+ },
+ {
+  "source": "Larksplash",
+  "target": "Ashfoot",
+  "type": "mentor"
+ },
+ {
+  "source": "Whitestorm",
+  "target": "Ashfur (TC)",
+  "type": "parent"
+ },
+ {
+  "source": "Brindleface",
+  "target": "Ashfur (TC)",
+  "type": "parent"
+ },
+ {
+  "source": "Dustpelt",
+  "target": "Ashfur (TC)",
+  "type": "mentor"
+ },
+ {
+  "source": "Ashfur (TC)",
+  "target": "Birchfall",
+  "type": "mentor"
+ },
+ {
+  "source": "Ashfur (TC)",
+  "target": "Lionblaze",
+  "type": "mentor"
+ },
+ {
+  "source": "Tallpoppy",
+  "target": "Applefur (OotS)",
+  "type": "parent"
+ },
+ {
+  "source": "Beechfur (RC)",
+  "target": "Gorsetail (PoT)",
+  "type": "mate"
+ },
+ {
+  "source": "Beechfur (RC)",
+  "target": "Thistleheart",
+  "type": "parent"
+ },
+ {
+  "source": "Beechfur (RC)",
+  "target": "Sedgewhisker",
+  "type": "parent"
+ },
+ {
+  "source": "Beechfur (RC)",
+  "target": "Swallowtail (WiC)",
+  "type": "parent"
+ },
+ {
+  "source": "Blackclaw",
+  "target": "Beechfur (RC)",
+  "type": "mentor"
+ },
+ {
+  "source": "Archeye",
+  "target": "Frogtail",
+  "type": "mentor"
+ },
+ {
+  "source": "Wolfstep",
+  "target": "Badgerfang",
+  "type": "parent"
+ },
+ {
+  "source": "Fernshade",
+  "target": "Badgerfang",
+  "type": "parent"
+ },
+ {
+  "source": "Flintfang",
+  "target": "Badgerfang",
+  "type": "mentor"
+ },
+ {
+  "source": "Pebblefur",
+  "target": "Acorntail",
+  "type": "mentor"
+ },
+ {
+  "source": "Adderfang",
+  "target": "Swiftbreeze",
+  "type": "mate"
+ },
+ {
+  "source": "Adderfang",
+  "target": "Patchpelt",
+  "type": "parent"
+ },
+ {
+  "source": "Adderfang",
+  "target": "Redtail",
+  "type": "parent"
+ },
+ {
+  "source": "Adderfang",
+  "target": "Leopardfoot",
+  "type": "parent"
+ },
+ {
+  "source": "Adderfang",
+  "target": "Spottedleaf",
+  "type": "parent"
+ },
+ {
+  "source": "Adderfang",
+  "target": "Willowpelt",
+  "type": "parent"
+ },
+ {
+  "source": "Harepounce",
+  "target": "Adderfang",
+  "type": "mentor"
+ },
+ {
+  "source": "Adderfang",
+  "target": "Thistleclaw",
+  "type": "mentor"
+ },
+ {
+  "source": "Brightheart",
+  "target": "Ambermoon",
+  "type": "parent"
+ },
+ {
+  "source": "Cloudtail",
+  "target": "Ambermoon",
+  "type": "parent"
+ },
+ {
+  "source": "Spiderleg",
+  "target": "Ambermoon",
+  "type": "mentor"
+ },
+ {
+  "source": "Ambermoon",
+  "target": "Eaglewing",
+  "type": "mentor"
+ },
+ {
+  "source": "Amberleaf",
+  "target": "Nutwhisker",
+  "type": "mentor"
+ },
+ {
+  "source": "Ashheart",
+  "target": "Cinderfur",
+  "type": "mate"
+ },
+ {
+  "source": "Ashheart",
+  "target": "Turtlekit (ShC)",
+  "type": "parent"
+ },
+ {
+  "source": "Ashheart",
+  "target": "Quietkit",
+  "type": "parent"
+ },
+ {
+  "source": "Ashheart",
+  "target": "Rubblekit",
+  "type": "parent"
+ },
+ {
+  "source": "Toadskip",
+  "target": "Ashheart",
+  "type": "mentor"
+ },
+ {
+  "source": "Aspenfall",
+  "target": "Doespring",
+  "type": "mentor"
+ },
+ {
+  "source": "Weaselwhisker",
+  "target": "Acornpaw",
+  "type": "mentor"
+ },
+ {
+  "source": "Algernon",
+  "target": "Bess",
+  "type": "mate"
+ },
+ {
+  "source": "Algernon",
+  "target": "Reena (Ro)",
+  "type": "parent"
+ },
+ {
+  "source": "Hawk Swoop",
+  "target": "Acorn Fur",
+  "type": "parent"
+ },
+ {
+  "source": "Jackdaw's Cry",
+  "target": "Acorn Fur",
+  "type": "parent"
+ },
+ {
+  "source": "Micah",
+  "target": "Acorn Fur",
+  "type": "mentor"
+ },
+ {
+  "source": "Moth Flight",
+  "target": "Acorn Fur",
+  "type": "mentor"
+ },
+ {
+  "source": "Misty",
+  "target": "Alder",
+  "type": "parent"
+ },
+ {
+  "source": "Petal (DotC)",
+  "target": "Alder",
+  "type": "adoptive"
+ },
+ {
+  "source": "Appledusk",
+  "target": "Reedshine (MV)",
+  "type": "mate"
+ },
+ {
+  "source": "Appledusk",
+  "target": "Mapleshade",
+  "type": "mate"
+ },
+ {
+  "source": "Appledusk",
+  "target": "Petalkit (MV)",
+  "type": "parent"
+ },
+ {
+  "source": "Appledusk",
+  "target": "Willownose",
+  "type": "parent"
+ },
+ {
+  "source": "Appledusk",
+  "target": "Larchkit (MV)",
+  "type": "parent"
+ },
+ {
+  "source": "Appledusk",
+  "target": "Patchkit (MV)",
+  "type": "parent"
+ },
+ {
+  "source": "Appledusk",
+  "target": "Applefrost",
+  "type": "parent"
+ },
+ {
+  "source": "Appledusk",
+  "target": "Shyheart",
+  "type": "parent"
+ },
+ {
+  "source": "Appledusk",
+  "target": "Perchpaw (MV)",
+  "type": "mentor"
+ },
+ {
+  "source": "Arc",
+  "target": "Riverstar",
+  "type": "mentor"
+ },
+ {
+  "source": "Reedshine (MV)",
+  "target": "Applefrost",
+  "type": "parent"
+ },
+ {
+  "source": "Squirrelstar",
+  "target": "Alderheart",
+  "type": "parent"
+ },
+ {
+  "source": "Brambleclaw",
+  "target": "Alderheart",
+  "type": "parent"
+ },
+ {
+  "source": "Molewhisker (TC)",
+  "target": "Alderheart",
+  "type": "mentor"
+ },
+ {
+  "source": "Jayfeather",
+  "target": "Alderheart",
+  "type": "mentor"
+ },
+ {
+  "source": "Leafpool",
+  "target": "Alderheart",
+  "type": "mentor"
+ },
+ {
+  "source": "Alderheart",
+  "target": "Flipclaw",
+  "type": "mentor"
+ },
+ {
+  "source": "Alderheart",
+  "target": "Moonglow",
+  "type": "mentor"
+ },
+ {
+  "source": "Gooseberry (TC)",
+  "target": "Apple Blossom",
+  "type": "parent"
+ },
+ {
+  "source": "Yew Tail",
+  "target": "Apple Blossom",
+  "type": "parent"
+ },
+ {
+  "source": "Lightning Tail",
+  "target": "Apple Blossom",
+  "type": "mentor"
+ },
+ {
+  "source": "Milkweed",
+  "target": "Beech Tail",
+  "type": "parent"
+ },
+ {
+  "source": "Leaf (TC)",
+  "target": "Beech Tail",
+  "type": "parent"
+ },
+ {
+  "source": "Stonewing",
+  "target": "Antfur",
+  "type": "mentor"
+ },
+ {
+  "source": "Sorrelstripe",
+  "target": "Bayshine",
+  "type": "parent"
+ },
+ {
+  "source": "Dewnose",
+  "target": "Bayshine",
+  "type": "parent"
+ },
+ {
+  "source": "Bayshine",
+  "target": "Thriftear",
+  "type": "mate"
+ },
+ {
+  "source": "Bayshine",
+  "target": "Moonglow",
+  "type": "parent"
+ },
+ {
+  "source": "Bayshine",
+  "target": "Brightmorning",
+  "type": "parent"
+ },
+ {
+  "source": "Mousewhisker",
+  "target": "Bayshine",
+  "type": "mentor"
+ },
+ {
+  "source": "Bayshine",
+  "target": "Bristleclaw",
+  "type": "mentor"
+ },
+ {
+  "source": "Heathertail",
+  "target": "Appleshine",
+  "type": "parent"
+ },
+ {
+  "source": "Breezepelt",
+  "target": "Appleshine",
+  "type": "parent"
+ },
+ {
+  "source": "Appleshine",
+  "target": "Flutterfoot",
+  "type": "mate"
+ },
+ {
+  "source": "Appleshine",
+  "target": "Rustlepaw",
+  "type": "parent"
+ },
+ {
+  "source": "Appleshine",
+  "target": "Stretchpaw",
+  "type": "parent"
+ },
+ {
+  "source": "Brindlewing",
+  "target": "Appleshine",
+  "type": "mentor"
+ },
+ {
+  "source": "Pancakes",
+  "target": "Bacon",
+  "type": "parent"
+ },
+ {
+  "source": "Bailey",
+  "target": "Brushpaw",
+  "type": "parent"
+ },
+ {
+  "source": "Bailey",
+  "target": "Melody",
+  "type": "parent"
+ },
+ {
+  "source": "Riverstar",
+  "target": "Arc Shadow",
+  "type": "parent"
+ },
+ {
+  "source": "Finch Song",
+  "target": "Arc Shadow",
+  "type": "parent"
+ },
+ {
+  "source": "Flurry",
+  "target": "Beach",
+  "type": "parent"
+ },
+ {
+  "source": "Lightleap",
+  "target": "Beechpaw (ShC)",
+  "type": "parent"
+ },
+ {
+  "source": "Blazefire",
+  "target": "Beechpaw (ShC)",
+  "type": "parent"
+ },
+ {
+  "source": "Flowerstem (AVoS)",
+  "target": "Beechpaw (ShC)",
+  "type": "mentor"
+ },
+ {
+  "source": "Alderbranch",
+  "target": "Songkit (TC)",
+  "type": "parent"
+ },
+ {
+  "source": "Alderbranch",
+  "target": "Palepaw (StoC)",
+  "type": "parent"
+ },
+ {
+  "source": "Barley's mother",
+  "target": "Hoot",
+  "type": "parent"
+ },
+ {
+  "source": "Barley's mother",
+  "target": "Jumper",
+  "type": "parent"
+ },
+ {
+  "source": "Barley's mother",
+  "target": "Violet (KP)",
+  "type": "parent"
+ },
+ {
+  "source": "Moonflower",
+  "target": "Bluestar",
+  "type": "parent"
+ },
+ {
+  "source": "Stormtail",
+  "target": "Bluestar",
+  "type": "parent"
+ },
+ {
   "source": "Bluestar",
   "target": "Oakheart",
   "type": "mate"
@@ -25,6 +580,16 @@
   "type": "adoptive"
  },
  {
+  "source": "Stonepelt",
+  "target": "Bluestar",
+  "type": "mentor"
+ },
+ {
+  "source": "Sunstar",
+  "target": "Bluestar",
+  "type": "mentor"
+ },
+ {
   "source": "Bluestar",
   "target": "Frostfur",
   "type": "mentor"
@@ -40,69 +605,689 @@
   "type": "mentor"
  },
  {
-  "source": "Dustpelt",
-  "target": "Ferncloud",
+  "source": "Daisy (TC)",
+  "target": "Berrynose",
+  "type": "parent"
+ },
+ {
+  "source": "Smoky",
+  "target": "Berrynose",
+  "type": "parent"
+ },
+ {
+  "source": "Berrynose",
+  "target": "Poppyfrost",
   "type": "mate"
  },
  {
-  "source": "Redtail",
-  "target": "Dustpelt",
-  "type": "mentor"
- },
- {
-  "source": "Darkstripe",
-  "target": "Dustpelt",
-  "type": "mentor"
- },
- {
-  "source": "Dustpelt",
-  "target": "Ashfur (TC)",
-  "type": "mentor"
- },
- {
-  "source": "Dustpelt",
-  "target": "Sorreltail",
-  "type": "mentor"
- },
- {
-  "source": "Willowpelt",
-  "target": "Graystripe",
+  "source": "Berrynose",
+  "target": "Molewhisker (TC)",
   "type": "parent"
  },
  {
-  "source": "Graystripe",
-  "target": "Silverstream",
+  "source": "Berrynose",
+  "target": "Cherryfall",
+  "type": "parent"
+ },
+ {
+  "source": "Brambleclaw",
+  "target": "Berrynose",
+  "type": "mentor"
+ },
+ {
+  "source": "Blizzardwing",
+  "target": "Blackstar",
+  "type": "parent"
+ },
+ {
+  "source": "Hollyflower",
+  "target": "Blackstar",
+  "type": "parent"
+ },
+ {
+  "source": "Blackstar",
+  "target": "Dawncloud",
+  "type": "mentor"
+ },
+ {
+  "source": "Ferncloud",
+  "target": "Birchfall",
+  "type": "parent"
+ },
+ {
+  "source": "Dustpelt",
+  "target": "Birchfall",
+  "type": "parent"
+ },
+ {
+  "source": "Birchfall",
+  "target": "Whitewing",
   "type": "mate"
  },
  {
-  "source": "Graystripe",
-  "target": "Stormfur",
+  "source": "Birchfall",
+  "target": "Ivypool",
+  "type": "parent"
+ },
+ {
+  "source": "Birchfall",
+  "target": "Dovewing",
+  "type": "parent"
+ },
+ {
+  "source": "Husker",
+  "target": "Birdy",
+  "type": "parent"
+ },
+ {
+  "source": "Moss (KP)",
+  "target": "Birdy",
+  "type": "parent"
+ },
+ {
+  "source": "Piketooth",
+  "target": "Blackclaw",
+  "type": "parent"
+ },
+ {
+  "source": "Shimmerpelt (CrP)",
+  "target": "Blackclaw",
+  "type": "parent"
+ },
+ {
+  "source": "Blackclaw",
+  "target": "Mistystar",
+  "type": "mate"
+ },
+ {
+  "source": "Blackclaw",
+  "target": "Reedwhisker",
+  "type": "parent"
+ },
+ {
+  "source": "Blackclaw",
+  "target": "Perchkit",
+  "type": "parent"
+ },
+ {
+  "source": "Blackclaw",
+  "target": "Pikepaw (MO)",
+  "type": "parent"
+ },
+ {
+  "source": "Blackclaw",
+  "target": "Primrosepaw",
+  "type": "parent"
+ },
+ {
+  "source": "Hailstar",
+  "target": "Blackclaw",
+  "type": "mentor"
+ },
+ {
+  "source": "Blackclaw",
+  "target": "Heavystep",
+  "type": "mentor"
+ },
+ {
+  "source": "Blackclaw",
+  "target": "Voletooth",
+  "type": "mentor"
+ },
+ {
+  "source": "Birdflight",
+  "target": "Cloudstar",
+  "type": "mate"
+ },
+ {
+  "source": "Birdflight",
+  "target": "Spottedpelt",
+  "type": "parent"
+ },
+ {
+  "source": "Birdflight",
+  "target": "Gorseclaw (TC)",
+  "type": "parent"
+ },
+ {
+  "source": "Millie",
+  "target": "Blossomfall",
   "type": "parent"
  },
  {
   "source": "Graystripe",
-  "target": "Feathertail",
+  "target": "Blossomfall",
   "type": "parent"
  },
  {
-  "source": "Lionheart",
-  "target": "Graystripe",
+  "source": "Blossomfall",
+  "target": "Thornclaw",
+  "type": "mate"
+ },
+ {
+  "source": "Blossomfall",
+  "target": "Stemleaf",
+  "type": "parent"
+ },
+ {
+  "source": "Blossomfall",
+  "target": "Shellfur",
+  "type": "parent"
+ },
+ {
+  "source": "Blossomfall",
+  "target": "Eaglewing",
+  "type": "parent"
+ },
+ {
+  "source": "Blossomfall",
+  "target": "Plumstone",
+  "type": "parent"
+ },
+ {
+  "source": "Hazeltail",
+  "target": "Blossomfall",
   "type": "mentor"
  },
  {
-  "source": "Tigerstar (TPB)",
-  "target": "Graystripe",
+  "source": "Blossomfall",
+  "target": "Hollytuft",
   "type": "mentor"
  },
  {
-  "source": "Graystripe",
-  "target": "Brackenfur",
+  "source": "Finchflight",
+  "target": "Blossomkit (ShC)",
+  "type": "parent"
+ },
+ {
+  "source": "Dawncloud",
+  "target": "Blossomkit (ShC)",
+  "type": "parent"
+ },
+ {
+  "source": "Beechstar",
+  "target": "Mothpelt",
+  "type": "parent"
+ },
+ {
+  "source": "Billystorm",
+  "target": "Leafstar",
+  "type": "mate"
+ },
+ {
+  "source": "Billystorm",
+  "target": "Stormheart",
+  "type": "parent"
+ },
+ {
+  "source": "Billystorm",
+  "target": "Firefern",
+  "type": "parent"
+ },
+ {
+  "source": "Billystorm",
+  "target": "Harrybrook",
+  "type": "parent"
+ },
+ {
+  "source": "Billystorm",
+  "target": "Snookthorn",
   "type": "mentor"
  },
  {
-  "source": "Graystripe",
-  "target": "Stormfur",
+  "source": "Billystorm",
+  "target": "Pebbleshine",
   "type": "mentor"
+ },
+ {
+  "source": "Birdsong",
+  "target": "Tanglewhisker",
+  "type": "mate"
+ },
+ {
+  "source": "Hailstar",
+  "target": "Beetlenose",
+  "type": "parent"
+ },
+ {
+  "source": "Echomist",
+  "target": "Beetlenose",
+  "type": "parent"
+ },
+ {
+  "source": "Beetlenose",
+  "target": "Sunfish",
+  "type": "mate"
+ },
+ {
+  "source": "Beetlenose",
+  "target": "Vixenleap",
+  "type": "parent"
+ },
+ {
+  "source": "Beetlenose",
+  "target": "Grasswhisker",
+  "type": "parent"
+ },
+ {
+  "source": "Beetlenose",
+  "target": "Whiteclaw",
+  "type": "parent"
+ },
+ {
+  "source": "Ottersplash",
+  "target": "Beetlenose",
+  "type": "mentor"
+ },
+ {
+  "source": "Beetlenose",
+  "target": "Reedtail",
+  "type": "mentor"
+ },
+ {
+  "source": "Patchfoot",
+  "target": "Birdwing",
+  "type": "parent"
+ },
+ {
+  "source": "Clovertail",
+  "target": "Birdwing",
+  "type": "parent"
+ },
+ {
+  "source": "Birdwing",
+  "target": "Sagenose",
+  "type": "mate"
+ },
+ {
+  "source": "Birdwing",
+  "target": "Curlypaw",
+  "type": "parent"
+ },
+ {
+  "source": "Birdwing",
+  "target": "Snipkit",
+  "type": "parent"
+ },
+ {
+  "source": "Birdwing",
+  "target": "Fidgetflake",
+  "type": "parent"
+ },
+ {
+  "source": "Bouncefire",
+  "target": "Birdwing",
+  "type": "mentor"
+ },
+ {
+  "source": "Rockshade",
+  "target": "Birdwing",
+  "type": "mentor"
+ },
+ {
+  "source": "Tinycloud",
+  "target": "Birdwing",
+  "type": "mentor"
+ },
+ {
+  "source": "Blizzardwing",
+  "target": "Hollyflower",
+  "type": "mate"
+ },
+ {
+  "source": "Blizzardwing",
+  "target": "Featherstorm",
+  "type": "mate"
+ },
+ {
+  "source": "Blizzardwing",
+  "target": "Mosspaw (ShC)",
+  "type": "parent"
+ },
+ {
+  "source": "Blizzardwing",
+  "target": "Volewhisper",
+  "type": "parent"
+ },
+ {
+  "source": "Blizzardwing",
+  "target": "Flintfang",
+  "type": "parent"
+ },
+ {
+  "source": "Blizzardwing",
+  "target": "Dawncloud",
+  "type": "parent"
+ },
+ {
+  "source": "Blizzardwing",
+  "target": "Fernshade",
+  "type": "parent"
+ },
+ {
+  "source": "Blizzardwing",
+  "target": "Foxheart",
+  "type": "mentor"
+ },
+ {
+  "source": "Bess",
+  "target": "Reena (Ro)",
+  "type": "parent"
+ },
+ {
+  "source": "Misty",
+  "target": "Birch",
+  "type": "parent"
+ },
+ {
+  "source": "Petal (DotC)",
+  "target": "Birch",
+  "type": "adoptive"
+ },
+ {
+  "source": "Bloomheart",
+  "target": "Mapleshade",
+  "type": "mentor"
+ },
+ {
+  "source": "Oakstar",
+  "target": "Birchface",
+  "type": "parent"
+ },
+ {
+  "source": "Birchface",
+  "target": "Flowerpaw (TC)",
+  "type": "mentor"
+ },
+ {
+  "source": "Snowbird",
+  "target": "Beenose",
+  "type": "parent"
+ },
+ {
+  "source": "Scorchfur",
+  "target": "Beenose",
+  "type": "parent"
+ },
+ {
+  "source": "Dawnpelt",
+  "target": "Beenose",
+  "type": "mentor"
+ },
+ {
+  "source": "Pinenose",
+  "target": "Birchbark",
+  "type": "parent"
+ },
+ {
+  "source": "Spikefur",
+  "target": "Birchbark",
+  "type": "parent"
+ },
+ {
+  "source": "Snowbird",
+  "target": "Berryheart",
+  "type": "parent"
+ },
+ {
+  "source": "Scorchfur",
+  "target": "Berryheart",
+  "type": "parent"
+ },
+ {
+  "source": "Berryheart",
+  "target": "Sparrowtail",
+  "type": "mate"
+ },
+ {
+  "source": "Berryheart",
+  "target": "Needletail",
+  "type": "parent"
+ },
+ {
+  "source": "Berryheart",
+  "target": "Sunbeam",
+  "type": "parent"
+ },
+ {
+  "source": "Berryheart",
+  "target": "Hollowspring",
+  "type": "parent"
+ },
+ {
+  "source": "Berryheart",
+  "target": "Spireclaw",
+  "type": "parent"
+ },
+ {
+  "source": "Slate (DotC)",
+  "target": "Black Ear",
+  "type": "parent"
+ },
+ {
+  "source": "Gray Wing",
+  "target": "Black Ear",
+  "type": "parent"
+ },
+ {
+  "source": "Spotted Fur",
+  "target": "Black Ear",
+  "type": "mentor"
+ },
+ {
+  "source": "Moth Flight",
+  "target": "Blue Whisker",
+  "type": "parent"
+ },
+ {
+  "source": "Micah",
+  "target": "Blue Whisker",
+  "type": "parent"
+ },
+ {
+  "source": "Thunderstar",
+  "target": "Blue Whisker",
+  "type": "adoptive"
+ },
+ {
+  "source": "Cherrytail",
+  "target": "Blossomheart",
+  "type": "parent"
+ },
+ {
+  "source": "Sharpclaw (SkC)",
+  "target": "Blossomheart",
+  "type": "parent"
+ },
+ {
+  "source": "Blossomheart",
+  "target": "Harrybrook",
+  "type": "mate"
+ },
+ {
+  "source": "Blossomheart",
+  "target": "Ridgeglow",
+  "type": "parent"
+ },
+ {
+  "source": "Blossomheart",
+  "target": "Duskshine",
+  "type": "parent"
+ },
+ {
+  "source": "Bouncefire",
+  "target": "Blossomheart",
+  "type": "mentor"
+ },
+ {
+  "source": "Blossomheart",
+  "target": "Finleap",
+  "type": "mentor"
+ },
+ {
+  "source": "Blossomheart",
+  "target": "Pigeonfoot",
+  "type": "mentor"
+ },
+ {
+  "source": "Blossomheart",
+  "target": "Turtlecrawl",
+  "type": "mentor"
+ },
+ {
+  "source": "Violet (KP)",
+  "target": "Bellaleaf",
+  "type": "parent"
+ },
+ {
+  "source": "Bellaleaf",
+  "target": "Rabbitleap (SkC)",
+  "type": "mate"
+ },
+ {
+  "source": "Bellaleaf",
+  "target": "Wrenflight (SkC)",
+  "type": "parent"
+ },
+ {
+  "source": "Tinycloud",
+  "target": "Bellaleaf",
+  "type": "mentor"
+ },
+ {
+  "source": "Ravenpaw",
+  "target": "Bellaleaf",
+  "type": "mentor"
+ },
+ {
+  "source": "Bellaleaf",
+  "target": "Reedclaw",
+  "type": "mentor"
+ },
+ {
+  "source": "Bellaleaf",
+  "target": "Finleap",
+  "type": "mentor"
+ },
+ {
+  "source": "Snowbird",
+  "target": "Bluebellkit",
+  "type": "parent"
+ },
+ {
+  "source": "Scorchfur",
+  "target": "Bluebellkit",
+  "type": "parent"
+ },
+ {
+  "source": "Blazefire",
+  "target": "Lightleap",
+  "type": "mate"
+ },
+ {
+  "source": "Blazefire",
+  "target": "Poolpaw",
+  "type": "parent"
+ },
+ {
+  "source": "Blazefire",
+  "target": "Quickpaw (ShC)",
+  "type": "parent"
+ },
+ {
+  "source": "Strikestone",
+  "target": "Blazefire",
+  "type": "mentor"
+ },
+ {
+  "source": "Beetlewhisker/Appearance errors",
+  "target": "Harelight",
+  "type": "mentor"
+ },
+ {
+  "source": "Icestar",
+  "target": "Beetlewhisker",
+  "type": "parent"
+ },
+ {
+  "source": "Mintfur (RC)",
+  "target": "Beetlewhisker",
+  "type": "parent"
+ },
+ {
+  "source": "Bigteeth",
+  "target": "Rustpaw",
+  "type": "mentor"
+ },
+ {
+  "source": "Bigteeth",
+  "target": "Darkpaw (WaC)",
+  "type": "mentor"
+ },
+ {
+  "source": "Bigteeth",
+  "target": "Pricklepaw",
+  "type": "mentor"
+ },
+ {
+  "source": "Nectarsong",
+  "target": "Beesting",
+  "type": "parent"
+ },
+ {
+  "source": "Dewspring",
+  "target": "Beesting",
+  "type": "parent"
+ },
+ {
+  "source": "Sunnypelt",
+  "target": "Beesting",
+  "type": "mentor"
+ },
+ {
+  "source": "Nectarsong",
+  "target": "Beetleshine",
+  "type": "parent"
+ },
+ {
+  "source": "Dewspring",
+  "target": "Beetleshine",
+  "type": "parent"
+ },
+ {
+  "source": "Reedclaw",
+  "target": "Beetleshine",
+  "type": "mentor"
+ },
+ {
+  "source": "Tigerstar (AVoS)",
+  "target": "Birchfeather",
+  "type": "parent"
+ },
+ {
+  "source": "Dovewing",
+  "target": "Birchfeather",
+  "type": "parent"
+ },
+ {
+  "source": "Birchfeather",
+  "target": "Ridgeglow",
+  "type": "mate"
+ },
+ {
+  "source": "Slatefur",
+  "target": "Birchfeather",
+  "type": "mentor"
+ },
+ {
+  "source": "Slatefur",
+  "target": "Bloompetal",
+  "type": "parent"
+ },
+ {
+  "source": "Cinnamontail",
+  "target": "Bloompetal",
+  "type": "parent"
  },
  {
   "source": "Goldenflower",
@@ -115,99 +1300,49 @@
   "type": "parent"
  },
  {
+  "source": "Brambleclaw",
+  "target": "Squirrelstar",
+  "type": "mate"
+ },
+ {
+  "source": "Brambleclaw",
+  "target": "Juniperkit",
+  "type": "parent"
+ },
+ {
+  "source": "Brambleclaw",
+  "target": "Sparkpelt",
+  "type": "parent"
+ },
+ {
+  "source": "Brambleclaw",
+  "target": "Dandelionkit",
+  "type": "parent"
+ },
+ {
+  "source": "Brambleclaw",
+  "target": "Hollyleaf",
+  "type": "adoptive"
+ },
+ {
+  "source": "Brambleclaw",
+  "target": "Jayfeather",
+  "type": "adoptive"
+ },
+ {
+  "source": "Brambleclaw",
+  "target": "Lionblaze",
+  "type": "adoptive"
+ },
+ {
   "source": "Firestar",
   "target": "Brambleclaw",
   "type": "mentor"
  },
  {
-  "source": "Princess",
-  "target": "Cloudtail",
-  "type": "parent"
- },
- {
-  "source": "Brindleface",
-  "target": "Cloudtail",
-  "type": "adoptive"
- },
- {
-  "source": "Cloudtail",
-  "target": "Brightheart",
-  "type": "mate"
- },
- {
-  "source": "Firestar",
-  "target": "Cloudtail",
-  "type": "mentor"
- },
- {
-  "source": "Cloudtail",
-  "target": "Rainwhisker",
-  "type": "mentor"
- },
- {
-  "source": "Cloudtail",
-  "target": "Brightheart",
-  "type": "mentor"
- },
- {
-  "source": "Smallear",
-  "target": "Lionheart",
-  "type": "parent"
- },
- {
-  "source": "Speckletail",
-  "target": "Lionheart",
-  "type": "parent"
- },
- {
-  "source": "Lionheart",
-  "target": "Frostfur",
-  "type": "mate"
- },
- {
-  "source": "Lionheart",
-  "target": "Brackenfur",
-  "type": "parent"
- },
- {
-  "source": "Lionheart",
-  "target": "Thornclaw",
-  "type": "parent"
- },
- {
-  "source": "Lionheart",
-  "target": "Cinderpelt",
-  "type": "parent"
- },
- {
   "source": "Lionheart",
   "target": "Brightheart",
   "type": "parent"
- },
- {
-  "source": "Lionheart",
-  "target": "Firestar",
-  "type": "mentor"
- },
- {
-  "source": "Whitestorm",
-  "target": "Ferncloud",
-  "type": "parent"
- },
- {
-  "source": "Brindleface",
-  "target": "Ferncloud",
-  "type": "parent"
- },
- {
-  "source": "Darkstripe",
-  "target": "Ferncloud",
-  "type": "mentor"
- },
- {
-  "source": "Longtail",
-  "target": "Ferncloud",
-  "type": "mentor"
  },
  {
   "source": "Frostfur",
@@ -215,8 +1350,48 @@
   "type": "parent"
  },
  {
+  "source": "Brightheart",
+  "target": "Cloudtail",
+  "type": "mate"
+ },
+ {
+  "source": "Brightheart",
+  "target": "Whitewing",
+  "type": "parent"
+ },
+ {
+  "source": "Brightheart",
+  "target": "Dewnose",
+  "type": "parent"
+ },
+ {
+  "source": "Brightheart",
+  "target": "Snowbush",
+  "type": "parent"
+ },
+ {
+  "source": "Brightheart",
+  "target": "Lilyheart",
+  "type": "adoptive"
+ },
+ {
+  "source": "Brightheart",
+  "target": "Seedpaw",
+  "type": "adoptive"
+ },
+ {
   "source": "Whitestorm",
   "target": "Brightheart",
+  "type": "mentor"
+ },
+ {
+  "source": "Cloudtail",
+  "target": "Brightheart",
+  "type": "mentor"
+ },
+ {
+  "source": "Brightheart",
+  "target": "Jayfeather",
   "type": "mentor"
  },
  {
@@ -225,19 +1400,704 @@
   "type": "mentor"
  },
  {
-  "source": "Willowpelt",
-  "target": "Darkstripe",
+  "source": "Lionheart",
+  "target": "Brackenfur",
   "type": "parent"
  },
  {
-  "source": "Tigerstar (TPB)",
-  "target": "Darkstripe",
+  "source": "Frostfur",
+  "target": "Brackenfur",
+  "type": "parent"
+ },
+ {
+  "source": "Brackenfur",
+  "target": "Sorreltail",
+  "type": "mate"
+ },
+ {
+  "source": "Brackenfur",
+  "target": "Cinderheart",
+  "type": "parent"
+ },
+ {
+  "source": "Brackenfur",
+  "target": "Honeyfern",
+  "type": "parent"
+ },
+ {
+  "source": "Brackenfur",
+  "target": "Poppyfrost",
+  "type": "parent"
+ },
+ {
+  "source": "Brackenfur",
+  "target": "Lilyheart",
+  "type": "parent"
+ },
+ {
+  "source": "Brackenfur",
+  "target": "Seedpaw",
+  "type": "parent"
+ },
+ {
+  "source": "Brackenfur",
+  "target": "Molepaw (TNP)",
+  "type": "parent"
+ },
+ {
+  "source": "Graystripe",
+  "target": "Brackenfur",
   "type": "mentor"
  },
  {
-  "source": "Darkstripe",
-  "target": "Longtail",
+  "source": "Firestar",
+  "target": "Brackenfur",
   "type": "mentor"
+ },
+ {
+  "source": "Brackenfur",
+  "target": "Tawnypelt",
+  "type": "mentor"
+ },
+ {
+  "source": "Brackenfur",
+  "target": "Whitewing",
+  "type": "mentor"
+ },
+ {
+  "source": "Brackenfur",
+  "target": "Hollyleaf",
+  "type": "mentor"
+ },
+ {
+  "source": "Brackenfur",
+  "target": "Sorrelstripe",
+  "type": "mentor"
+ },
+ {
+  "source": "Brackenfur",
+  "target": "Snowkit (TPB)",
+  "type": "mentor"
+ },
+ {
+  "source": "Brackenfur",
+  "target": "Tigerstar (AVoS)",
+  "type": "mentor"
+ },
+ {
+  "source": "Brackenfur",
+  "target": "Icecloud",
+  "type": "mentor"
+ },
+ {
+  "source": "Raggedstar",
+  "target": "Brokenstar",
+  "type": "parent"
+ },
+ {
+  "source": "Yellowfang",
+  "target": "Brokenstar",
+  "type": "parent"
+ },
+ {
+  "source": "Lizardstripe",
+  "target": "Brokenstar",
+  "type": "adoptive"
+ },
+ {
+  "source": "Nightstar (ShC)",
+  "target": "Brokenstar",
+  "type": "mentor"
+ },
+ {
+  "source": "Brokenstar",
+  "target": "Stumpytail",
+  "type": "mentor"
+ },
+ {
+  "source": "Brokenstar",
+  "target": "Mosspaw (ShC)",
+  "type": "mentor"
+ },
+ {
+  "source": "Brokenstar",
+  "target": "Volewhisper",
+  "type": "mentor"
+ },
+ {
+  "source": "Robinwing (TC)",
+  "target": "Brindleface",
+  "type": "parent"
+ },
+ {
+  "source": "Fuzzypelt",
+  "target": "Brindleface",
+  "type": "parent"
+ },
+ {
+  "source": "Brindleface",
+  "target": "Whitestorm",
+  "type": "mate"
+ },
+ {
+  "source": "Brindleface",
+  "target": "Ferncloud",
+  "type": "parent"
+ },
+ {
+  "source": "Brindleface",
+  "target": "Elderkit",
+  "type": "parent"
+ },
+ {
+  "source": "Brindleface",
+  "target": "Tulipkit",
+  "type": "parent"
+ },
+ {
+  "source": "Brindleface",
+  "target": "Cloudtail",
+  "type": "adoptive"
+ },
+ {
+  "source": "Stormtail",
+  "target": "Brindleface",
+  "type": "mentor"
+ },
+ {
+  "source": "Brook Where Small Fish Swim",
+  "target": "Stormfur",
+  "type": "mate"
+ },
+ {
+  "source": "Brook Where Small Fish Swim",
+  "target": "Pine That Clings to Rock",
+  "type": "parent"
+ },
+ {
+  "source": "Brook Where Small Fish Swim",
+  "target": "Feather of Flying Hawk",
+  "type": "parent"
+ },
+ {
+  "source": "Brook Where Small Fish Swim",
+  "target": "Lark That Sings at Dawn",
+  "type": "parent"
+ },
+ {
+  "source": "Brook Where Small Fish Swim",
+  "target": "Breeze That Rustles the Leaves",
+  "type": "parent"
+ },
+ {
+  "source": "Mousewing",
+  "target": "Boulder",
+  "type": "mentor"
+ },
+ {
+  "source": "Boulder",
+  "target": "Wetfoot",
+  "type": "mentor"
+ },
+ {
+  "source": "Crowfeather",
+  "target": "Breezepelt",
+  "type": "parent"
+ },
+ {
+  "source": "Nightcloud",
+  "target": "Breezepelt",
+  "type": "parent"
+ },
+ {
+  "source": "Breezepelt",
+  "target": "Heathertail",
+  "type": "mate"
+ },
+ {
+  "source": "Breezepelt",
+  "target": "Smokehaze",
+  "type": "parent"
+ },
+ {
+  "source": "Breezepelt",
+  "target": "Brindlewing",
+  "type": "parent"
+ },
+ {
+  "source": "Breezepelt",
+  "target": "Woodsong",
+  "type": "parent"
+ },
+ {
+  "source": "Whitetail (WiC)",
+  "target": "Breezepelt",
+  "type": "mentor"
+ },
+ {
+  "source": "Breezepelt",
+  "target": "Boulderfur",
+  "type": "mentor"
+ },
+ {
+  "source": "Milkfur (YS)",
+  "target": "Brambleberry",
+  "type": "mentor"
+ },
+ {
+  "source": "Brambleberry",
+  "target": "Mudfur",
+  "type": "mentor"
+ },
+ {
+  "source": "Newtspeck",
+  "target": "Brownpaw",
+  "type": "parent"
+ },
+ {
+  "source": "Stumpytail",
+  "target": "Brownpaw",
+  "type": "mentor"
+ },
+ {
+  "source": "Clovertail",
+  "target": "Bouncefire",
+  "type": "parent"
+ },
+ {
+  "source": "Patchfoot",
+  "target": "Bouncefire",
+  "type": "mentor"
+ },
+ {
+  "source": "Bouncefire",
+  "target": "Sandynose",
+  "type": "mentor"
+ },
+ {
+  "source": "Bouncefire",
+  "target": "Honeytail",
+  "type": "mentor"
+ },
+ {
+  "source": "Millie",
+  "target": "Briarlight",
+  "type": "parent"
+ },
+ {
+  "source": "Graystripe",
+  "target": "Briarlight",
+  "type": "parent"
+ },
+ {
+  "source": "Thornclaw",
+  "target": "Briarlight",
+  "type": "mentor"
+ },
+ {
+  "source": "Broken Shadow",
+  "target": "Stone Song (PoT)",
+  "type": "mate"
+ },
+ {
+  "source": "Broken Shadow",
+  "target": "Fallen Leaves",
+  "type": "parent"
+ },
+ {
+  "source": "Shiningheart",
+  "target": "Brightspirit",
+  "type": "parent"
+ },
+ {
+  "source": "Braveheart",
+  "target": "Brightspirit",
+  "type": "parent"
+ },
+ {
+  "source": "Braveheart",
+  "target": "Shiningheart",
+  "type": "mate"
+ },
+ {
+  "source": "Brackenfoot",
+  "target": "Brightflower",
+  "type": "mate"
+ },
+ {
+  "source": "Brackenfoot",
+  "target": "Yellowfang",
+  "type": "parent"
+ },
+ {
+  "source": "Brackenfoot",
+  "target": "Rowanberry",
+  "type": "parent"
+ },
+ {
+  "source": "Brackenfoot",
+  "target": "Marigoldkit",
+  "type": "parent"
+ },
+ {
+  "source": "Brackenfoot",
+  "target": "Nutwhisker",
+  "type": "parent"
+ },
+ {
+  "source": "Brackenfoot",
+  "target": "Mintkit (ShC)",
+  "type": "parent"
+ },
+ {
+  "source": "Brackenfoot",
+  "target": "Raggedstar",
+  "type": "mentor"
+ },
+ {
+  "source": "Brightsky",
+  "target": "Mudfur",
+  "type": "mate"
+ },
+ {
+  "source": "Brightsky",
+  "target": "Leopardstar",
+  "type": "parent"
+ },
+ {
+  "source": "Brightsky",
+  "target": "Graypool",
+  "type": "mentor"
+ },
+ {
+  "source": "Silverflame",
+  "target": "Brightflower",
+  "type": "parent"
+ },
+ {
+  "source": "Brightflower",
+  "target": "Yellowfang",
+  "type": "parent"
+ },
+ {
+  "source": "Brightflower",
+  "target": "Rowanberry",
+  "type": "parent"
+ },
+ {
+  "source": "Brightflower",
+  "target": "Marigoldkit",
+  "type": "parent"
+ },
+ {
+  "source": "Brightflower",
+  "target": "Nutwhisker",
+  "type": "parent"
+ },
+ {
+  "source": "Brightflower",
+  "target": "Mintkit (ShC)",
+  "type": "parent"
+ },
+ {
+  "source": "Brightflower",
+  "target": "Wolfstep",
+  "type": "mentor"
+ },
+ {
+  "source": "Brackenwing",
+  "target": "Redclaw",
+  "type": "mate"
+ },
+ {
+  "source": "Brackenwing",
+  "target": "Shrewclaw",
+  "type": "parent"
+ },
+ {
+  "source": "Bright Stream",
+  "target": "Skystar",
+  "type": "mate"
+ },
+ {
+  "source": "Bright Stream",
+  "target": "Tiger Tail",
+  "type": "parent"
+ },
+ {
+  "source": "Bright Stream",
+  "target": "Pale Sky",
+  "type": "parent"
+ },
+ {
+  "source": "Palebird",
+  "target": "Bristlebark",
+  "type": "parent"
+ },
+ {
+  "source": "Woollytail",
+  "target": "Bristlebark",
+  "type": "parent"
+ },
+ {
+  "source": "Mistmouse",
+  "target": "Bristlebark",
+  "type": "mentor"
+ },
+ {
+  "source": "Heathertail",
+  "target": "Brindlewing",
+  "type": "parent"
+ },
+ {
+  "source": "Nightcloud",
+  "target": "Brindlewing",
+  "type": "mentor"
+ },
+ {
+  "source": "Icestar",
+  "target": "Breezeheart",
+  "type": "parent"
+ },
+ {
+  "source": "Mintfur (RC)",
+  "target": "Breezeheart",
+  "type": "parent"
+ },
+ {
+  "source": "Minnowtail",
+  "target": "Breezeheart",
+  "type": "mentor"
+ },
+ {
+  "source": "Breezeheart",
+  "target": "Graysky",
+  "type": "mentor"
+ },
+ {
+  "source": "Milkweed",
+  "target": "Bramble",
+  "type": "parent"
+ },
+ {
+  "source": "Splinter",
+  "target": "Bramble",
+  "type": "parent"
+ },
+ {
+  "source": "Petalfur",
+  "target": "Brackenpelt",
+  "type": "parent"
+ },
+ {
+  "source": "Mallownose",
+  "target": "Brackenpelt",
+  "type": "parent"
+ },
+ {
+  "source": "Brackenpelt",
+  "target": "Gorseclaw (RC)",
+  "type": "mentor"
+ },
+ {
+  "source": "Moth Flight",
+  "target": "Bubbling Stream",
+  "type": "parent"
+ },
+ {
+  "source": "Shadowstar",
+  "target": "Bubbling Stream",
+  "type": "adoptive"
+ },
+ {
+  "source": "Micah",
+  "target": "Bubbling Stream",
+  "type": "parent"
+ },
+ {
+  "source": "Cora",
+  "target": "Branch (HJ)",
+  "type": "parent"
+ },
+ {
+  "source": "Shorty",
+  "target": "Branch (HJ)",
+  "type": "parent"
+ },
+ {
+  "source": "Ivypool",
+  "target": "Bristlefrost",
+  "type": "parent"
+ },
+ {
+  "source": "Fernsong",
+  "target": "Bristlefrost",
+  "type": "parent"
+ },
+ {
+  "source": "Rosepetal",
+  "target": "Bristlefrost",
+  "type": "mentor"
+ },
+ {
+  "source": "Stormfur",
+  "target": "Breeze That Rustles the Leaves",
+  "type": "parent"
+ },
+ {
+  "source": "Spotfur",
+  "target": "Bristleclaw",
+  "type": "parent"
+ },
+ {
+  "source": "Stemleaf",
+  "target": "Bristleclaw",
+  "type": "parent"
+ },
+ {
+  "source": "Larkwing (BrS)",
+  "target": "Brookripple",
+  "type": "parent"
+ },
+ {
+  "source": "Mudclaw (WiC)",
+  "target": "Brushpaw",
+  "type": "mentor"
+ },
+ {
+  "source": "Featherpelt",
+  "target": "Branchleap",
+  "type": "parent"
+ },
+ {
+  "source": "Oatclaw",
+  "target": "Branchleap",
+  "type": "parent"
+ },
+ {
+  "source": "Dream Flow",
+  "target": "Bound Hunt",
+  "type": "parent"
+ },
+ {
+  "source": "Bound Hunt",
+  "target": "Gale Rise",
+  "type": "mate"
+ },
+ {
+  "source": "Bound Hunt",
+  "target": "Ripple Purr",
+  "type": "parent"
+ },
+ {
+  "source": "Bound Hunt",
+  "target": "Wander Blink",
+  "type": "parent"
+ },
+ {
+  "source": "Bound Hunt",
+  "target": "Wish Yowl",
+  "type": "parent"
+ },
+ {
+  "source": "Bound Hunt",
+  "target": "Run Pounce",
+  "type": "parent"
+ },
+ {
+  "source": "Bound Hunt",
+  "target": "Pebble Lunge",
+  "type": "adoptive"
+ },
+ {
+  "source": "Bound Hunt",
+  "target": "Thrush Roll",
+  "type": "adoptive"
+ },
+ {
+  "source": "Bound Hunt",
+  "target": "Fog Nuzzle",
+  "type": "adoptive"
+ },
+ {
+  "source": "Thriftear",
+  "target": "Brightmorning",
+  "type": "parent"
+ },
+ {
+  "source": "Gooseberry (Lo)",
+  "target": "Bottle",
+  "type": "parent"
+ },
+ {
+  "source": "Flea",
+  "target": "Bottle",
+  "type": "parent"
+ },
+ {
+  "source": "Moonglow",
+  "target": "Bottle",
+  "type": "mentor"
+ },
+ {
+  "source": "Oliver",
+  "target": "Cloudtail",
+  "type": "parent"
+ },
+ {
+  "source": "Princess",
+  "target": "Cloudtail",
+  "type": "parent"
+ },
+ {
+  "source": "Cloudtail",
+  "target": "Whitewing",
+  "type": "parent"
+ },
+ {
+  "source": "Cloudtail",
+  "target": "Snowbush",
+  "type": "parent"
+ },
+ {
+  "source": "Cloudtail",
+  "target": "Dewnose",
+  "type": "parent"
+ },
+ {
+  "source": "Firestar",
+  "target": "Cloudtail",
+  "type": "mentor"
+ },
+ {
+  "source": "Cloudtail",
+  "target": "Rainwhisker",
+  "type": "mentor"
+ },
+ {
+  "source": "Cloudtail",
+  "target": "Cinderheart",
+  "type": "mentor"
+ },
+ {
+  "source": "Cloudtail",
+  "target": "Toadstep",
+  "type": "mentor"
+ },
+ {
+  "source": "Cloudtail",
+  "target": "Flametail",
+  "type": "mentor"
+ },
+ {
+  "source": "Cloudtail",
+  "target": "Cherryfall",
+  "type": "mentor"
+ },
+ {
+  "source": "Lionheart",
+  "target": "Cinderpelt",
+  "type": "parent"
  },
  {
   "source": "Frostfur",
@@ -255,9 +2115,2709 @@
   "type": "mentor"
  },
  {
+  "source": "Cinderpelt",
+  "target": "Leafpool",
+  "type": "mentor"
+ },
+ {
+  "source": "Toadskip",
+  "target": "Clawface",
+  "type": "parent"
+ },
+ {
+  "source": "Clawface",
+  "target": "Rowanberry",
+  "type": "mate"
+ },
+ {
+  "source": "Clawface",
+  "target": "Cinderfur",
+  "type": "parent"
+ },
+ {
+  "source": "Clawface",
+  "target": "Stumpytail",
+  "type": "parent"
+ },
+ {
+  "source": "Crowtail",
+  "target": "Clawface",
+  "type": "mentor"
+ },
+ {
+  "source": "Clawface",
+  "target": "Littlecloud",
+  "type": "mentor"
+ },
+ {
+  "source": "Sorreltail",
+  "target": "Cinderheart",
+  "type": "parent"
+ },
+ {
+  "source": "Cinderheart",
+  "target": "Lionblaze",
+  "type": "mate"
+ },
+ {
+  "source": "Cinderheart",
+  "target": "Hollytuft",
+  "type": "parent"
+ },
+ {
+  "source": "Cinderheart",
+  "target": "Sorrelstripe",
+  "type": "parent"
+ },
+ {
+  "source": "Cinderheart",
+  "target": "Spotfur",
+  "type": "parent"
+ },
+ {
+  "source": "Cinderheart",
+  "target": "Flywhisker",
+  "type": "parent"
+ },
+ {
+  "source": "Cinderheart",
+  "target": "Fernsong",
+  "type": "parent"
+ },
+ {
+  "source": "Cinderheart",
+  "target": "Snaptooth",
+  "type": "parent"
+ },
+ {
+  "source": "Cinderheart",
+  "target": "Ivypool",
+  "type": "mentor"
+ },
+ {
+  "source": "Cinderheart",
+  "target": "Finchlight",
+  "type": "mentor"
+ },
+ {
+  "source": "Cloudstar",
+  "target": "Spottedpelt",
+  "type": "parent"
+ },
+ {
+  "source": "Cloudstar",
+  "target": "Gorseclaw (TC)",
+  "type": "parent"
+ },
+ {
+  "source": "Rowanberry",
+  "target": "Cinderfur",
+  "type": "parent"
+ },
+ {
+  "source": "Cinderfur",
+  "target": "Turtlekit (ShC)",
+  "type": "parent"
+ },
+ {
+  "source": "Cinderfur",
+  "target": "Quietkit",
+  "type": "parent"
+ },
+ {
+  "source": "Cinderfur",
+  "target": "Rubblekit",
+  "type": "parent"
+ },
+ {
+  "source": "Nutwhisker",
+  "target": "Cinderfur",
+  "type": "mentor"
+ },
+ {
+  "source": "Cherrytail",
+  "target": "Sharpclaw (SkC)",
+  "type": "mate"
+ },
+ {
+  "source": "Cherrytail",
+  "target": "Duskpaw",
+  "type": "parent"
+ },
+ {
+  "source": "Cherrytail",
+  "target": "Hawkwing",
+  "type": "parent"
+ },
+ {
+  "source": "Cherrytail",
+  "target": "Cloudmist",
+  "type": "parent"
+ },
+ {
+  "source": "Sharpclaw (SkC)",
+  "target": "Cherrytail",
+  "type": "mentor"
+ },
+ {
+  "source": "Firestar",
+  "target": "Cherrytail",
+  "type": "mentor"
+ },
+ {
+  "source": "Cherrytail",
+  "target": "Rockshade",
+  "type": "mentor"
+ },
+ {
+  "source": "Buzzardstar",
+  "target": "Fernpelt",
+  "type": "mate"
+ },
+ {
+  "source": "Buzzardstar",
+  "target": "Tansypaw (SkC)",
+  "type": "parent"
+ },
+ {
+  "source": "Buzzardstar",
+  "target": "Mintpaw (CJ)",
+  "type": "parent"
+ },
+ {
+  "source": "Buzzardstar",
+  "target": "Snailpaw",
+  "type": "parent"
+ },
+ {
+  "source": "Cloud Spots",
+  "target": "Pebble Heart",
+  "type": "mentor"
+ },
+ {
+  "source": "Cloud Spots",
+  "target": "Shivering Rose",
+  "type": "mentor"
+ },
+ {
+  "source": "Darkflower",
+  "target": "Cedarheart",
+  "type": "parent"
+ },
+ {
+  "source": "Scorchwind",
+  "target": "Cedarheart",
+  "type": "parent"
+ },
+ {
+  "source": "Russetfur",
+  "target": "Cedarheart",
+  "type": "mentor"
+ },
+ {
+  "source": "Millie",
+  "target": "Bumblestripe",
+  "type": "parent"
+ },
+ {
+  "source": "Graystripe",
+  "target": "Bumblestripe",
+  "type": "parent"
+ },
+ {
+  "source": "Bumblestripe",
+  "target": "Dovewing",
+  "type": "mate"
+ },
+ {
+  "source": "Mousewhisker",
+  "target": "Bumblestripe",
+  "type": "mentor"
+ },
+ {
+  "source": "Bumblestripe",
+  "target": "Seedpaw",
+  "type": "mentor"
+ },
+ {
+  "source": "Bumblestripe",
+  "target": "Leafshade",
+  "type": "mentor"
+ },
+ {
+  "source": "Bumblestripe",
+  "target": "Shellfur",
+  "type": "mentor"
+ },
+ {
+  "source": "Toadskip",
+  "target": "Cloudpelt",
+  "type": "parent"
+ },
+ {
+  "source": "Nettlespot",
+  "target": "Cloudpelt",
+  "type": "parent"
+ },
+ {
+  "source": "Raggedstar",
+  "target": "Cloudpelt",
+  "type": "mentor"
+ },
+ {
+  "source": "Cloudpelt",
+  "target": "Deerfoot",
+  "type": "mentor"
+ },
+ {
+  "source": "Cloud With Storm in Belly",
+  "target": "Teller of the Pointed Stones (TNP)",
+  "type": "parent"
+ },
+ {
+  "source": "Chasing Clouds",
+  "target": "Rising Moon",
+  "type": "mate"
+ },
+ {
+  "source": "Chasing Clouds",
+  "target": "Half Moon",
+  "type": "parent"
+ },
+ {
+  "source": "Emberstar (CotC)",
+  "target": "Cloudberry (RC)",
+  "type": "parent"
+ },
+ {
+  "source": "Cloudberry (RC)",
+  "target": "Ryewhisker",
+  "type": "mate"
+ },
+ {
+  "source": "Cherryfeather",
+  "target": "Pricklekit (WiC)",
+  "type": "parent"
+ },
+ {
+  "source": "Willie",
+  "target": "Cloudy",
+  "type": "parent"
+ },
+ {
+  "source": "Minty (Ro)",
+  "target": "Cloudy",
+  "type": "parent"
+ },
+ {
+  "source": "Poppyfrost",
+  "target": "Cherryfall",
+  "type": "parent"
+ },
+ {
+  "source": "Foxleap",
+  "target": "Cherryfall",
+  "type": "mentor"
+ },
+ {
+  "source": "Whitewing",
+  "target": "Cherryfall",
+  "type": "mentor"
+ },
+ {
+  "source": "Cherryfall",
+  "target": "Sparkpelt",
+  "type": "mentor"
+ },
+ {
+  "source": "Cedarpelt (RC)",
+  "target": "Lakeshine",
+  "type": "mate"
+ },
+ {
+  "source": "Cedarpelt (RC)",
+  "target": "Frogleap",
+  "type": "parent"
+ },
+ {
+  "source": "Cedarpelt (RC)",
+  "target": "Sunfish",
+  "type": "parent"
+ },
+ {
+  "source": "Cedarpelt (RC)",
+  "target": "Crookedstar",
+  "type": "mentor"
+ },
+ {
+  "source": "Cinders",
+  "target": "Sol's father",
+  "type": "mate"
+ },
+ {
+  "source": "Cinders",
+  "target": "Sol",
+  "type": "parent"
+ },
+ {
+  "source": "Cloudrunner",
+  "target": "Morningflower",
+  "type": "mate"
+ },
+ {
+  "source": "Cloudrunner",
+  "target": "Gorsepaw (WiC)",
+  "type": "parent"
+ },
+ {
+  "source": "Cloudrunner",
+  "target": "Quailkit (WiC)",
+  "type": "parent"
+ },
+ {
+  "source": "Cloudrunner",
+  "target": "Storkkit",
+  "type": "parent"
+ },
+ {
+  "source": "Cloudrunner",
+  "target": "Stagleap (WiC)",
+  "type": "mentor"
+ },
+ {
+  "source": "Echosnout",
+  "target": "Cloudberry (TC)",
+  "type": "mentor"
+ },
+ {
+  "source": "Cloudberry (TC)",
+  "target": "Goosefeather",
+  "type": "mentor"
+ },
+ {
+  "source": "Milkweed",
+  "target": "Clover (TC)",
+  "type": "parent"
+ },
+ {
+  "source": "Splinter",
+  "target": "Clover (TC)",
+  "type": "parent"
+ },
+ {
+  "source": "Snowbird",
+  "target": "Buster",
+  "type": "parent"
+ },
+ {
+  "source": "Scorchfur",
+  "target": "Buster",
+  "type": "parent"
+ },
+ {
+  "source": "Sharpclaw (SkC)",
+  "target": "Cloudmist",
+  "type": "parent"
+ },
+ {
+  "source": "Plumwillow",
+  "target": "Cloudmist",
+  "type": "mentor"
+ },
+ {
+  "source": "Cinnamontail",
+  "target": "Slatefur",
+  "type": "mate"
+ },
+ {
+  "source": "Cinnamontail",
+  "target": "Firbark",
+  "type": "parent"
+ },
+ {
+  "source": "Cinnamontail",
+  "target": "Whisperbreeze",
+  "type": "parent"
+ },
+ {
+  "source": "Cinnamontail",
+  "target": "Streamripple",
+  "type": "parent"
+ },
+ {
+  "source": "Sparrowtail",
+  "target": "Cinnamontail",
+  "type": "mentor"
+ },
+ {
+  "source": "Robinwing (TC)",
+  "target": "Chestnutkit",
+  "type": "parent"
+ },
+ {
+  "source": "Fuzzypelt",
+  "target": "Chestnutkit",
+  "type": "parent"
+ },
+ {
+  "source": "Robinwing (TC)",
+  "target": "Cherrypaw (Website)",
+  "type": "parent"
+ },
+ {
+  "source": "Fuzzypelt",
+  "target": "Cherrypaw (Website)",
+  "type": "parent"
+ },
+ {
+  "source": "Hawk (Sister)",
+  "target": "Chestnut",
+  "type": "parent"
+ },
+ {
+  "source": "Buttercup",
+  "target": "Rustpaw",
+  "type": "mentor"
+ },
+ {
+  "source": "Buttercup",
+  "target": "Darkpaw (WaC)",
+  "type": "mentor"
+ },
+ {
+  "source": "Buttercup",
+  "target": "Pricklepaw",
+  "type": "mentor"
+ },
+ {
+  "source": "Cleo",
+  "target": "Casper",
+  "type": "mate"
+ },
+ {
+  "source": "Cleo",
+  "target": "Scout",
+  "type": "parent"
+ },
+ {
+  "source": "Cleo",
+  "target": "Hunter",
+  "type": "parent"
+ },
+ {
+  "source": "Casper",
+  "target": "Scout",
+  "type": "parent"
+ },
+ {
+  "source": "Casper",
+  "target": "Hunter",
+  "type": "parent"
+ },
+ {
+  "source": "Claw Stretch",
+  "target": "Hop Scratch",
+  "type": "parent"
+ },
+ {
+  "source": "Crookedstar",
+  "target": "Willowbreeze",
+  "type": "mate"
+ },
+ {
+  "source": "Shellheart",
+  "target": "Crookedstar",
+  "type": "parent"
+ },
+ {
+  "source": "Rainflower",
+  "target": "Crookedstar",
+  "type": "parent"
+ },
+ {
   "source": "Crookedstar",
   "target": "Silverstream",
   "type": "parent"
+ },
+ {
+  "source": "Crookedstar",
+  "target": "Willowkit (Crookedstar's daughter)",
+  "type": "parent"
+ },
+ {
+  "source": "Crookedstar",
+  "target": "Minnowkit (CrP)",
+  "type": "parent"
+ },
+ {
+  "source": "Fleck",
+  "target": "Crookedstar",
+  "type": "mentor"
+ },
+ {
+  "source": "Crookedstar",
+  "target": "Sedgecreek",
+  "type": "mentor"
+ },
+ {
+  "source": "Deadfoot",
+  "target": "Crowfeather",
+  "type": "parent"
+ },
+ {
+  "source": "Crowfeather",
+  "target": "Leafpool",
+  "type": "mate"
+ },
+ {
+  "source": "Crowfeather",
+  "target": "Nightcloud",
+  "type": "mate"
+ },
+ {
+  "source": "Crowfeather",
+  "target": "Lionblaze",
+  "type": "parent"
+ },
+ {
+  "source": "Crowfeather",
+  "target": "Jayfeather",
+  "type": "parent"
+ },
+ {
+  "source": "Crowfeather",
+  "target": "Hollyleaf",
+  "type": "parent"
+ },
+ {
+  "source": "Mudclaw (WiC)",
+  "target": "Crowfeather",
+  "type": "mentor"
+ },
+ {
+  "source": "Crowfeather",
+  "target": "Heathertail",
+  "type": "mentor"
+ },
+ {
+  "source": "Crowfeather",
+  "target": "Featherpelt",
+  "type": "mentor"
+ },
+ {
+  "source": "Crowfeather",
+  "target": "Fernstripe",
+  "type": "mentor"
+ },
+ {
+  "source": "Crowfeather",
+  "target": "Hootwhisker",
+  "type": "mentor"
+ },
+ {
+  "source": "Rainfur (TC)",
+  "target": "Dappletail",
+  "type": "parent"
+ },
+ {
+  "source": "Windflight",
+  "target": "Dappletail",
+  "type": "parent"
+ },
+ {
+  "source": "Dappletail",
+  "target": "Runningwind",
+  "type": "mate"
+ },
+ {
+  "source": "Dappletail",
+  "target": "Featherkit (Website)",
+  "type": "parent"
+ },
+ {
+  "source": "Dappletail",
+  "target": "Cricketkit",
+  "type": "parent"
+ },
+ {
+  "source": "Windflight",
+  "target": "Dappletail",
+  "type": "mentor"
+ },
+ {
+  "source": "Dappletail",
+  "target": "Goldenflower",
+  "type": "mentor"
+ },
+ {
+  "source": "Daisy (TC)",
+  "target": "Smoky",
+  "type": "mate"
+ },
+ {
+  "source": "Daisy (TC)",
+  "target": "Spiderleg",
+  "type": "mate"
+ },
+ {
+  "source": "Daisy (TC)",
+  "target": "Hazeltail",
+  "type": "parent"
+ },
+ {
+  "source": "Daisy (TC)",
+  "target": "Rosepetal",
+  "type": "parent"
+ },
+ {
+  "source": "Daisy (TC)",
+  "target": "Toadstep",
+  "type": "parent"
+ },
+ {
+  "source": "Daisy (TC)",
+  "target": "Mousewhisker",
+  "type": "parent"
+ },
+ {
+  "source": "Clovertail",
+  "target": "Patchfoot",
+  "type": "mate"
+ },
+ {
+  "source": "Clovertail",
+  "target": "Rockshade",
+  "type": "parent"
+ },
+ {
+  "source": "Clovertail",
+  "target": "Sandynose",
+  "type": "parent"
+ },
+ {
+  "source": "Clovertail",
+  "target": "Tinycloud",
+  "type": "parent"
+ },
+ {
+  "source": "Clovertail",
+  "target": "Honeytail",
+  "type": "parent"
+ },
+ {
+  "source": "Mistystar",
+  "target": "Dapplenose",
+  "type": "mentor"
+ },
+ {
+  "source": "Crowfrost",
+  "target": "Dawnpelt",
+  "type": "mate"
+ },
+ {
+  "source": "Crowfrost",
+  "target": "Juniperclaw",
+  "type": "parent"
+ },
+ {
+  "source": "Crowfrost",
+  "target": "Strikestone",
+  "type": "parent"
+ },
+ {
+  "source": "Crowfrost",
+  "target": "Sleekwhisker",
+  "type": "parent"
+ },
+ {
+  "source": "Crowfrost",
+  "target": "Olivenose",
+  "type": "mentor"
+ },
+ {
+  "source": "Duskfur",
+  "target": "Copperpaw",
+  "type": "mentor"
+ },
+ {
+  "source": "Cora",
+  "target": "Shorty",
+  "type": "mate"
+ },
+ {
+  "source": "Cora",
+  "target": "Stone (HJ)",
+  "type": "parent"
+ },
+ {
+  "source": "Cora",
+  "target": "Night (Ro)",
+  "type": "parent"
+ },
+ {
+  "source": "Daisytail",
+  "target": "Specklepaw",
+  "type": "parent"
+ },
+ {
+  "source": "Crowtail",
+  "target": "Scorchwind",
+  "type": "mentor"
+ },
+ {
+  "source": "Waspwhisker",
+  "target": "Creekfeather",
+  "type": "parent"
+ },
+ {
+  "source": "Fallowfern",
+  "target": "Creekfeather",
+  "type": "parent"
+ },
+ {
+  "source": "Gorsetail (PoT)",
+  "target": "Crouchfoot",
+  "type": "mentor"
+ },
+ {
+  "source": "Crouchfoot",
+  "target": "Songleap",
+  "type": "mentor"
+ },
+ {
+  "source": "Duskfur",
+  "target": "Curlfeather",
+  "type": "parent"
+ },
+ {
+  "source": "Curlfeather",
+  "target": "Jayclaw",
+  "type": "mate"
+ },
+ {
+  "source": "Curlfeather",
+  "target": "Frostdawn",
+  "type": "parent"
+ },
+ {
+  "source": "Curlfeather",
+  "target": "Mistpool",
+  "type": "parent"
+ },
+ {
+  "source": "Curlfeather",
+  "target": "Graysky",
+  "type": "parent"
+ },
+ {
+  "source": "Coriander (BrS)",
+  "target": "Smoky",
+  "type": "mate"
+ },
+ {
+  "source": "Coriander (BrS)",
+  "target": "Coriander (DK)",
+  "type": "parent"
+ },
+ {
+  "source": "Coriander (BrS)",
+  "target": "Daisy (DK)",
+  "type": "parent"
+ },
+ {
+  "source": "Dewy Leaf",
+  "target": "Crow Muzzle",
+  "type": "parent"
+ },
+ {
+  "source": "Moon Shadow",
+  "target": "Crow Muzzle",
+  "type": "parent"
+ },
+ {
+  "source": "Dewy Leaf",
+  "target": "Dancing Leaf",
+  "type": "parent"
+ },
+ {
+  "source": "Moon Shadow",
+  "target": "Dancing Leaf",
+  "type": "parent"
+ },
+ {
+  "source": "Snowbird",
+  "target": "Cloverfoot",
+  "type": "parent"
+ },
+ {
+  "source": "Scorchfur",
+  "target": "Cloverfoot",
+  "type": "parent"
+ },
+ {
+  "source": "Daisytoe",
+  "target": "Rooktail",
+  "type": "mate"
+ },
+ {
+  "source": "Daisytoe",
+  "target": "Moonflower",
+  "type": "parent"
+ },
+ {
+  "source": "Daisytoe",
+  "target": "Goosefeather",
+  "type": "parent"
+ },
+ {
+  "source": "Doestar",
+  "target": "Daisytoe",
+  "type": "mentor"
+ },
+ {
+  "source": "Cow (MFV)",
+  "target": "Micah",
+  "type": "adoptive"
+ },
+ {
+  "source": "Juniper Branch",
+  "target": "Dangling Leaf",
+  "type": "parent"
+ },
+ {
+  "source": "Ravenstar",
+  "target": "Dangling Leaf",
+  "type": "parent"
+ },
+ {
+  "source": "Squirrelstar",
+  "target": "Dandelionkit",
+  "type": "parent"
+ },
+ {
+  "source": "Sagenose",
+  "target": "Curlypaw",
+  "type": "parent"
+ },
+ {
+  "source": "Hawkwing",
+  "target": "Curlypaw",
+  "type": "mentor"
+ },
+ {
+  "source": "Snowbird",
+  "target": "Conefoot",
+  "type": "parent"
+ },
+ {
+  "source": "Scorchfur",
+  "target": "Conefoot",
+  "type": "parent"
+ },
+ {
+  "source": "Tawnypelt",
+  "target": "Conefoot",
+  "type": "mentor"
+ },
+ {
+  "source": "Crystal",
+  "target": "Jake (TPB)",
+  "type": "parent"
+ },
+ {
+  "source": "Crystal",
+  "target": "Ferris",
+  "type": "parent"
+ },
+ {
+  "source": "Crystal",
+  "target": "Whiskers",
+  "type": "parent"
+ },
+ {
+  "source": "Lakeheart",
+  "target": "Dappletuft",
+  "type": "parent"
+ },
+ {
+  "source": "Lizardtail",
+  "target": "Dappletuft",
+  "type": "parent"
+ },
+ {
+  "source": "Duskfur",
+  "target": "Dappletuft",
+  "type": "mentor"
+ },
+ {
+  "source": "Runningwind",
+  "target": "Cricketkit",
+  "type": "parent"
+ },
+ {
+  "source": "Furze",
+  "target": "Creek",
+  "type": "parent"
+ },
+ {
+  "source": "Furze",
+  "target": "Creek",
+  "type": "mentor"
+ },
+ {
+  "source": "Daffodil",
+  "target": "Fang",
+  "type": "mate"
+ },
+ {
+  "source": "Smoky",
+  "target": "Coriander (DK)",
+  "type": "parent"
+ },
+ {
+  "source": "Smoky",
+  "target": "Daisy (DK)",
+  "type": "parent"
+ },
+ {
+  "source": "Croak",
+  "target": "Snow Tail",
+  "type": "mentor"
+ },
+ {
+  "source": "Ripplegrass",
+  "target": "Crowstar",
+  "type": "parent"
+ },
+ {
+  "source": "Fawnpelt",
+  "target": "Curlkit (TC)",
+  "type": "parent"
+ },
+ {
+  "source": "Tumbletail",
+  "target": "Curlkit (TC)",
+  "type": "parent"
+ },
+ {
+  "source": "Wrenflight (SkC)",
+  "target": "Conekit (SkC)",
+  "type": "parent"
+ },
+ {
+  "source": "Gravelnose",
+  "target": "Conekit (SkC)",
+  "type": "parent"
+ },
+ {
+  "source": "Stem",
+  "target": "Dandelion (cat)",
+  "type": "parent"
+ },
+ {
+  "source": "Peony",
+  "target": "Dandelion (cat)",
+  "type": "parent"
+ },
+ {
+  "source": "Willowpelt",
+  "target": "Darkstripe",
+  "type": "parent"
+ },
+ {
+  "source": "Tigerstar (TPB)",
+  "target": "Darkstripe",
+  "type": "mentor"
+ },
+ {
+  "source": "Darkstripe",
+  "target": "Longtail",
+  "type": "mentor"
+ },
+ {
+  "source": "Darkstripe",
+  "target": "Dustpelt",
+  "type": "mentor"
+ },
+ {
+  "source": "Darkstripe",
+  "target": "Ferncloud",
+  "type": "mentor"
+ },
+ {
+  "source": "Meadowslip",
+  "target": "Deadfoot",
+  "type": "parent"
+ },
+ {
+  "source": "Hickorynose",
+  "target": "Deadfoot",
+  "type": "parent"
+ },
+ {
+  "source": "Deadfoot",
+  "target": "Eaglekit (WiC)",
+  "type": "parent"
+ },
+ {
+  "source": "Deadfoot",
+  "target": "Downkit",
+  "type": "parent"
+ },
+ {
+  "source": "Deadfoot",
+  "target": "Hillkit",
+  "type": "parent"
+ },
+ {
+  "source": "Tallstar",
+  "target": "Deadfoot",
+  "type": "mentor"
+ },
+ {
+  "source": "Deadfoot",
+  "target": "Onestar",
+  "type": "mentor"
+ },
+ {
+  "source": "Rowanclaw",
+  "target": "Dawnpelt",
+  "type": "parent"
+ },
+ {
+  "source": "Tawnypelt",
+  "target": "Dawnpelt",
+  "type": "parent"
+ },
+ {
+  "source": "Dawnpelt",
+  "target": "Juniperclaw",
+  "type": "parent"
+ },
+ {
+  "source": "Dawnpelt",
+  "target": "Strikestone",
+  "type": "parent"
+ },
+ {
+  "source": "Dawnpelt",
+  "target": "Sleekwhisker",
+  "type": "parent"
+ },
+ {
+  "source": "Ivytail (ShC)",
+  "target": "Dawnpelt",
+  "type": "mentor"
+ },
+ {
+  "source": "Spiderleg",
+  "target": "Dawnpelt",
+  "type": "mentor"
+ },
+ {
+  "source": "Dawnpelt",
+  "target": "Violetshine",
+  "type": "mentor"
+ },
+ {
+  "source": "Darkflower",
+  "target": "Scorchwind",
+  "type": "mate"
+ },
+ {
+  "source": "Darkflower",
+  "target": "Rowanclaw",
+  "type": "parent"
+ },
+ {
+  "source": "Darkflower",
+  "target": "Lavenderkit",
+  "type": "parent"
+ },
+ {
+  "source": "Dawncloud",
+  "target": "Swampkit",
+  "type": "parent"
+ },
+ {
+  "source": "Dawncloud",
+  "target": "Finchflight",
+  "type": "mate"
+ },
+ {
+  "source": "Featherstorm",
+  "target": "Dawncloud",
+  "type": "parent"
+ },
+ {
+  "source": "Mosspelt",
+  "target": "Dawnflower",
+  "type": "parent"
+ },
+ {
+  "source": "Frogleap",
+  "target": "Dawnflower",
+  "type": "parent"
+ },
+ {
+  "source": "Dawnflower",
+  "target": "Pebblefoot",
+  "type": "parent"
+ },
+ {
+  "source": "Dawnflower",
+  "target": "Minnowtail",
+  "type": "parent"
+ },
+ {
+  "source": "Dawnflower",
+  "target": "Tumblekit",
+  "type": "parent"
+ },
+ {
+  "source": "Heavystep",
+  "target": "Dawnflower",
+  "type": "mentor"
+ },
+ {
+  "source": "Dewspots",
+  "target": "Sedgewhisker",
+  "type": "mentor"
+ },
+ {
+  "source": "Dawn River",
+  "target": "Fish Leap",
+  "type": "parent"
+ },
+ {
+  "source": "Dark Whiskers",
+  "target": "Shy Fawn",
+  "type": "mate"
+ },
+ {
+  "source": "Dark Whiskers",
+  "target": "Lion's Roar",
+  "type": "parent"
+ },
+ {
+  "source": "Falling Rain",
+  "target": "Dove's Wing",
+  "type": "parent"
+ },
+ {
+  "source": "Falcon Swoop",
+  "target": "Dove's Wing",
+  "type": "parent"
+ },
+ {
+  "source": "Dovewing",
+  "target": "Tigerstar (AVoS)",
+  "type": "mate"
+ },
+ {
+  "source": "Whitewing",
+  "target": "Dovewing",
+  "type": "parent"
+ },
+ {
+  "source": "Dovewing",
+  "target": "Shadowsight",
+  "type": "parent"
+ },
+ {
+  "source": "Dovewing",
+  "target": "Rowankit (ASC)",
+  "type": "parent"
+ },
+ {
+  "source": "Dovewing",
+  "target": "Pouncestep",
+  "type": "parent"
+ },
+ {
+  "source": "Dovewing",
+  "target": "Lightleap",
+  "type": "parent"
+ },
+ {
+  "source": "Lionblaze",
+  "target": "Dovewing",
+  "type": "mentor"
+ },
+ {
+  "source": "Dawnstripe",
+  "target": "Tallstar",
+  "type": "mentor"
+ },
+ {
+  "source": "Kinkfur",
+  "target": "Dewkit (ShC)",
+  "type": "parent"
+ },
+ {
+  "source": "Owlfur",
+  "target": "Dawnbright",
+  "type": "parent"
+ },
+ {
+  "source": "Softwing",
+  "target": "Dawnbright",
+  "type": "parent"
+ },
+ {
+  "source": "Sedgecreek",
+  "target": "Dawnbright",
+  "type": "mentor"
+ },
+ {
+  "source": "Dewnose",
+  "target": "Sorrelstripe",
+  "type": "mate"
+ },
+ {
+  "source": "Dewnose",
+  "target": "Myrtlebloom",
+  "type": "parent"
+ },
+ {
+  "source": "Whitewing",
+  "target": "Dewnose",
+  "type": "mentor"
+ },
+ {
+  "source": "Dewnose",
+  "target": "Thriftear",
+  "type": "mentor"
+ },
+ {
+  "source": "Deerleap",
+  "target": "Yellowfang",
+  "type": "mentor"
+ },
+ {
+  "source": "Lizardstripe",
+  "target": "Deerfoot",
+  "type": "parent"
+ },
+ {
+  "source": "Mudclaw (ShC)",
+  "target": "Deerfoot",
+  "type": "parent"
+ },
+ {
+  "source": "Dewy Leaf",
+  "target": "Sharp Hail",
+  "type": "mate"
+ },
+ {
+  "source": "Dewy Leaf",
+  "target": "Moon Shadow",
+  "type": "mate"
+ },
+ {
+  "source": "Dewy Leaf",
+  "target": "Sun Shadow",
+  "type": "parent"
+ },
+ {
+  "source": "Dewy Leaf",
+  "target": "Falling Dusk",
+  "type": "parent"
+ },
+ {
+  "source": "Dewy Leaf",
+  "target": "Morning Star",
+  "type": "parent"
+ },
+ {
+  "source": "Dewy Leaf",
+  "target": "Melting Ice",
+  "type": "parent"
+ },
+ {
+  "source": "Hareflight (TR)",
+  "target": "Doespring",
+  "type": "parent"
+ },
+ {
+  "source": "Mistmouse",
+  "target": "Doespring",
+  "type": "parent"
+ },
+ {
+  "source": "Doespring",
+  "target": "Pigeonflight",
+  "type": "mentor"
+ },
+ {
+  "source": "Dew",
+  "target": "Drizzle",
+  "type": "mentor"
+ },
+ {
+  "source": "Jagged Peak",
+  "target": "Dew Nose",
+  "type": "parent"
+ },
+ {
+  "source": "Holly",
+  "target": "Dew Nose",
+  "type": "parent"
+ },
+ {
+  "source": "Deerdapple",
+  "target": "Nettlebreeze",
+  "type": "mentor"
+ },
+ {
+  "source": "Star Flower",
+  "target": "Dew Petal",
+  "type": "parent"
+ },
+ {
+  "source": "Skystar",
+  "target": "Dew Petal",
+  "type": "parent"
+ },
+ {
+  "source": "Dawnfeather",
+  "target": "Nettlebreeze",
+  "type": "parent"
+ },
+ {
+  "source": "Dawn Mist",
+  "target": "Moss Tail",
+  "type": "mate"
+ },
+ {
+  "source": "Dawn Mist",
+  "target": "Pine Needle",
+  "type": "parent"
+ },
+ {
+  "source": "Dawn Mist",
+  "target": "Drizzle",
+  "type": "parent"
+ },
+ {
+  "source": "Dawn Mist",
+  "target": "Trout Fur",
+  "type": "mentor"
+ },
+ {
+  "source": "Smoke",
+  "target": "Darktail",
+  "type": "parent"
+ },
+ {
+  "source": "Onestar",
+  "target": "Darktail",
+  "type": "parent"
+ },
+ {
+  "source": "Darktail",
+  "target": "Marigold (DJ)",
+  "type": "mate"
+ },
+ {
+  "source": "Sol",
+  "target": "Darktail",
+  "type": "mentor"
+ },
+ {
+  "source": "Plumwillow",
+  "target": "Dewspring",
+  "type": "parent"
+ },
+ {
+  "source": "Sandynose",
+  "target": "Dewspring",
+  "type": "parent"
+ },
+ {
+  "source": "Hawkwing",
+  "target": "Dewspring",
+  "type": "adoptive"
+ },
+ {
+  "source": "Dewspring",
+  "target": "Nectarsong",
+  "type": "mate"
+ },
+ {
+  "source": "Macgyver",
+  "target": "Dewspring",
+  "type": "mentor"
+ },
+ {
+  "source": "Dewspring",
+  "target": "Rootspring",
+  "type": "mentor"
+ },
+ {
+  "source": "Fuzzypelt",
+  "target": "Dustpelt",
+  "type": "parent"
+ },
+ {
+  "source": "Robinwing (TC)",
+  "target": "Dustpelt",
+  "type": "parent"
+ },
+ {
+  "source": "Dustpelt",
+  "target": "Ferncloud",
+  "type": "mate"
+ },
+ {
+  "source": "Dustpelt",
+  "target": "Spiderleg",
+  "type": "parent"
+ },
+ {
+  "source": "Dustpelt",
+  "target": "Shrewpaw (TC)",
+  "type": "parent"
+ },
+ {
+  "source": "Dustpelt",
+  "target": "Foxleap",
+  "type": "parent"
+ },
+ {
+  "source": "Dustpelt",
+  "target": "Hollykit (TNP)",
+  "type": "parent"
+ },
+ {
+  "source": "Dustpelt",
+  "target": "Larchkit (TNP)",
+  "type": "parent"
+ },
+ {
+  "source": "Dustpelt",
+  "target": "Icecloud",
+  "type": "parent"
+ },
+ {
+  "source": "Redtail",
+  "target": "Dustpelt",
+  "type": "mentor"
+ },
+ {
+  "source": "Dustpelt",
+  "target": "Squirrelstar",
+  "type": "mentor"
+ },
+ {
+  "source": "Dustpelt",
+  "target": "Hazeltail",
+  "type": "mentor"
+ },
+ {
+  "source": "Dustpelt",
+  "target": "Sorreltail",
+  "type": "mentor"
+ },
+ {
+  "source": "Sandstorm",
+  "target": "Echosong",
+  "type": "mentor"
+ },
+ {
+  "source": "Echosong",
+  "target": "Frecklewish (SkC)",
+  "type": "mentor"
+ },
+ {
+  "source": "Echosong",
+  "target": "Fidgetflake",
+  "type": "mentor"
+ },
+ {
+  "source": "Stone Song (PoT)",
+  "target": "Fallen Leaves",
+  "type": "parent"
+ },
+ {
+  "source": "Emberfoot",
+  "target": "Sedgewhisker",
+  "type": "mate"
+ },
+ {
+  "source": "Emberfoot",
+  "target": "Larkwing (BrS)",
+  "type": "parent"
+ },
+ {
+  "source": "Emberfoot",
+  "target": "Featherpelt",
+  "type": "parent"
+ },
+ {
+  "source": "Emberfoot",
+  "target": "Silkypod",
+  "type": "parent"
+ },
+ {
+  "source": "Emberfoot",
+  "target": "Flufftail",
+  "type": "parent"
+ },
+ {
+  "source": "Emberfoot",
+  "target": "Sunstrike",
+  "type": "mentor"
+ },
+ {
+  "source": "Emberfoot",
+  "target": "Smokehaze",
+  "type": "mentor"
+ },
+ {
+  "source": "Duskfur",
+  "target": "Podlight",
+  "type": "parent"
+ },
+ {
+  "source": "Duskfur",
+  "target": "Shadepelt (AVoS)",
+  "type": "mentor"
+ },
+ {
+  "source": "Falcon Swoop",
+  "target": "Falling Rain",
+  "type": "mate"
+ },
+ {
+  "source": "Falcon Swoop",
+  "target": "Jay's Wing",
+  "type": "parent"
+ },
+ {
+  "source": "Falling Rain",
+  "target": "Jay's Wing",
+  "type": "parent"
+ },
+ {
+  "source": "Splashnose",
+  "target": "Fallowkit",
+  "type": "parent"
+ },
+ {
+  "source": "Splashnose",
+  "target": "Driftkit",
+  "type": "parent"
+ },
+ {
+  "source": "Fallowtail",
+  "target": "Reedfeather",
+  "type": "mate"
+ },
+ {
+  "source": "Fallowtail",
+  "target": "Graypool",
+  "type": "parent"
+ },
+ {
+  "source": "Fallowtail",
+  "target": "Willowbreeze",
+  "type": "parent"
+ },
+ {
+  "source": "Fallowtail",
+  "target": "Softwing",
+  "type": "mentor"
+ },
+ {
+  "source": "Fallowfern",
+  "target": "Waspwhisker",
+  "type": "mate"
+ },
+ {
+  "source": "Fallowfern",
+  "target": "Plumwillow",
+  "type": "parent"
+ },
+ {
+  "source": "Fallowfern",
+  "target": "Nettlesplash",
+  "type": "parent"
+ },
+ {
+  "source": "Fallowfern",
+  "target": "Rabbitleap (SkC)",
+  "type": "parent"
+ },
+ {
+  "source": "Pearnose",
+  "target": "Fallowpaw",
+  "type": "mentor"
+ },
+ {
+  "source": "Ebonyclaw",
+  "target": "Frecklewish (SkC)",
+  "type": "mentor"
+ },
+ {
+  "source": "Ebonyclaw",
+  "target": "Hawkwing",
+  "type": "mentor"
+ },
+ {
+  "source": "Sharpclaw (SkC)",
+  "target": "Egg",
+  "type": "mentor"
+ },
+ {
+  "source": "Echomist",
+  "target": "Hailstar",
+  "type": "mate"
+ },
+ {
+  "source": "Echomist",
+  "target": "Voleclaw",
+  "type": "parent"
+ },
+ {
+  "source": "Echomist",
+  "target": "Petaldust",
+  "type": "parent"
+ },
+ {
+  "source": "Echomist",
+  "target": "Mistystar",
+  "type": "mentor"
+ },
+ {
+  "source": "Hazelwing",
+  "target": "Emberkit (CJ)",
+  "type": "parent"
+ },
+ {
+  "source": "Windstar",
+  "target": "Emberkit (DotC)",
+  "type": "parent"
+ },
+ {
+  "source": "Gorsestar",
+  "target": "Emberkit (DotC)",
+  "type": "parent"
+ },
+ {
+  "source": "Windstar",
+  "target": "Dust Muzzle",
+  "type": "parent"
+ },
+ {
+  "source": "Gorsestar",
+  "target": "Dust Muzzle",
+  "type": "parent"
+ },
+ {
+  "source": "Dust Muzzle",
+  "target": "Silver Stripe",
+  "type": "mentor"
+ },
+ {
+  "source": "Sharp Hail",
+  "target": "Falling Dusk",
+  "type": "parent"
+ },
+ {
+  "source": "Jagged Peak",
+  "target": "Eagle Feather",
+  "type": "parent"
+ },
+ {
+  "source": "Holly",
+  "target": "Eagle Feather",
+  "type": "parent"
+ },
+ {
+  "source": "Mouse Ear",
+  "target": "Eagle Feather",
+  "type": "mentor"
+ },
+ {
+  "source": "Fallowsong",
+  "target": "Heronwing (TC)",
+  "type": "parent"
+ },
+ {
+  "source": "Fallowsong",
+  "target": "Rabbitleap (TC)",
+  "type": "parent"
+ },
+ {
+  "source": "Fallowsong",
+  "target": "Poppydawn",
+  "type": "parent"
+ },
+ {
+  "source": "Moss Tail",
+  "target": "Drizzle",
+  "type": "parent"
+ },
+ {
+  "source": "Drizzle",
+  "target": "Spider Paw",
+  "type": "mentor"
+ },
+ {
+  "source": "Juniper Branch",
+  "target": "Dusk Nose",
+  "type": "parent"
+ },
+ {
+  "source": "Ravenstar",
+  "target": "Dusk Nose",
+  "type": "parent"
+ },
+ {
+  "source": "Sharpclaw (SkC)",
+  "target": "Duskpaw",
+  "type": "parent"
+ },
+ {
+  "source": "Waspwhisker",
+  "target": "Duskpaw",
+  "type": "mentor"
+ },
+ {
+  "source": "Eaglestorm",
+  "target": "Squirrelwhisker",
+  "type": "mate"
+ },
+ {
+  "source": "Eaglestorm",
+  "target": "Windflight",
+  "type": "parent"
+ },
+ {
+  "source": "Thornclaw",
+  "target": "Eaglewing",
+  "type": "parent"
+ },
+ {
+  "source": "Eaglewing",
+  "target": "Myrtlebloom",
+  "type": "mentor"
+ },
+ {
+  "source": "Whitestorm",
+  "target": "Elderkit",
+  "type": "parent"
+ },
+ {
+  "source": "Pancakes",
+  "target": "Eggs",
+  "type": "parent"
+ },
+ {
+  "source": "Owlfur",
+  "target": "Emberdawn (LH)",
+  "type": "mentor"
+ },
+ {
+  "source": "Ottersplash",
+  "target": "Emberdawn (LH)",
+  "type": "mentor"
+ },
+ {
+  "source": "Emberdawn (TBC)",
+  "target": "Silverhawk",
+  "type": "mate"
+ },
+ {
+  "source": "Harrybrook",
+  "target": "Duskshine",
+  "type": "parent"
+ },
+ {
+  "source": "Rootspring",
+  "target": "Duskshine",
+  "type": "mentor"
+ },
+ {
+  "source": "Riverstar",
+  "target": "Dusk Smoke",
+  "type": "parent"
+ },
+ {
+  "source": "Finch Song",
+  "target": "Dusk Smoke",
+  "type": "parent"
+ },
+ {
+  "source": "Graysky",
+  "target": "Eelpaw",
+  "type": "parent"
+ },
+ {
+  "source": "Floatshimmer",
+  "target": "Eelpaw",
+  "type": "parent"
+ },
+ {
+  "source": "Lizardtail",
+  "target": "Eelpaw",
+  "type": "mentor"
+ },
+ {
+  "source": "Whitestorm",
+  "target": "Ferncloud",
+  "type": "parent"
+ },
+ {
+  "source": "Ferncloud",
+  "target": "Spiderleg",
+  "type": "parent"
+ },
+ {
+  "source": "Ferncloud",
+  "target": "Shrewpaw (TC)",
+  "type": "parent"
+ },
+ {
+  "source": "Ferncloud",
+  "target": "Foxleap",
+  "type": "parent"
+ },
+ {
+  "source": "Ferncloud",
+  "target": "Larchkit (TNP)",
+  "type": "parent"
+ },
+ {
+  "source": "Ferncloud",
+  "target": "Hollykit (TNP)",
+  "type": "parent"
+ },
+ {
+  "source": "Ferncloud",
+  "target": "Icecloud",
+  "type": "parent"
+ },
+ {
+  "source": "Longtail",
+  "target": "Ferncloud",
+  "type": "mentor"
+ },
+ {
+  "source": "Graystripe",
+  "target": "Feathertail",
+  "type": "parent"
+ },
+ {
+  "source": "Silverstream",
+  "target": "Feathertail",
+  "type": "parent"
+ },
+ {
+  "source": "Goldenflower",
+  "target": "Feathertail",
+  "type": "adoptive"
+ },
+ {
+  "source": "Mosspelt",
+  "target": "Feathertail",
+  "type": "adoptive"
+ },
+ {
+  "source": "Mistystar",
+  "target": "Feathertail",
+  "type": "mentor"
+ },
+ {
+  "source": "Sandstorm",
+  "target": "Feathertail",
+  "type": "mentor"
+ },
+ {
+  "source": "Tawnypelt",
+  "target": "Flametail",
+  "type": "parent"
+ },
+ {
+  "source": "Rowanclaw",
+  "target": "Flametail",
+  "type": "parent"
+ },
+ {
+  "source": "Littlecloud",
+  "target": "Flametail",
+  "type": "mentor"
+ },
+ {
+  "source": "Larksong (BP)",
+  "target": "Featherwhisker",
+  "type": "parent"
+ },
+ {
+  "source": "Flamenose",
+  "target": "Featherwhisker",
+  "type": "parent"
+ },
+ {
+  "source": "Goosefeather",
+  "target": "Featherwhisker",
+  "type": "mentor"
+ },
+ {
+  "source": "Featherwhisker",
+  "target": "Spottedleaf",
+  "type": "mentor"
+ },
+ {
+  "source": "Fernpelt",
+  "target": "Tansypaw (SkC)",
+  "type": "parent"
+ },
+ {
+  "source": "Fernpelt",
+  "target": "Mintpaw (CJ)",
+  "type": "parent"
+ },
+ {
+  "source": "Fernpelt",
+  "target": "Snailpaw",
+  "type": "parent"
+ },
+ {
+  "source": "Nightfur",
+  "target": "Fernpelt",
+  "type": "mentor"
+ },
+ {
+  "source": "Hollyflower",
+  "target": "Fernshade",
+  "type": "parent"
+ },
+ {
+  "source": "Fernshade",
+  "target": "Wolfstep",
+  "type": "mate"
+ },
+ {
+  "source": "Featherstorm",
+  "target": "Hal",
+  "type": "mate"
+ },
+ {
+  "source": "Featherstorm",
+  "target": "Raggedstar",
+  "type": "parent"
+ },
+ {
+  "source": "Featherstorm",
+  "target": "Scorchwind",
+  "type": "parent"
+ },
+ {
+  "source": "Featherstorm",
+  "target": "Mosspaw (ShC)",
+  "type": "parent"
+ },
+ {
+  "source": "Featherstorm",
+  "target": "Volewhisper",
+  "type": "parent"
+ },
+ {
+  "source": "Featherstorm",
+  "target": "Russetfur",
+  "type": "mentor"
+ },
+ {
+  "source": "Oakfur",
+  "target": "Ferretclaw",
+  "type": "mentor"
+ },
+ {
+  "source": "Ferretclaw",
+  "target": "Spikefur",
+  "type": "mentor"
+ },
+ {
+  "source": "Leafstar",
+  "target": "Firefern",
+  "type": "parent"
+ },
+ {
+  "source": "Jake (TPB)",
+  "target": "Firestar",
+  "type": "parent"
+ },
+ {
+  "source": "Nutmeg (TPB)",
+  "target": "Firestar",
+  "type": "parent"
+ },
+ {
+  "source": "Firestar",
+  "target": "Sandstorm",
+  "type": "mate"
+ },
+ {
+  "source": "Firestar",
+  "target": "Leafpool",
+  "type": "parent"
+ },
+ {
+  "source": "Firestar",
+  "target": "Squirrelstar",
+  "type": "parent"
+ },
+ {
+  "source": "Lionheart",
+  "target": "Firestar",
+  "type": "mentor"
+ },
+ {
+  "source": "Tigerstar (TPB)",
+  "target": "Firestar",
+  "type": "mentor"
+ },
+ {
+  "source": "Finchflight",
+  "target": "Swampkit",
+  "type": "parent"
+ },
+ {
+  "source": "Finchflight",
+  "target": "Rowanberry",
+  "type": "mentor"
+ },
+ {
+  "source": "Palebird",
+  "target": "Finchkit (WiC)",
+  "type": "parent"
+ },
+ {
+  "source": "Sandgorse",
+  "target": "Finchkit (WiC)",
+  "type": "parent"
+ },
+ {
+  "source": "Sedgewhisker",
+  "target": "Featherpelt",
+  "type": "parent"
+ },
+ {
+  "source": "Featherpelt",
+  "target": "Oatclaw",
+  "type": "mate"
+ },
+ {
+  "source": "Featherpelt",
+  "target": "Whistlebreeze",
+  "type": "parent"
+ },
+ {
+  "source": "Featherpelt",
+  "target": "Songleap",
+  "type": "parent"
+ },
+ {
+  "source": "Featherpelt",
+  "target": "Leafcurl",
+  "type": "parent"
+ },
+ {
+  "source": "Featherpelt",
+  "target": "Grassfur",
+  "type": "parent"
+ },
+ {
+  "source": "Featherpelt",
+  "target": "Flutterfoot",
+  "type": "parent"
+ },
+ {
+  "source": "Lionblaze",
+  "target": "Fernsong",
+  "type": "parent"
+ },
+ {
+  "source": "Fernsong",
+  "target": "Ivypool",
+  "type": "mate"
+ },
+ {
+  "source": "Fernsong",
+  "target": "Flipclaw",
+  "type": "parent"
+ },
+ {
+  "source": "Fernsong",
+  "target": "Thriftear",
+  "type": "parent"
+ },
+ {
+  "source": "Rosepetal",
+  "target": "Fernsong",
+  "type": "mentor"
+ },
+ {
+  "source": "Flamenose",
+  "target": "Larksong (BP)",
+  "type": "mate"
+ },
+ {
+  "source": "Flamenose",
+  "target": "Sunstar",
+  "type": "parent"
+ },
+ {
+  "source": "Flashnose",
+  "target": "Swiftbreeze",
+  "type": "parent"
+ },
+ {
+  "source": "Nettlebreeze",
+  "target": "Flashnose",
+  "type": "mentor"
+ },
+ {
+  "source": "Fernstripe",
+  "target": "Shellfur",
+  "type": "mate"
+ },
+ {
+  "source": "Fernstripe",
+  "target": "Shykit",
+  "type": "parent"
+ },
+ {
+  "source": "Fernstripe",
+  "target": "Puffkit",
+  "type": "parent"
+ },
+ {
+  "source": "Fernstripe",
+  "target": "Leapkit",
+  "type": "parent"
+ },
+ {
+  "source": "Sagenose",
+  "target": "Fidgetflake",
+  "type": "parent"
+ },
+ {
+  "source": "Frecklewish (SkC)",
+  "target": "Fidgetflake",
+  "type": "mentor"
+ },
+ {
+  "source": "Fidgetflake",
+  "target": "Rootspring",
+  "type": "mentor"
+ },
+ {
+  "source": "Fidgetflake",
+  "target": "Starlingflight",
+  "type": "mentor"
+ },
+ {
+  "source": "Plumwillow",
+  "target": "Finleap",
+  "type": "parent"
+ },
+ {
+  "source": "Sandynose",
+  "target": "Finleap",
+  "type": "parent"
+ },
+ {
+  "source": "Hawkwing",
+  "target": "Finleap",
+  "type": "adoptive"
+ },
+ {
+  "source": "Finleap",
+  "target": "Twigbranch",
+  "type": "mate"
+ },
+ {
+  "source": "Larksong (AVoS)",
+  "target": "Finleap",
+  "type": "mentor"
+ },
+ {
+  "source": "Finleap",
+  "target": "Snaptooth",
+  "type": "mentor"
+ },
+ {
+  "source": "Finleap",
+  "target": "Goldenheart",
+  "type": "mentor"
+ },
+ {
+  "source": "Violet Dawn",
+  "target": "Feather Ear",
+  "type": "parent"
+ },
+ {
+  "source": "Thunderstar",
+  "target": "Feather Ear",
+  "type": "parent"
+ },
+ {
+  "source": "Yarrowleaf",
+  "target": "Flaxfoot",
+  "type": "parent"
+ },
+ {
+  "source": "Nettle (AVoS)",
+  "target": "Flaxfoot",
+  "type": "parent"
+ },
+ {
+  "source": "Flaxfoot",
+  "target": "Pouncestep",
+  "type": "mate"
+ },
+ {
+  "source": "Flaxfoot",
+  "target": "Sprucetip",
+  "type": "parent"
+ },
+ {
+  "source": "Flaxfoot",
+  "target": "Redcloud",
+  "type": "parent"
+ },
+ {
+  "source": "Scorchfur",
+  "target": "Flaxfoot",
+  "type": "mentor"
+ },
+ {
+  "source": "Runningwind",
+  "target": "Featherkit (Website)",
+  "type": "parent"
+ },
+ {
+  "source": "Nutmeg (TPB)",
+  "target": "Filou",
+  "type": "parent"
+ },
+ {
+  "source": "Jake (TPB)",
+  "target": "Filou",
+  "type": "parent"
+ },
+ {
+  "source": "Sparkpelt",
+  "target": "Finchlight",
+  "type": "parent"
+ },
+ {
+  "source": "Larksong (AVoS)",
+  "target": "Finchlight",
+  "type": "parent"
+ },
+ {
+  "source": "Sorrelstripe",
+  "target": "Finchlight",
+  "type": "adoptive"
+ },
+ {
+  "source": "Finchlight",
+  "target": "Graywhisker",
+  "type": "mentor"
+ },
+ {
+  "source": "Stormfur",
+  "target": "Feather of Flying Hawk",
+  "type": "parent"
+ },
+ {
+  "source": "Gremlin",
+  "target": "Fang",
+  "type": "parent"
+ },
+ {
+  "source": "Slatefur",
+  "target": "Firbark",
+  "type": "parent"
+ },
+ {
+  "source": "Finch Song",
+  "target": "Riverstar",
+  "type": "mate"
+ },
+ {
+  "source": "Finch Song",
+  "target": "Ripple Shine",
+  "type": "parent"
+ },
+ {
+  "source": "Owl (cat)",
+  "target": "Finch Song",
+  "type": "parent"
+ },
+ {
+  "source": "Fernwhisper",
+  "target": "Huntheart",
+  "type": "mate"
+ },
+ {
+  "source": "Fernwhisper",
+  "target": "Windkit",
+  "type": "parent"
+ },
+ {
+  "source": "Fernwhisper",
+  "target": "Lightningkit",
+  "type": "parent"
+ },
+ {
+  "source": "Fernwhisper",
+  "target": "Rainkit (StoC)",
+  "type": "parent"
+ },
+ {
+  "source": "Fawnpelt",
+  "target": "Russetkit",
+  "type": "parent"
+ },
+ {
+  "source": "Fawnpelt",
+  "target": "Tumbletail",
+  "type": "mate"
+ },
+ {
+  "source": "Squirrelstar",
+  "target": "Foxleap",
+  "type": "mentor"
+ },
+ {
+  "source": "Sorreltail",
+  "target": "Foxleap",
+  "type": "mentor"
+ },
+ {
+  "source": "Sandstorm",
+  "target": "Foxleap",
+  "type": "mentor"
+ },
+ {
+  "source": "Poolcloud",
+  "target": "Foxheart",
+  "type": "parent"
+ },
+ {
+  "source": "Toadskip",
+  "target": "Foxheart",
+  "type": "parent"
+ },
+ {
+  "source": "Foxheart",
+  "target": "Nightstar (ShC)",
+  "type": "mentor"
+ },
+ {
+  "source": "Floss",
+  "target": "Smoky",
+  "type": "mate"
+ },
+ {
+  "source": "Speckle",
+  "target": "Frisk",
+  "type": "parent"
+ },
+ {
+  "source": "Hollyflower",
+  "target": "Flintfang",
+  "type": "parent"
+ },
+ {
+  "source": "Frecklewish (SkC)",
+  "target": "Tree",
+  "type": "mentor"
+ },
+ {
+  "source": "Frecklewish (SkC)",
+  "target": "Rootspring",
+  "type": "mentor"
+ },
+ {
+  "source": "Frecklewish (SkC)",
+  "target": "Starlingflight",
+  "type": "mentor"
+ },
+ {
+  "source": "Jessamy",
+  "target": "Flower (Ro)",
+  "type": "parent"
+ },
+ {
+  "source": "Quiet Rain",
+  "target": "Fluttering Bird",
+  "type": "parent"
+ },
+ {
+  "source": "Petal and Fox's mother",
+  "target": "Fox (DotC)",
+  "type": "parent"
+ },
+ {
+  "source": "Palebird",
+  "target": "Flytail",
+  "type": "parent"
+ },
+ {
+  "source": "Woollytail",
+  "target": "Flytail",
+  "type": "parent"
+ },
+ {
+  "source": "Hickorynose",
+  "target": "Flytail",
+  "type": "mentor"
+ },
+ {
+  "source": "Oakstar",
+  "target": "Frecklewish (TC)",
+  "type": "parent"
+ },
+ {
+  "source": "Lizardtail",
+  "target": "Foxnose",
+  "type": "mentor"
+ },
+ {
+  "source": "Star Flower",
+  "target": "Flower Foot",
+  "type": "parent"
+ },
+ {
+  "source": "Skystar",
+  "target": "Flower Foot",
+  "type": "parent"
+ },
+ {
+  "source": "Grassheart",
+  "target": "Flowerstem (AVoS)",
+  "type": "parent"
+ },
+ {
+  "source": "Stonewing",
+  "target": "Flowerstem (AVoS)",
+  "type": "parent"
+ },
+ {
+  "source": "Scorchfur",
+  "target": "Flowerstem (AVoS)",
+  "type": "mentor"
+ },
+ {
+  "source": "Mintfur (SkC)",
+  "target": "Fringewhisker",
+  "type": "parent"
+ },
+ {
+  "source": "Nettlesplash",
+  "target": "Fringewhisker",
+  "type": "parent"
+ },
+ {
+  "source": "Fringewhisker",
+  "target": "Spireclaw",
+  "type": "mate"
+ },
+ {
+  "source": "Harrybrook",
+  "target": "Fringewhisker",
+  "type": "mentor"
+ },
+ {
+  "source": "Nettlesplash",
+  "target": "Fringewhisker",
+  "type": "mentor"
+ },
+ {
+  "source": "Mintfur (SkC)",
+  "target": "Fringewhisker",
+  "type": "mentor"
+ },
+ {
+  "source": "Fringewhisker",
+  "target": "Sprucetip",
+  "type": "mentor"
+ },
+ {
+  "source": "Lionblaze",
+  "target": "Flywhisker",
+  "type": "parent"
+ },
+ {
+  "source": "Twigbranch",
+  "target": "Flywhisker",
+  "type": "mentor"
+ },
+ {
+  "source": "Ivypool",
+  "target": "Flipclaw",
+  "type": "parent"
+ },
+ {
+  "source": "Flipclaw",
+  "target": "Myrtlebloom",
+  "type": "mate"
+ },
+ {
+  "source": "Flipclaw",
+  "target": "Sunpaw (TC)",
+  "type": "parent"
+ },
+ {
+  "source": "Flipclaw",
+  "target": "Oakpaw (TC)",
+  "type": "parent"
+ },
+ {
+  "source": "Flipclaw",
+  "target": "Hazelpaw (CS)",
+  "type": "parent"
+ },
+ {
+  "source": "Hollytuft",
+  "target": "Flipclaw",
+  "type": "mentor"
+ },
+ {
+  "source": "Flipclaw",
+  "target": "Shinepool",
+  "type": "mentor"
+ },
+ {
+  "source": "Oatclaw",
+  "target": "Flutterfoot",
+  "type": "parent"
+ },
+ {
+  "source": "Flutterfoot",
+  "target": "Rustlepaw",
+  "type": "parent"
+ },
+ {
+  "source": "Flutterfoot",
+  "target": "Stretchpaw",
+  "type": "parent"
+ },
+ {
+  "source": "Sedgewhisker",
+  "target": "Flutterfoot",
+  "type": "mentor"
+ },
+ {
+  "source": "Havenpelt",
+  "target": "Fognose",
+  "type": "parent"
+ },
+ {
+  "source": "Sneezecloud",
+  "target": "Fognose",
+  "type": "parent"
+ },
+ {
+  "source": "Lizardtail",
+  "target": "Fognose",
+  "type": "mentor"
+ },
+ {
+  "source": "Sparkpelt",
+  "target": "Flickerkit",
+  "type": "parent"
+ },
+ {
+  "source": "Larksong (AVoS)",
+  "target": "Flickerkit",
+  "type": "parent"
+ },
+ {
+  "source": "Hawk (Sister)",
+  "target": "Flurry",
+  "type": "parent"
+ },
+ {
+  "source": "Flurry",
+  "target": "Slate (IH)",
+  "type": "parent"
+ },
+ {
+  "source": "Hawk (Sister)",
+  "target": "Flurry",
+  "type": "mentor"
+ },
+ {
+  "source": "Havenpelt",
+  "target": "Floatshimmer",
+  "type": "parent"
+ },
+ {
+  "source": "Sneezecloud",
+  "target": "Floatshimmer",
+  "type": "parent"
+ },
+ {
+  "source": "Floatshimmer",
+  "target": "Graysky",
+  "type": "mate"
+ },
+ {
+  "source": "Floatshimmer",
+  "target": "Heronpaw (CS)",
+  "type": "parent"
+ },
+ {
+  "source": "Sedgewhisker",
+  "target": "Flufftail",
+  "type": "parent"
+ },
+ {
+  "source": "Hootwhisker",
+  "target": "Flufftail",
+  "type": "mentor"
+ },
+ {
+  "source": "Fogdrift",
+  "target": "Stripebark",
+  "type": "mate"
+ },
+ {
+  "source": "Gale Rise",
+  "target": "Fog Nuzzle",
+  "type": "parent"
+ },
+ {
+  "source": "Stripebark",
+  "target": "Fog Nuzzle",
+  "type": "parent"
+ },
+ {
+  "source": "Gooseberry (Lo)",
+  "target": "Foam",
+  "type": "parent"
+ },
+ {
+  "source": "Flea",
+  "target": "Foam",
+  "type": "parent"
+ },
+ {
+  "source": "Goldenheart",
+  "target": "Foam",
+  "type": "mentor"
+ },
+ {
+  "source": "Flea",
+  "target": "Gooseberry (Lo)",
+  "type": "mate"
  },
  {
   "source": "Smallear",
@@ -291,88 +4851,33 @@
  },
  {
   "source": "Goldenflower",
+  "target": "Lynxkit",
+  "type": "parent"
+ },
+ {
+  "source": "Goldenflower",
   "target": "Stormfur",
   "type": "adoptive"
  },
  {
-  "source": "Goldenflower",
-  "target": "Feathertail",
-  "type": "adoptive"
- },
- {
-  "source": "Dappletail",
+  "source": "Thrushpelt (TC)",
   "target": "Goldenflower",
   "type": "mentor"
  },
  {
-  "source": "Silverstream",
-  "target": "Feathertail",
+  "source": "Robinwing (TC)",
+  "target": "Frostfur",
   "type": "parent"
  },
  {
-  "source": "Mosspelt",
-  "target": "Feathertail",
-  "type": "adoptive"
- },
- {
-  "source": "Mistystar",
-  "target": "Feathertail",
-  "type": "mentor"
- },
- {
-  "source": "Sandstorm",
-  "target": "Feathertail",
-  "type": "mentor"
- },
- {
-  "source": "Barley",
-  "target": "Ravenpaw",
-  "type": "mate"
+  "source": "Fuzzypelt",
+  "target": "Frostfur",
+  "type": "parent"
  },
  {
   "source": "Frostfur",
-  "target": "Brackenfur",
-  "type": "parent"
- },
- {
-  "source": "Brackenfur",
-  "target": "Sorreltail",
+  "target": "Lionheart",
   "type": "mate"
- },
- {
-  "source": "Firestar",
-  "target": "Brackenfur",
-  "type": "mentor"
- },
- {
-  "source": "Brackenfur",
-  "target": "Tawnypelt",
-  "type": "mentor"
- },
- {
-  "source": "Brackenfur",
-  "target": "Snowkit (TPB)",
-  "type": "mentor"
- },
- {
-  "source": "Raggedstar",
-  "target": "Brokenstar",
-  "type": "parent"
- },
- {
-  "source": "Yellowfang",
-  "target": "Brokenstar",
-  "type": "parent"
- },
- {
-  "source": "Nightstar (ShC)",
-  "target": "Brokenstar",
-  "type": "mentor"
- },
- {
-  "source": "Brokenstar",
-  "target": "Stumpytail",
-  "type": "mentor"
  },
  {
   "source": "Frostfur",
@@ -380,163 +4885,23 @@
   "type": "parent"
  },
  {
-  "source": "Brindleface",
-  "target": "Whitestorm",
-  "type": "mate"
- },
- {
-  "source": "Brindleface",
-  "target": "Ashfur (TC)",
+  "source": "Gorsetail (PoT)",
+  "target": "Thistleheart",
   "type": "parent"
  },
  {
-  "source": "Brindleface",
-  "target": "Elderkit",
+  "source": "Gorsetail (PoT)",
+  "target": "Swallowtail (WiC)",
   "type": "parent"
  },
  {
-  "source": "Brindleface",
-  "target": "Tulipkit",
+  "source": "Gorsetail (PoT)",
+  "target": "Sedgewhisker",
   "type": "parent"
  },
  {
-  "source": "Mudfur",
-  "target": "Leopardstar",
-  "type": "parent"
- },
- {
-  "source": "Leopardstar",
-  "target": "Whiteclaw",
-  "type": "adoptive"
- },
- {
-  "source": "Leopardstar",
-  "target": "Whiteclaw",
-  "type": "mentor"
- },
- {
-  "source": "Clawface",
-  "target": "Cinderfur",
-  "type": "parent"
- },
- {
-  "source": "Clawface",
-  "target": "Stumpytail",
-  "type": "parent"
- },
- {
-  "source": "Clawface",
-  "target": "Littlecloud",
-  "type": "mentor"
- },
- {
-  "source": "Blackstar",
-  "target": "Dawncloud",
-  "type": "mentor"
- },
- {
-  "source": "Ashfoot",
-  "target": "Deadfoot",
-  "type": "mate"
- },
- {
-  "source": "Whitestorm",
-  "target": "Ashfur (TC)",
-  "type": "parent"
- },
- {
-  "source": "Halftail",
-  "target": "One-eye",
-  "type": "mate"
- },
- {
-  "source": "Halftail",
-  "target": "Mousefur",
-  "type": "parent"
- },
- {
-  "source": "Halftail",
-  "target": "Runningwind",
-  "type": "parent"
- },
- {
-  "source": "Halftail",
-  "target": "Redtail",
-  "type": "mentor"
- },
- {
-  "source": "Dappletail",
-  "target": "Runningwind",
-  "type": "mate"
- },
- {
-  "source": "Mousewing",
-  "target": "Boulder",
-  "type": "mentor"
- },
- {
-  "source": "Boulder",
-  "target": "Wetfoot",
-  "type": "mentor"
- },
- {
-  "source": "Tallstar",
-  "target": "Deadfoot",
-  "type": "mentor"
- },
- {
-  "source": "Deadfoot",
-  "target": "Onestar",
-  "type": "mentor"
- },
- {
-  "source": "Jaggedtooth",
-  "target": "Rowanclaw",
-  "type": "mentor"
- },
- {
-  "source": "Darkflower",
-  "target": "Rowanclaw",
-  "type": "parent"
- },
- {
-  "source": "Darkflower",
-  "target": "Cedarheart",
-  "type": "parent"
- },
- {
-  "source": "Blackclaw",
-  "target": "Mistystar",
-  "type": "mate"
- },
- {
-  "source": "Blackclaw",
-  "target": "Reedwhisker",
-  "type": "parent"
- },
- {
-  "source": "Blackclaw",
-  "target": "Perchkit",
-  "type": "parent"
- },
- {
-  "source": "Blackclaw",
-  "target": "Pikepaw (MO)",
-  "type": "parent"
- },
- {
-  "source": "Blackclaw",
-  "target": "Heavystep",
-  "type": "mentor"
- },
- {
-  "source": "Stumpytail",
-  "target": "Brownpaw",
-  "type": "mentor"
- },
- {
-  "source": "Russetfur",
-  "target": "Cedarheart",
+  "source": "Gorsetail (PoT)",
+  "target": "Hootwhisker",
   "type": "mentor"
  },
  {
@@ -550,9 +4915,34 @@
   "type": "mentor"
  },
  {
+  "source": "Graymist",
+  "target": "Sneezecloud",
+  "type": "parent"
+ },
+ {
+  "source": "Graymist",
+  "target": "Mallownose",
+  "type": "parent"
+ },
+ {
+  "source": "Graymist",
+  "target": "Troutstream",
+  "type": "mentor"
+ },
+ {
   "source": "Graypool",
   "target": "Rippleclaw",
   "type": "mate"
+ },
+ {
+  "source": "Graypool",
+  "target": "Splashkit (CrP)",
+  "type": "parent"
+ },
+ {
+  "source": "Graypool",
+  "target": "Morningkit (RC)",
+  "type": "parent"
  },
  {
   "source": "Graypool",
@@ -570,39 +4960,1759 @@
   "type": "adoptive"
  },
  {
-  "source": "Firestar",
-  "target": "Sandstorm",
-  "type": "mate"
+  "source": "Reedfeather",
+  "target": "Graypool",
+  "type": "parent"
  },
  {
-  "source": "Tigerstar (TPB)",
-  "target": "Firestar",
+  "source": "Piketooth",
+  "target": "Graypool",
   "type": "mentor"
  },
  {
-  "source": "Brightflower",
-  "target": "Yellowfang",
+  "source": "Gorsestar",
+  "target": "Windstar",
+  "type": "mate"
+ },
+ {
+  "source": "Gorsestar",
+  "target": "Moth Flight",
   "type": "parent"
  },
  {
-  "source": "Whitestorm",
-  "target": "Elderkit",
+  "source": "Gorsestar",
+  "target": "Morning Whisker",
   "type": "parent"
  },
  {
-  "source": "Whitestorm",
-  "target": "Sandstorm",
+  "source": "Goldenstar",
+  "target": "Petalkit (LC)",
+  "type": "parent"
+ },
+ {
+  "source": "Icestar",
+  "target": "Grasspelt",
+  "type": "parent"
+ },
+ {
+  "source": "Mintfur (RC)",
+  "target": "Grasspelt",
+  "type": "parent"
+ },
+ {
+  "source": "Rooktail",
+  "target": "Goosefeather",
+  "type": "parent"
+ },
+ {
+  "source": "Fuzzypelt",
+  "target": "Robinwing (TC)",
+  "type": "mate"
+ },
+ {
+  "source": "Fuzzypelt",
+  "target": "Ravenpaw",
+  "type": "parent"
+ },
+ {
+  "source": "Fuzzypelt",
+  "target": "Patchpelt",
+  "type": "mentor"
+ },
+ {
+  "source": "Heathertail",
+  "target": "Furzepelt",
+  "type": "mentor"
+ },
+ {
+  "source": "Furzepelt",
+  "target": "Larkwing (BrS)",
+  "type": "mentor"
+ },
+ {
+  "source": "Mitzi (KP)",
+  "target": "Fritz (KP)",
+  "type": "parent"
+ },
+ {
+  "source": "Quiet Rain",
+  "target": "Gray Wing",
+  "type": "parent"
+ },
+ {
+  "source": "Gray Wing",
+  "target": "Slate (DotC)",
+  "type": "mate"
+ },
+ {
+  "source": "Gray Wing",
+  "target": "Turtle Tail",
+  "type": "mate"
+ },
+ {
+  "source": "Gray Wing",
+  "target": "Thunderstar",
+  "type": "adoptive"
+ },
+ {
+  "source": "Gray Wing",
+  "target": "Owlstar (SotC)",
+  "type": "adoptive"
+ },
+ {
+  "source": "Gray Wing",
+  "target": "Pebble Heart",
+  "type": "adoptive"
+ },
+ {
+  "source": "Gray Wing",
+  "target": "Sparrowstar",
+  "type": "adoptive"
+ },
+ {
+  "source": "Gray Wing",
+  "target": "Silver Stripe",
+  "type": "parent"
+ },
+ {
+  "source": "Gray Wing",
+  "target": "White Tail",
+  "type": "parent"
+ },
+ {
+  "source": "Frogleap",
+  "target": "Mosspelt",
+  "type": "mate"
+ },
+ {
+  "source": "Frogleap",
+  "target": "Woodkit (RC)",
+  "type": "parent"
+ },
+ {
+  "source": "Frogleap",
+  "target": "Robinkit (RC)",
+  "type": "parent"
+ },
+ {
+  "source": "Lakeshine",
+  "target": "Frogleap",
+  "type": "parent"
+ },
+ {
+  "source": "Timberfur",
+  "target": "Frogleap",
+  "type": "mentor"
+ },
+ {
+  "source": "Frogleap",
+  "target": "Whiteclaw",
+  "type": "mentor"
+ },
+ {
+  "source": "Sunfish",
+  "target": "Grasswhisker",
+  "type": "parent"
+ },
+ {
+  "source": "Tansy (cat)",
+  "target": "Frog (Ro)",
+  "type": "parent"
+ },
+ {
+  "source": "Grassheart",
+  "target": "Stonewing",
+  "type": "mate"
+ },
+ {
+  "source": "Grassheart",
+  "target": "Snaketooth (ShC)",
+  "type": "parent"
+ },
+ {
+  "source": "Grassheart",
+  "target": "Whorlpelt",
+  "type": "parent"
+ },
+ {
+  "source": "Tawnypelt",
+  "target": "Grassheart",
+  "type": "mentor"
+ },
+ {
+  "source": "Grassheart",
+  "target": "Gullswoop",
+  "type": "mentor"
+ },
+ {
+  "source": "Grassheart",
+  "target": "Hollowspring",
+  "type": "mentor"
+ },
+ {
+  "source": "Gooseberry (TC)",
+  "target": "Yew Tail",
+  "type": "mate"
+ },
+ {
+  "source": "Gooseberry (TC)",
+  "target": "Snail Shell",
+  "type": "parent"
+ },
+ {
+  "source": "Snowbird",
+  "target": "Frondwhisker",
+  "type": "parent"
+ },
+ {
+  "source": "Scorchfur",
+  "target": "Frondwhisker",
+  "type": "parent"
+ },
+ {
+  "source": "Slatefur",
+  "target": "Frondwhisker",
+  "type": "mentor"
+ },
+ {
+  "source": "Gravelnose",
+  "target": "Wrenflight (SkC)",
+  "type": "mate"
+ },
+ {
+  "source": "Mintfur (SkC)",
+  "target": "Gravelnose",
+  "type": "parent"
+ },
+ {
+  "source": "Nettlesplash",
+  "target": "Gravelnose",
+  "type": "parent"
+ },
+ {
+  "source": "Gravelnose",
+  "target": "Vinekit",
+  "type": "parent"
+ },
+ {
+  "source": "Sagenose",
+  "target": "Gravelnose",
+  "type": "mentor"
+ },
+ {
+  "source": "Gravelnose",
+  "target": "Robinpaw (SkC)",
+  "type": "mentor"
+ },
+ {
+  "source": "Nettlesplash",
+  "target": "Gravelnose",
+  "type": "mentor"
+ },
+ {
+  "source": "Mintfur (SkC)",
+  "target": "Gravelnose",
+  "type": "mentor"
+ },
+ {
+  "source": "Lakeheart",
+  "target": "Gorseclaw (RC)",
+  "type": "parent"
+ },
+ {
+  "source": "Lizardtail",
+  "target": "Gorseclaw (RC)",
+  "type": "parent"
+ },
+ {
+  "source": "Jayclaw",
+  "target": "Graysky",
+  "type": "parent"
+ },
+ {
+  "source": "Graysky",
+  "target": "Heronpaw (CS)",
+  "type": "parent"
+ },
+ {
+  "source": "Jayclaw",
+  "target": "Frostdawn",
+  "type": "parent"
+ },
+ {
+  "source": "Mothwing",
+  "target": "Frostdawn",
+  "type": "mentor"
+ },
+ {
+  "source": "Harelight",
+  "target": "Frostdawn",
+  "type": "mentor"
+ },
+ {
+  "source": "Tempest",
+  "target": "Grass",
+  "type": "parent"
+ },
+ {
+  "source": "Tempest",
+  "target": "Grass",
+  "type": "mentor"
+ },
+ {
+  "source": "Onestar",
+  "target": "Galekit (OC)",
+  "type": "parent"
+ },
+ {
+  "source": "Whitetail (WiC)",
+  "target": "Galekit (OC)",
+  "type": "parent"
+ },
+ {
+  "source": "Oatclaw",
+  "target": "Grassfur",
+  "type": "parent"
+ },
+ {
+  "source": "Ripplegrass",
+  "target": "Gale Rise",
+  "type": "parent"
+ },
+ {
+  "source": "Gale Rise",
+  "target": "Stripebark",
+  "type": "mate"
+ },
+ {
+  "source": "Gale Rise",
+  "target": "Pebblenose",
+  "type": "mate"
+ },
+ {
+  "source": "Gale Rise",
+  "target": "Thrush Roll",
+  "type": "parent"
+ },
+ {
+  "source": "Gale Rise",
+  "target": "Pebble Lunge",
+  "type": "parent"
+ },
+ {
+  "source": "Gale Rise",
+  "target": "Ripple Purr",
+  "type": "parent"
+ },
+ {
+  "source": "Gale Rise",
+  "target": "Wander Blink",
+  "type": "parent"
+ },
+ {
+  "source": "Gale Rise",
+  "target": "Wish Yowl",
+  "type": "parent"
+ },
+ {
+  "source": "Gale Rise",
+  "target": "Run Pounce",
+  "type": "parent"
+ },
+ {
+  "source": "Squirrelbrush",
+  "target": "Gale Rise",
+  "type": "mentor"
+ },
+ {
+  "source": "Sunbeam",
+  "target": "Goldenheart",
+  "type": "parent"
+ },
+ {
+  "source": "Nightheart (ASC)",
+  "target": "Goldenheart",
+  "type": "parent"
+ },
+ {
+  "source": "Goldenheart",
+  "target": "Moonglow",
+  "type": "mate"
+ },
+ {
+  "source": "Willowpelt",
+  "target": "Graystripe",
+  "type": "parent"
+ },
+ {
+  "source": "Graystripe",
+  "target": "Silverstream",
+  "type": "mate"
+ },
+ {
+  "source": "Graystripe",
+  "target": "Millie",
+  "type": "mate"
+ },
+ {
+  "source": "Graystripe",
+  "target": "Stormfur",
+  "type": "parent"
+ },
+ {
+  "source": "Lionheart",
+  "target": "Graystripe",
+  "type": "mentor"
+ },
+ {
+  "source": "Tigerstar (TPB)",
+  "target": "Graystripe",
+  "type": "mentor"
+ },
+ {
+  "source": "Graystripe",
+  "target": "Stormfur",
+  "type": "mentor"
+ },
+ {
+  "source": "Graystripe",
+  "target": "Millie",
+  "type": "mentor"
+ },
+ {
+  "source": "Tigerstar (TPB)",
+  "target": "Hawkfrost",
+  "type": "parent"
+ },
+ {
+  "source": "Sasha",
+  "target": "Hawkfrost",
+  "type": "parent"
+ },
+ {
+  "source": "Leopardstar",
+  "target": "Hawkfrost",
+  "type": "mentor"
+ },
+ {
+  "source": "Halftail",
+  "target": "One-eye",
+  "type": "mate"
+ },
+ {
+  "source": "Halftail",
+  "target": "Mousefur",
+  "type": "parent"
+ },
+ {
+  "source": "Halftail",
+  "target": "Runningwind",
+  "type": "parent"
+ },
+ {
+  "source": "Halftail",
+  "target": "Snowfur",
+  "type": "mentor"
+ },
+ {
+  "source": "Halftail",
+  "target": "Redtail",
+  "type": "mentor"
+ },
+ {
+  "source": "Smoky",
+  "target": "Hazeltail",
+  "type": "parent"
+ },
+ {
+  "source": "Tornear",
+  "target": "Harestar",
+  "type": "mentor"
+ },
+ {
+  "source": "Harestar",
+  "target": "Slightfoot",
+  "type": "mentor"
+ },
+ {
+  "source": "Rising Moon",
+  "target": "Half Moon",
+  "type": "parent"
+ },
+ {
+  "source": "Hailstar",
+  "target": "Voleclaw",
+  "type": "parent"
+ },
+ {
+  "source": "Hailstar",
+  "target": "Petaldust",
+  "type": "parent"
+ },
+ {
+  "source": "Hayberry",
+  "target": "Minnowkit (CotC)",
+  "type": "parent"
+ },
+ {
+  "source": "Hayberry",
+  "target": "Wildkit",
+  "type": "parent"
+ },
+ {
+  "source": "Harley",
+  "target": "Red (SD)",
+  "type": "mate"
+ },
+ {
+  "source": "Leafstar",
+  "target": "Harrybrook",
+  "type": "parent"
+ },
+ {
+  "source": "Harrybrook",
+  "target": "Ridgeglow",
+  "type": "parent"
+ },
+ {
+  "source": "Hal",
+  "target": "Raggedstar",
+  "type": "parent"
+ },
+ {
+  "source": "Hal",
+  "target": "Scorchwind",
+  "type": "parent"
+ },
+ {
+  "source": "Hal",
+  "target": "Russetfur",
+  "type": "parent"
+ },
+ {
+  "source": "Hazelwing",
+  "target": "Mistlekit (SkC)",
+  "type": "parent"
+ },
+ {
+  "source": "Hazelwing",
+  "target": "Webkit",
+  "type": "parent"
+ },
+ {
+  "source": "Hazelwing",
+  "target": "Hatchkit",
+  "type": "parent"
+ },
+ {
+  "source": "Hawk Swoop",
+  "target": "Jackdaw's Cry",
+  "type": "mate"
+ },
+ {
+  "source": "Hawk Swoop",
+  "target": "Thunderstar",
+  "type": "adoptive"
+ },
+ {
+  "source": "Hawk Swoop",
+  "target": "Lightning Tail",
+  "type": "parent"
+ },
+ {
+  "source": "Hareflight (TR)",
+  "target": "Mistmouse",
+  "type": "mate"
+ },
+ {
+  "source": "Hareflight (TR)",
+  "target": "Stagleap (WiC)",
+  "type": "parent"
+ },
+ {
+  "source": "Hareflight (TR)",
+  "target": "Ryestalk",
+  "type": "parent"
+ },
+ {
+  "source": "Hareflight (TR)",
+  "target": "Shrewclaw",
+  "type": "mentor"
+ },
+ {
+  "source": "Hareflight (TR)",
+  "target": "Wrenflight (WiC)",
+  "type": "mentor"
+ },
+ {
+  "source": "Havenpelt",
+  "target": "Sneezecloud",
+  "type": "mate"
+ },
+ {
+  "source": "Havenpelt",
+  "target": "Rapidsplash",
+  "type": "parent"
+ },
+ {
+  "source": "Havenpelt",
+  "target": "Splashtail",
+  "type": "parent"
+ },
+ {
+  "source": "Havenpelt",
+  "target": "Troutshine",
+  "type": "parent"
+ },
+ {
+  "source": "Mallownose",
+  "target": "Havenpelt",
+  "type": "mentor"
+ },
+ {
+  "source": "Harepounce",
+  "target": "Stagleap (TC)",
+  "type": "mate"
+ },
+ {
+  "source": "Harepounce",
+  "target": "Speckletail",
+  "type": "parent"
+ },
+ {
+  "source": "Harepounce",
+  "target": "One-eye",
+  "type": "parent"
+ },
+ {
+  "source": "Milkweed",
+  "target": "Hazel Burrow",
+  "type": "parent"
+ },
+ {
+  "source": "Leaf (TC)",
+  "target": "Hazel Burrow",
+  "type": "parent"
+ },
+ {
+  "source": "Hawkwing",
+  "target": "Pebbleshine",
+  "type": "mate"
+ },
+ {
+  "source": "Hawkwing",
+  "target": "Violetshine",
+  "type": "parent"
+ },
+ {
+  "source": "Hawkwing",
+  "target": "Twigbranch",
+  "type": "parent"
+ },
+ {
+  "source": "Hawkwing",
+  "target": "Reedclaw",
+  "type": "adoptive"
+ },
+ {
+  "source": "Sharpclaw (SkC)",
+  "target": "Hawkwing",
+  "type": "parent"
+ },
+ {
+  "source": "Snowbird",
+  "target": "Gullswoop",
+  "type": "parent"
+ },
+ {
+  "source": "Scorchfur",
+  "target": "Gullswoop",
+  "type": "parent"
+ },
+ {
+  "source": "Lakeheart",
+  "target": "Harelight",
+  "type": "parent"
+ },
+ {
+  "source": "Lizardtail",
+  "target": "Harelight",
+  "type": "parent"
+ },
+ {
+  "source": "Mallownose",
+  "target": "Harelight",
+  "type": "mentor"
+ },
+ {
+  "source": "Hawk (Sister)",
+  "target": "Sparrow (Sister)",
+  "type": "parent"
+ },
+ {
+  "source": "Hawk (Sister)",
+  "target": "Snail (Sister)",
+  "type": "parent"
+ },
+ {
+  "source": "Hawk (Sister)",
+  "target": "Tree",
+  "type": "mentor"
+ },
+ {
+  "source": "Hawk (Sister)",
+  "target": "Sparrow (Sister)",
+  "type": "mentor"
+ },
+ {
+  "source": "Snow (Sister)",
+  "target": "Haze",
+  "type": "parent"
+ },
+ {
+  "source": "Spotfur",
+  "target": "Graywhisker",
+  "type": "parent"
+ },
+ {
+  "source": "Stemleaf",
+  "target": "Graywhisker",
+  "type": "parent"
+ },
+ {
+  "source": "Myrtlebloom",
+  "target": "Hazelpaw (CS)",
+  "type": "parent"
+ },
+ {
+  "source": "Petalstep",
+  "target": "Harepaw (SF)",
+  "type": "mentor"
+ },
+ {
+  "source": "Graytail",
+  "target": "Thornwhisker",
+  "type": "mentor"
+ },
+ {
+  "source": "Leafpool",
+  "target": "Hollyleaf",
+  "type": "parent"
+ },
+ {
+  "source": "Squirrelstar",
+  "target": "Hollyleaf",
+  "type": "adoptive"
+ },
+ {
+  "source": "Leafpool",
+  "target": "Hollyleaf",
+  "type": "mentor"
+ },
+ {
+  "source": "Sorreltail",
+  "target": "Honeyfern",
+  "type": "parent"
+ },
+ {
+  "source": "Sandstorm",
+  "target": "Honeyfern",
+  "type": "mentor"
+ },
+ {
+  "source": "Husker",
+  "target": "Moss (KP)",
+  "type": "mate"
+ },
+ {
+  "source": "Husker",
+  "target": "Pad",
+  "type": "parent"
+ },
+ {
+  "source": "Husker",
+  "target": "Little Mew",
+  "type": "parent"
+ },
+ {
+  "source": "Husker",
+  "target": "Raindrop",
+  "type": "parent"
+ },
+ {
+  "source": "Onestar",
+  "target": "Heathertail",
+  "type": "parent"
+ },
+ {
+  "source": "Whitetail (WiC)",
+  "target": "Heathertail",
+  "type": "parent"
+ },
+ {
+  "source": "Heathertail",
+  "target": "Smokehaze",
+  "type": "parent"
+ },
+ {
+  "source": "Heathertail",
+  "target": "Woodsong",
+  "type": "parent"
+ },
+ {
+  "source": "Whitetail (WiC)",
+  "target": "Heathertail",
+  "type": "mentor"
+ },
+ {
+  "source": "Lilystem",
+  "target": "Heavystep",
+  "type": "parent"
+ },
+ {
+  "source": "Heavystep",
+  "target": "Stonestream",
+  "type": "mentor"
+ },
+ {
+  "source": "Icestar",
+  "target": "Mintfur (RC)",
+  "type": "mate"
+ },
+ {
+  "source": "Icestar",
+  "target": "Petalfur",
+  "type": "parent"
+ },
+ {
+  "source": "Icestar",
+  "target": "Nightsky (TBC)",
+  "type": "parent"
+ },
+ {
+  "source": "Icestar",
+  "target": "Pricklekit (RC)",
+  "type": "parent"
+ },
+ {
+  "source": "Icestar",
+  "target": "Mistpool",
+  "type": "mentor"
+ },
+ {
+  "source": "Molepelt",
+  "target": "Hollowbelly",
+  "type": "mentor"
+ },
+ {
+  "source": "Hollyflower",
+  "target": "Newtspeck",
+  "type": "mentor"
+ },
+ {
+  "source": "Reedwhisker",
+  "target": "Hollowflight",
+  "type": "mentor"
+ },
+ {
+  "source": "Willie",
+  "target": "Icicle",
+  "type": "parent"
+ },
+ {
+  "source": "Minty (Ro)",
+  "target": "Icicle",
+  "type": "parent"
+ },
+ {
+  "source": "Whitewing",
+  "target": "Icecloud",
+  "type": "mentor"
+ },
+ {
+  "source": "Patchfoot",
+  "target": "Honeytail",
+  "type": "parent"
+ },
+ {
+  "source": "Rockshade",
+  "target": "Honeytail",
+  "type": "mentor"
+ },
+ {
+  "source": "Tinycloud",
+  "target": "Honeytail",
+  "type": "mentor"
+ },
+ {
+  "source": "Hickorynose",
+  "target": "Meadowslip",
+  "type": "mate"
+ },
+ {
+  "source": "Hickorynose",
+  "target": "Pigeonflight",
+  "type": "parent"
+ },
+ {
+  "source": "Hickorynose",
+  "target": "Sorrelshine",
+  "type": "parent"
+ },
+ {
+  "source": "Hollow Tree",
+  "target": "Stone Song (DotC)",
+  "type": "mate"
+ },
+ {
+  "source": "Nightcloud",
+  "target": "Hootwhisker",
+  "type": "mentor"
+ },
+ {
+  "source": "Hootwhisker",
+  "target": "Whistlebreeze",
+  "type": "mentor"
+ },
+ {
+  "source": "Lionblaze",
+  "target": "Hollytuft",
+  "type": "parent"
+ },
+ {
+  "source": "Holly",
+  "target": "Jagged Peak",
+  "type": "mate"
+ },
+ {
+  "source": "Holly",
+  "target": "Storm Pelt",
+  "type": "parent"
+ },
+ {
+  "source": "Yellowfang",
+  "target": "Hopekit",
+  "type": "parent"
+ },
+ {
+  "source": "Raggedstar",
+  "target": "Hopekit",
+  "type": "parent"
+ },
+ {
+  "source": "Lilyheart",
+  "target": "Honeyfur",
+  "type": "parent"
+ },
+ {
+  "source": "Snowbush",
+  "target": "Honeyfur",
+  "type": "parent"
+ },
+ {
+  "source": "Molewhisker (TC)",
+  "target": "Honeyfur",
+  "type": "mentor"
+ },
+ {
+  "source": "Hollypelt",
+  "target": "Smallear",
+  "type": "mentor"
+ },
+ {
+  "source": "Moth Flight",
+  "target": "Honey Pelt",
+  "type": "parent"
+ },
+ {
+  "source": "Micah",
+  "target": "Honey Pelt",
+  "type": "parent"
+ },
+ {
+  "source": "Skystar",
+  "target": "Honey Pelt",
+  "type": "adoptive"
+ },
+ {
+  "source": "Sparrowtail",
+  "target": "Hollowspring",
+  "type": "parent"
+ },
+ {
+  "source": "Yarrowleaf",
+  "target": "Hopwhisker",
+  "type": "parent"
+ },
+ {
+  "source": "Nettle (AVoS)",
+  "target": "Hopwhisker",
+  "type": "parent"
+ },
+ {
+  "source": "Whorlpelt",
+  "target": "Hopwhisker",
+  "type": "mentor"
+ },
+ {
+  "source": "Hopwhisker",
+  "target": "Quickpaw (ShC)",
+  "type": "mentor"
+ },
+ {
+  "source": "Moonlight",
+  "target": "Ice (Sister)",
+  "type": "parent"
+ },
+ {
+  "source": "Root",
+  "target": "Ice (Sister)",
+  "type": "parent"
+ },
+ {
+  "source": "Tumble Leap",
+  "target": "Hunt Leap",
+  "type": "parent"
+ },
+ {
+  "source": "Stalk Purr",
+  "target": "Hunt Leap",
+  "type": "parent"
+ },
+ {
+  "source": "Mistpool",
+  "target": "Heronpaw (CS)",
+  "type": "mentor"
+ },
+ {
+  "source": "Huntheart",
+  "target": "Windkit",
+  "type": "parent"
+ },
+ {
+  "source": "Huntheart",
+  "target": "Lightningkit",
+  "type": "parent"
+ },
+ {
+  "source": "Huntheart",
+  "target": "Rainkit (StoC)",
+  "type": "parent"
+ },
+ {
+  "source": "Leafpool",
+  "target": "Jayfeather",
+  "type": "parent"
+ },
+ {
+  "source": "Squirrelstar",
+  "target": "Jayfeather",
+  "type": "adoptive"
+ },
+ {
+  "source": "Leafpool",
+  "target": "Jayfeather",
+  "type": "mentor"
+ },
+ {
+  "source": "Jayfeather",
+  "target": "Moonglow",
+  "type": "mentor"
+ },
+ {
+  "source": "Jaggedtooth",
+  "target": "Rowanclaw",
+  "type": "mentor"
+ },
+ {
+  "source": "Rowanclaw",
+  "target": "Ivytail (ShC)",
+  "type": "mentor"
+ },
+ {
+  "source": "Kestrelflight",
+  "target": "Whistlebreeze",
+  "type": "mentor"
+ },
+ {
+  "source": "Kinkfur",
+  "target": "Sparrowtail",
+  "type": "parent"
+ },
+ {
+  "source": "Kinkfur",
+  "target": "Mistcloud",
+  "type": "parent"
+ },
+ {
+  "source": "Jagged Lightning",
+  "target": "Owl Feather",
+  "type": "mate"
+ },
+ {
+  "source": "Jagged Lightning",
+  "target": "Lapping Wave",
+  "type": "parent"
+ },
+ {
+  "source": "Jagged Lightning",
+  "target": "Strong Pounce",
+  "type": "parent"
+ },
+ {
+  "source": "Jagged Lightning",
+  "target": "Running Fox",
+  "type": "parent"
+ },
+ {
+  "source": "Whitewing",
+  "target": "Ivypool",
+  "type": "parent"
+ },
+ {
+  "source": "Ivypool",
+  "target": "Thriftear",
+  "type": "parent"
+ },
+ {
+  "source": "Ivypool",
+  "target": "Snowbush",
+  "type": "mentor"
+ },
+ {
+  "source": "Ivypool",
+  "target": "Twigbranch",
+  "type": "mentor"
+ },
+ {
+  "source": "Larksong (BP)",
+  "target": "Sunstar",
+  "type": "parent"
+ },
+ {
+  "source": "Jake (TPB)",
+  "target": "Nutmeg (TPB)",
+  "type": "mate"
+ },
+ {
+  "source": "Jake (TPB)",
+  "target": "Quince",
+  "type": "mate"
+ },
+ {
+  "source": "Jake (TPB)",
+  "target": "Scourge",
+  "type": "parent"
+ },
+ {
+  "source": "Jake (TPB)",
+  "target": "Socks",
+  "type": "parent"
+ },
+ {
+  "source": "Jake (TPB)",
+  "target": "Princess",
+  "type": "parent"
+ },
+ {
+  "source": "Jake (TPB)",
+  "target": "Ruby",
+  "type": "parent"
+ },
+ {
+  "source": "Jake (TPB)",
+  "target": "Tommy",
+  "type": "parent"
+ },
+ {
+  "source": "Jake (TPB)",
+  "target": "Luna",
+  "type": "parent"
+ },
+ {
+  "source": "Stormfur",
+  "target": "Lark That Sings at Dawn",
+  "type": "parent"
+ },
+ {
+  "source": "Owl Feather",
+  "target": "Lapping Wave",
+  "type": "parent"
+ },
+ {
+  "source": "Lakeshine",
+  "target": "Sunfish",
+  "type": "parent"
+ },
+ {
+  "source": "Jessamy",
+  "target": "Sharpclaw (SkC)",
+  "type": "parent"
+ },
+ {
+  "source": "Jackdaw's Cry",
+  "target": "Lightning Tail",
+  "type": "parent"
+ },
+ {
+  "source": "Quiet Rain",
+  "target": "Jagged Peak",
+  "type": "parent"
+ },
+ {
+  "source": "Jagged Peak",
+  "target": "Storm Pelt",
+  "type": "parent"
+ },
+ {
+  "source": "Larksplash",
+  "target": "Ryestalk",
+  "type": "mentor"
+ },
+ {
+  "source": "Lakeheart",
+  "target": "Lizardtail",
+  "type": "mate"
+ },
+ {
+  "source": "Lakeheart",
+  "target": "Softpelt",
+  "type": "parent"
+ },
+ {
+  "source": "Mapleshade",
+  "target": "Larchkit (MV)",
+  "type": "parent"
+ },
+ {
+  "source": "Lilyheart",
+  "target": "Larksong (AVoS)",
+  "type": "parent"
+ },
+ {
+  "source": "Snowbush",
+  "target": "Larksong (AVoS)",
+  "type": "parent"
+ },
+ {
+  "source": "Larksong (AVoS)",
+  "target": "Sparkpelt",
+  "type": "mate"
+ },
+ {
+  "source": "Larksong (AVoS)",
+  "target": "Nightheart (ASC)",
+  "type": "parent"
+ },
+ {
+  "source": "Rosepetal",
+  "target": "Larksong (AVoS)",
+  "type": "mentor"
+ },
+ {
+  "source": "Stonewing",
+  "target": "Juniperclaw",
+  "type": "mentor"
+ },
+ {
+  "source": "Juniperclaw",
+  "target": "Whorlpelt",
+  "type": "mentor"
+ },
+ {
+  "source": "Petalfur",
+  "target": "Jayclaw",
+  "type": "parent"
+ },
+ {
+  "source": "Mallownose",
+  "target": "Jayclaw",
+  "type": "parent"
+ },
+ {
+  "source": "Jayclaw",
+  "target": "Mistpool",
+  "type": "parent"
+ },
+ {
+  "source": "Juniper Branch",
+  "target": "Ravenstar",
+  "type": "mate"
+ },
+ {
+  "source": "Juniper Branch",
+  "target": "Shade Pelt",
+  "type": "parent"
+ },
+ {
+  "source": "Squirrelstar",
+  "target": "Juniperkit",
+  "type": "parent"
+ },
+ {
+  "source": "Quailfeather (TBC)",
+  "target": "Kitescratch",
+  "type": "parent"
+ },
+ {
+  "source": "Reedclaw",
+  "target": "Kitescratch",
+  "type": "parent"
+ },
+ {
+  "source": "Kitescratch",
+  "target": "Needleclaw",
+  "type": "mate"
+ },
+ {
+  "source": "Kitescratch",
+  "target": "Starlingflight",
+  "type": "parent"
+ },
+ {
+  "source": "Kitescratch",
+  "target": "Robinpaw (SkC)",
+  "type": "parent"
+ },
+ {
+  "source": "Sagenose",
+  "target": "Kitescratch",
+  "type": "mentor"
+ },
+ {
+  "source": "Jack (KP)",
+  "target": "Moonlight",
+  "type": "mate"
+ },
+ {
+  "source": "Jack (KP)",
+  "target": "Leaf (Lo)",
+  "type": "parent"
+ },
+ {
+  "source": "Jack (KP)",
+  "target": "Squirrel (Sister)",
+  "type": "parent"
+ },
+ {
+  "source": "Jack (KP)",
+  "target": "Moon (Sister)",
+  "type": "parent"
+ },
+ {
+  "source": "Kite Wing",
+  "target": "Trout Fur",
+  "type": "parent"
+ },
+ {
+  "source": "Kite Wing",
+  "target": "Snow Tail",
+  "type": "parent"
+ },
+ {
+  "source": "Kite Wing",
+  "target": "Willow Stream",
+  "type": "parent"
+ },
+ {
+  "source": "Lark (CotP)",
+  "target": "Weevil",
+  "type": "parent"
+ },
+ {
+  "source": "Lark (CotP)",
+  "target": "Peg",
+  "type": "parent"
+ },
+ {
+  "source": "Smallear",
+  "target": "Lionheart",
+  "type": "parent"
+ },
+ {
+  "source": "Speckletail",
+  "target": "Lionheart",
+  "type": "parent"
+ },
+ {
+  "source": "Lionheart",
+  "target": "Thornclaw",
+  "type": "parent"
+ },
+ {
+  "source": "Swiftbreeze",
+  "target": "Lionheart",
   "type": "mentor"
  },
  {
   "source": "Sandstorm",
-  "target": "Sorreltail",
+  "target": "Leafpool",
+  "type": "parent"
+ },
+ {
+  "source": "Leafpool",
+  "target": "Lionblaze",
+  "type": "parent"
+ },
+ {
+  "source": "Leafpool",
+  "target": "Puddleshine",
   "type": "mentor"
  },
  {
-  "source": "Redtail",
-  "target": "Mousefur",
+  "source": "Squirrelstar",
+  "target": "Lionblaze",
+  "type": "adoptive"
+ },
+ {
+  "source": "Lionblaze",
+  "target": "Sorrelstripe",
+  "type": "parent"
+ },
+ {
+  "source": "Lionblaze",
+  "target": "Spotfur",
+  "type": "parent"
+ },
+ {
+  "source": "Lionblaze",
+  "target": "Snaptooth",
+  "type": "parent"
+ },
+ {
+  "source": "Newtspeck",
+  "target": "Littlecloud",
+  "type": "parent"
+ },
+ {
+  "source": "Runningnose",
+  "target": "Littlecloud",
   "type": "mentor"
+ },
+ {
+  "source": "Mudfur",
+  "target": "Leopardstar",
+  "type": "parent"
+ },
+ {
+  "source": "Shimmerpelt (CrP)",
+  "target": "Leopardstar",
+  "type": "adoptive"
+ },
+ {
+  "source": "Leopardstar",
+  "target": "Whiteclaw",
+  "type": "adoptive"
+ },
+ {
+  "source": "Whitefang",
+  "target": "Leopardstar",
+  "type": "mentor"
+ },
+ {
+  "source": "Leopardstar",
+  "target": "Whiteclaw",
+  "type": "mentor"
+ },
+ {
+  "source": "Leafstar's mother",
+  "target": "Leafstar",
+  "type": "parent"
+ },
+ {
+  "source": "Leafstar",
+  "target": "Stormheart",
+  "type": "parent"
+ },
+ {
+  "source": "Leafstar",
+  "target": "Sparrowpelt (SkC)",
+  "type": "mentor"
+ },
+ {
+  "source": "Leafstar",
+  "target": "Sol",
+  "type": "mentor"
+ },
+ {
+  "source": "Moss (KP)",
+  "target": "Little Mew",
+  "type": "parent"
+ },
+ {
+  "source": "Lizardstripe",
+  "target": "Mudclaw (ShC)",
+  "type": "mate"
+ },
+ {
+  "source": "Lizardstripe",
+  "target": "Runningnose",
+  "type": "parent"
+ },
+ {
+  "source": "Lizardstripe",
+  "target": "Tangleburr",
+  "type": "parent"
+ },
+ {
+  "source": "Leaftail",
+  "target": "Thistleheart",
+  "type": "mentor"
+ },
+ {
+  "source": "Leaftail",
+  "target": "Oatclaw",
+  "type": "mentor"
+ },
+ {
+  "source": "Leaftail",
+  "target": "Woodsong",
+  "type": "mentor"
+ },
+ {
+  "source": "Swiftbreeze",
+  "target": "Leopardfoot",
+  "type": "parent"
+ },
+ {
+  "source": "Leopardfoot",
+  "target": "Pinestar",
+  "type": "mate"
+ },
+ {
+  "source": "Leopardfoot",
+  "target": "Tigerstar (TPB)",
+  "type": "parent"
+ },
+ {
+  "source": "Leopardfoot",
+  "target": "Nightkit (TC)",
+  "type": "parent"
+ },
+ {
+  "source": "Leopardfoot",
+  "target": "Mistkit (TC)",
+  "type": "parent"
+ },
+ {
+  "source": "Robinwing (TC)",
+  "target": "Leopardfoot",
+  "type": "mentor"
+ },
+ {
+  "source": "Lilystem",
+  "target": "Shadepelt (TPB)",
+  "type": "parent"
+ },
+ {
+  "source": "Shy Fawn",
+  "target": "Lion's Roar",
+  "type": "parent"
+ },
+ {
+  "source": "Sorreltail",
+  "target": "Lilyheart",
+  "type": "parent"
+ },
+ {
+  "source": "Lilyheart",
+  "target": "Snowbush",
+  "type": "mate"
+ },
+ {
+  "source": "Lilyheart",
+  "target": "Leafshade",
+  "type": "parent"
+ },
+ {
+  "source": "Lilyheart",
+  "target": "Twigbranch",
+  "type": "adoptive"
+ },
+ {
+  "source": "Lilyheart",
+  "target": "Violetshine",
+  "type": "adoptive"
+ },
+ {
+  "source": "Poppyfrost",
+  "target": "Lilyheart",
+  "type": "mentor"
+ },
+ {
+  "source": "Lilyheart",
+  "target": "Nightheart (ASC)",
+  "type": "mentor"
+ },
+ {
+  "source": "Sedgewhisker",
+  "target": "Larkwing (BrS)",
+  "type": "parent"
+ },
+ {
+  "source": "Larkwing (BrS)",
+  "target": "Stripeheart",
+  "type": "parent"
+ },
+ {
+  "source": "Leaf (TC)",
+  "target": "Milkweed",
+  "type": "mate"
+ },
+ {
+  "source": "Leaf (TC)",
+  "target": "Patch Pelt",
+  "type": "parent"
+ },
+ {
+  "source": "Leaf (TC)",
+  "target": "Shivering Rose",
+  "type": "parent"
+ },
+ {
+  "source": "Leaf (TC)",
+  "target": "Morning Fire",
+  "type": "parent"
+ },
+ {
+  "source": "Lizardtail",
+  "target": "Softpelt",
+  "type": "parent"
+ },
+ {
+  "source": "Reedwhisker",
+  "target": "Lizardtail",
+  "type": "mentor"
+ },
+ {
+  "source": "Snowbush",
+  "target": "Leafshade",
+  "type": "parent"
+ },
+ {
+  "source": "Leafshade",
+  "target": "Spotfur",
+  "type": "mentor"
+ },
+ {
+  "source": "Pinenose",
+  "target": "Lioneye",
+  "type": "parent"
+ },
+ {
+  "source": "Spikefur",
+  "target": "Lioneye",
+  "type": "parent"
+ },
+ {
+  "source": "Snowbird",
+  "target": "Lioneye",
+  "type": "mentor"
+ },
+ {
+  "source": "Tigerstar (AVoS)",
+  "target": "Lioneye",
+  "type": "mentor"
+ },
+ {
+  "source": "Squirrelwhisker",
+  "target": "Littlestep",
+  "type": "mentor"
+ },
+ {
+  "source": "Toadskip",
+  "target": "Littlekit (Nettlespot's daughter)",
+  "type": "parent"
+ },
+ {
+  "source": "Nettlespot",
+  "target": "Littlekit (Nettlespot's daughter)",
+  "type": "parent"
+ },
+ {
+  "source": "Violet Dawn",
+  "target": "Lightning Stripe",
+  "type": "parent"
+ },
+ {
+  "source": "Thunderstar",
+  "target": "Lightning Stripe",
+  "type": "parent"
+ },
+ {
+  "source": "Tigerstar (AVoS)",
+  "target": "Lightleap",
+  "type": "parent"
+ },
+ {
+  "source": "Lightleap",
+  "target": "Quickpaw (ShC)",
+  "type": "parent"
+ },
+ {
+  "source": "Lightleap",
+  "target": "Poolpaw",
+  "type": "parent"
+ },
+ {
+  "source": "Stonewing",
+  "target": "Lightleap",
+  "type": "mentor"
+ },
+ {
+  "source": "Scorchwind",
+  "target": "Lavenderkit",
+  "type": "parent"
+ },
+ {
+  "source": "Princess",
+  "target": "Livy",
+  "type": "parent"
+ },
+ {
+  "source": "Oliver",
+  "target": "Livy",
+  "type": "parent"
+ },
+ {
+  "source": "Moonlight",
+  "target": "Leaf (Lo)",
+  "type": "parent"
+ },
+ {
+  "source": "Violetshine",
+  "target": "Leaf (Lo)",
+  "type": "adoptive"
+ },
+ {
+  "source": "Skystar",
+  "target": "Lightning (Website)",
+  "type": "parent"
+ },
+ {
+  "source": "Storm (Ro)",
+  "target": "Lightning (Website)",
+  "type": "parent"
+ },
+ {
+  "source": "Oatclaw",
+  "target": "Leafcurl",
+  "type": "parent"
+ },
+ {
+  "source": "Leafcurl",
+  "target": "Rustlepaw",
+  "type": "mentor"
+ },
+ {
+  "source": "Shellfur",
+  "target": "Leapkit",
+  "type": "parent"
+ },
+ {
+  "source": "Robinwing (TC)",
+  "target": "Longtail",
+  "type": "parent"
  },
  {
   "source": "Patchpelt",
@@ -620,38 +6730,43 @@
   "type": "mentor"
  },
  {
-  "source": "One-eye",
-  "target": "Runningwind",
+  "source": "Lowbranch",
+  "target": "Skywatcher",
   "type": "parent"
  },
  {
-  "source": "One-eye",
-  "target": "Mousefur",
+  "source": "Lowbranch",
+  "target": "Twig",
   "type": "parent"
  },
  {
-  "source": "Mousefur",
-  "target": "Thornclaw",
+  "source": "Tallpoppy",
+  "target": "Marshkit",
+  "type": "parent"
+ },
+ {
+  "source": "Mallownose",
+  "target": "Petalfur",
+  "type": "mate"
+ },
+ {
+  "source": "Mallownose",
+  "target": "Owlnose",
+  "type": "parent"
+ },
+ {
+  "source": "Rippletail (RC)",
+  "target": "Mallownose",
   "type": "mentor"
  },
  {
-  "source": "Tigerstar (TPB)",
-  "target": "Ravenpaw",
-  "type": "mentor"
- },
- {
-  "source": "Oakheart",
-  "target": "Stonefur",
+  "source": "Timberfur",
+  "target": "Loudbelly",
   "type": "parent"
  },
  {
-  "source": "Oakheart",
-  "target": "Mistystar",
-  "type": "parent"
- },
- {
-  "source": "Oakheart",
-  "target": "Mosskit (TC)",
+  "source": "Ottersplash",
+  "target": "Loudbelly",
   "type": "parent"
  },
  {
@@ -660,24 +6775,134 @@
   "type": "mentor"
  },
  {
-  "source": "Princess",
-  "target": "Livy",
+  "source": "Loudbelly",
+  "target": "Silverpaw (TPB)",
+  "type": "mentor"
+ },
+ {
+  "source": "Loudbelly",
+  "target": "Pikepaw (MO)",
+  "type": "mentor"
+ },
+ {
+  "source": "Mapleshade",
+  "target": "Petalkit (MV)",
   "type": "parent"
  },
  {
-  "source": "Princess",
-  "target": "Zack",
+  "source": "Mapleshade",
+  "target": "Patchkit (MV)",
   "type": "parent"
  },
  {
-  "source": "Princess",
-  "target": "Taylor",
+  "source": "Milkfur (MV)",
+  "target": "Milkfur (YS)",
   "type": "parent"
  },
  {
-  "source": "Princess",
-  "target": "Nami",
+  "source": "Mitzi (Lo)",
+  "target": "Magpie (cat)",
   "type": "parent"
+ },
+ {
+  "source": "Owlfur",
+  "target": "Mallowtail",
+  "type": "parent"
+ },
+ {
+  "source": "Softwing",
+  "target": "Mallowtail",
+  "type": "parent"
+ },
+ {
+  "source": "Rippleclaw",
+  "target": "Mallowtail",
+  "type": "mentor"
+ },
+ {
+  "source": "Meadowslip",
+  "target": "Pigeonflight",
+  "type": "parent"
+ },
+ {
+  "source": "Meadowslip",
+  "target": "Sorrelshine",
+  "type": "parent"
+ },
+ {
+  "source": "Sharp Hail",
+  "target": "Melting Ice",
+  "type": "parent"
+ },
+ {
+  "source": "Milkweed",
+  "target": "Splinter",
+  "type": "mate"
+ },
+ {
+  "source": "Milkweed",
+  "target": "Thistle (TC)",
+  "type": "parent"
+ },
+ {
+  "source": "Milkweed",
+  "target": "Patch Pelt",
+  "type": "parent"
+ },
+ {
+  "source": "Milkweed",
+  "target": "Shivering Rose",
+  "type": "parent"
+ },
+ {
+  "source": "Milkweed",
+  "target": "Morning Fire",
+  "type": "parent"
+ },
+ {
+  "source": "Micah",
+  "target": "Moth Flight",
+  "type": "mate"
+ },
+ {
+  "source": "Micah",
+  "target": "Spider Paw",
+  "type": "parent"
+ },
+ {
+  "source": "Violet (KP)",
+  "target": "Lulu",
+  "type": "parent"
+ },
+ {
+  "source": "Patchpelt",
+  "target": "Lynxkit",
+  "type": "parent"
+ },
+ {
+  "source": "Nutmeg (TPB)",
+  "target": "Luna",
+  "type": "parent"
+ },
+ {
+  "source": "Wrenflight (WiC)",
+  "target": "Melody",
+  "type": "mentor"
+ },
+ {
+  "source": "Meadow",
+  "target": "Sol",
+  "type": "mate"
+ },
+ {
+  "source": "Oakheart",
+  "target": "Mistystar",
+  "type": "parent"
+ },
+ {
+  "source": "Thrushpelt (TC)",
+  "target": "Mistystar",
+  "type": "adoptive"
  },
  {
   "source": "Mistystar",
@@ -695,19 +6920,664 @@
   "type": "parent"
  },
  {
-  "source": "Silverstream",
+  "source": "Mistystar",
+  "target": "Primrosepaw",
+  "type": "parent"
+ },
+ {
+  "source": "Mistystar",
+  "target": "Mothwing",
+  "type": "mentor"
+ },
+ {
+  "source": "Wrenflight (WiC)",
+  "target": "Morningflower",
+  "type": "parent"
+ },
+ {
+  "source": "Stagleap (WiC)",
+  "target": "Morningflower",
+  "type": "parent"
+ },
+ {
+  "source": "Morningflower",
+  "target": "Storkkit",
+  "type": "parent"
+ },
+ {
+  "source": "Morningflower",
+  "target": "Quailkit (WiC)",
+  "type": "parent"
+ },
+ {
+  "source": "Tallstar",
+  "target": "Morningflower",
+  "type": "mentor"
+ },
+ {
+  "source": "Sorreltail",
+  "target": "Molepaw (TNP)",
+  "type": "parent"
+ },
+ {
+  "source": "Moss (KP)",
+  "target": "Raindrop",
+  "type": "parent"
+ },
+ {
+  "source": "Moss (KP)",
+  "target": "Pad",
+  "type": "parent"
+ },
+ {
+  "source": "Rooktail",
+  "target": "Moonflower",
+  "type": "parent"
+ },
+ {
+  "source": "Moonflower",
+  "target": "Stormtail",
+  "type": "mate"
+ },
+ {
+  "source": "Moonflower",
+  "target": "Snowfur",
+  "type": "parent"
+ },
+ {
+  "source": "Windflight",
+  "target": "Moonflower",
+  "type": "mentor"
+ },
+ {
+  "source": "Petalnose",
+  "target": "Mintfur (SkC)",
+  "type": "parent"
+ },
+ {
+  "source": "Rainfur (SkC)",
+  "target": "Mintfur (SkC)",
+  "type": "parent"
+ },
+ {
+  "source": "Mintfur (SkC)",
+  "target": "Nettlesplash",
+  "type": "mate"
+ },
+ {
+  "source": "Mintfur (SkC)",
+  "target": "Palesky",
+  "type": "parent"
+ },
+ {
+  "source": "Mintfur (SkC)",
+  "target": "Nectarsong",
+  "type": "parent"
+ },
+ {
+  "source": "Waspwhisker",
+  "target": "Mintfur (SkC)",
+  "type": "mentor"
+ },
+ {
+  "source": "Mintfur (SkC)",
+  "target": "Palesky",
+  "type": "mentor"
+ },
+ {
+  "source": "Mintfur (SkC)",
+  "target": "Nectarsong",
+  "type": "mentor"
+ },
+ {
+  "source": "Voletooth",
+  "target": "Minnowtail",
+  "type": "mentor"
+ },
+ {
+  "source": "Minnowtail",
+  "target": "Mossyfoot",
+  "type": "mentor"
+ },
+ {
+  "source": "Minnowtail",
+  "target": "Splashtail",
+  "type": "mentor"
+ },
+ {
+  "source": "Mintfur (RC)",
+  "target": "Petalfur",
+  "type": "parent"
+ },
+ {
+  "source": "Mintfur (RC)",
+  "target": "Nightsky (TBC)",
+  "type": "parent"
+ },
+ {
+  "source": "Mintfur (RC)",
+  "target": "Pricklekit (RC)",
+  "type": "parent"
+ },
+ {
+  "source": "Mintfur (RC)",
+  "target": "Nettlepaw (RC)",
+  "type": "mentor"
+ },
+ {
+  "source": "Mintfur (RC)",
+  "target": "Softpelt",
+  "type": "mentor"
+ },
+ {
+  "source": "Morningcloud",
+  "target": "Quickpaw (WiC)",
+  "type": "mentor"
+ },
+ {
+  "source": "Pinestar",
+  "target": "Mistkit (TC)",
+  "type": "parent"
+ },
+ {
+  "source": "Minty (Ro)",
+  "target": "Willie",
+  "type": "mate"
+ },
+ {
+  "source": "Minty (Ro)",
+  "target": "Snowflake (Ro)",
+  "type": "parent"
+ },
+ {
+  "source": "Minty (Ro)",
+  "target": "Sniff",
+  "type": "parent"
+ },
+ {
+  "source": "Poppyfrost",
+  "target": "Molewhisker (TC)",
+  "type": "parent"
+ },
+ {
+  "source": "Rosepetal",
+  "target": "Molewhisker (TC)",
+  "type": "mentor"
+ },
+ {
+  "source": "Molewhisker (TC)",
+  "target": "Stemtail",
+  "type": "mentor"
+ },
+ {
+  "source": "Morningstar",
+  "target": "Songbird",
+  "type": "mate"
+ },
+ {
+  "source": "Willowbreeze",
+  "target": "Minnowkit (CrP)",
+  "type": "parent"
+ },
+ {
+  "source": "Mitzi (Lo)",
+  "target": "Piper",
+  "type": "parent"
+ },
+ {
+  "source": "Mitzi (Lo)",
+  "target": "Soot",
+  "type": "parent"
+ },
+ {
+  "source": "Mitzi (Lo)",
+  "target": "Mist (CrP)",
+  "type": "parent"
+ },
+ {
+  "source": "Rippleclaw",
+  "target": "Morningkit (RC)",
+  "type": "parent"
+ },
+ {
+  "source": "Rainleap",
+  "target": "Mintpaw (CJ)",
+  "type": "mentor"
+ },
+ {
+  "source": "Moon Shadow",
+  "target": "Sun Shadow",
+  "type": "parent"
+ },
+ {
+  "source": "Mistmouse",
+  "target": "Stagleap (WiC)",
+  "type": "parent"
+ },
+ {
+  "source": "Mistmouse",
+  "target": "Ryestalk",
+  "type": "parent"
+ },
+ {
+  "source": "Windstar",
+  "target": "Morning Whisker",
+  "type": "parent"
+ },
+ {
+  "source": "Sharp Hail",
+  "target": "Morning Star",
+  "type": "parent"
+ },
+ {
+  "source": "Smallear",
+  "target": "Mistlekit (TC)",
+  "type": "parent"
+ },
+ {
+  "source": "Speckletail",
+  "target": "Mistlekit (TC)",
+  "type": "parent"
+ },
+ {
+  "source": "Mistpelt",
+  "target": "Pinestar",
+  "type": "mentor"
+ },
+ {
+  "source": "Mistfeather",
+  "target": "Stormheart",
+  "type": "mate"
+ },
+ {
+  "source": "Moonlight",
+  "target": "Root",
+  "type": "mate"
+ },
+ {
+  "source": "Moonlight",
+  "target": "Tree",
+  "type": "parent"
+ },
+ {
+  "source": "Moonlight",
+  "target": "Sunrise (Sister)",
+  "type": "parent"
+ },
+ {
+  "source": "Moonlight",
+  "target": "Squirrel (Sister)",
+  "type": "parent"
+ },
+ {
+  "source": "Moonlight",
+  "target": "Moon (Sister)",
+  "type": "parent"
+ },
+ {
+  "source": "Violetshine",
+  "target": "Moon (Sister)",
+  "type": "adoptive"
+ },
+ {
+  "source": "Mist (RH)",
+  "target": "Pine Needle",
+  "type": "mentor"
+ },
+ {
+  "source": "Thriftear",
+  "target": "Moonglow",
+  "type": "parent"
+ },
+ {
+  "source": "Sunbeam",
+  "target": "Moonglow",
+  "type": "mentor"
+ },
+ {
+  "source": "One-eye",
+  "target": "Mousefur",
+  "type": "parent"
+ },
+ {
+  "source": "Redtail",
+  "target": "Mousefur",
+  "type": "mentor"
+ },
+ {
+  "source": "Mousefur",
+  "target": "Thornclaw",
+  "type": "mentor"
+ },
+ {
+  "source": "Mousefur",
+  "target": "Spiderleg",
+  "type": "mentor"
+ },
+ {
+  "source": "Ryestalk",
+  "target": "Mudclaw (WiC)",
+  "type": "parent"
+ },
+ {
+  "source": "Shrewclaw",
+  "target": "Mudclaw (WiC)",
+  "type": "parent"
+ },
+ {
+  "source": "Mudclaw (WiC)",
+  "target": "Webfoot",
+  "type": "mentor"
+ },
+ {
+  "source": "Mudfur",
+  "target": "Petaldust",
+  "type": "mentor"
+ },
+ {
+  "source": "Mudfur",
+  "target": "Mothwing",
+  "type": "mentor"
+ },
+ {
+  "source": "Tigerstar (TPB)",
+  "target": "Mothwing",
+  "type": "parent"
+ },
+ {
+  "source": "Sasha",
+  "target": "Mothwing",
+  "type": "parent"
+ },
+ {
+  "source": "Mothwing",
+  "target": "Willowshine",
+  "type": "mentor"
+ },
+ {
+  "source": "Mothwing",
+  "target": "Podlight",
+  "type": "mentor"
+ },
+ {
+  "source": "Smoky",
+  "target": "Mousewhisker",
+  "type": "parent"
+ },
+ {
+  "source": "Spiderleg",
+  "target": "Mousewhisker",
+  "type": "mentor"
+ },
+ {
+  "source": "Mousewhisker",
+  "target": "Plumstone",
+  "type": "mentor"
+ },
+ {
+  "source": "Oakheart",
+  "target": "Mosskit (TC)",
+  "type": "parent"
+ },
+ {
+  "source": "Thrushpelt (TC)",
+  "target": "Mosskit (TC)",
+  "type": "adoptive"
+ },
+ {
+  "source": "Moth Flight",
+  "target": "Spider Paw",
+  "type": "parent"
+ },
+ {
+  "source": "Windstar",
+  "target": "Moth Flight",
+  "type": "parent"
+ },
+ {
+  "source": "Mosspelt",
+  "target": "Willowshine",
+  "type": "parent"
+ },
+ {
+  "source": "Mosspelt",
+  "target": "Woodkit (RC)",
+  "type": "parent"
+ },
+ {
+  "source": "Mosspelt",
+  "target": "Robinkit (RC)",
+  "type": "parent"
+ },
+ {
+  "source": "Mosspelt",
   "target": "Stormfur",
+  "type": "adoptive"
+ },
+ {
+  "source": "Owlfur",
+  "target": "Mosspelt",
+  "type": "mentor"
+ },
+ {
+  "source": "Ottersplash",
+  "target": "Mosspelt",
+  "type": "mentor"
+ },
+ {
+  "source": "Mosspelt",
+  "target": "Swallowtail (RC)",
+  "type": "mentor"
+ },
+ {
+  "source": "Mosspelt",
+  "target": "Pebblefoot",
+  "type": "mentor"
+ },
+ {
+  "source": "Mosspelt",
+  "target": "Perchwing",
+  "type": "mentor"
+ },
+ {
+  "source": "Mudclaw (ShC)",
+  "target": "Runningnose",
   "type": "parent"
  },
  {
-  "source": "Willowpelt",
-  "target": "Sorreltail",
+  "source": "Mudclaw (ShC)",
+  "target": "Tangleburr",
   "type": "parent"
  },
  {
-  "source": "Whitestorm",
-  "target": "Sorreltail",
+  "source": "Mousefang",
+  "target": "Snailpaw",
+  "type": "mentor"
+ },
+ {
+  "source": "Poppycloud",
+  "target": "Mottlepaw",
   "type": "parent"
+ },
+ {
+  "source": "Poppycloud",
+  "target": "Mottlepaw",
+  "type": "mentor"
+ },
+ {
+  "source": "Mumblefoot",
+  "target": "Rabbitleap (TC)",
+  "type": "mentor"
+ },
+ {
+  "source": "Mumblefoot",
+  "target": "Robinwing (TC)",
+  "type": "mentor"
+ },
+ {
+  "source": "Waspwhisker",
+  "target": "Nettlesplash",
+  "type": "parent"
+ },
+ {
+  "source": "Nettlesplash",
+  "target": "Palesky",
+  "type": "parent"
+ },
+ {
+  "source": "Nettlesplash",
+  "target": "Nectarsong",
+  "type": "parent"
+ },
+ {
+  "source": "Nettlesplash",
+  "target": "Rileypool",
+  "type": "mentor"
+ },
+ {
+  "source": "Nettlesplash",
+  "target": "Palesky",
+  "type": "mentor"
+ },
+ {
+  "source": "Nettlesplash",
+  "target": "Nectarsong",
+  "type": "mentor"
+ },
+ {
+  "source": "Nettlespot",
+  "target": "Toadskip",
+  "type": "mate"
+ },
+ {
+  "source": "Newtspeck",
+  "target": "Wetfoot",
+  "type": "parent"
+ },
+ {
+  "source": "Sparrowtail",
+  "target": "Needletail",
+  "type": "parent"
+ },
+ {
+  "source": "Tawnypelt",
+  "target": "Needletail",
+  "type": "mentor"
+ },
+ {
+  "source": "Needletail",
+  "target": "Violetshine",
+  "type": "mentor"
+ },
+ {
+  "source": "Moss Tail",
+  "target": "Pine Needle",
+  "type": "parent"
+ },
+ {
+  "source": "Moss Tail",
+  "target": "Willow Stream",
+  "type": "mentor"
+ },
+ {
+  "source": "Nettle (AVoS)",
+  "target": "Yarrowleaf",
+  "type": "mate"
+ },
+ {
+  "source": "Shorty",
+  "target": "Night (Ro)",
+  "type": "parent"
+ },
+ {
+  "source": "Sparrowpelt (SkC)",
+  "target": "Nectarsong",
+  "type": "mentor"
+ },
+ {
+  "source": "Nectarsong",
+  "target": "Starlingflight",
+  "type": "mentor"
+ },
+ {
+  "source": "Princess",
+  "target": "Nami",
+  "type": "parent"
+ },
+ {
+  "source": "Oliver",
+  "target": "Nami",
+  "type": "parent"
+ },
+ {
+  "source": "Sorrelstripe",
+  "target": "Myrtlebloom",
+  "type": "parent"
+ },
+ {
+  "source": "Myrtlebloom",
+  "target": "Sunpaw (TC)",
+  "type": "parent"
+ },
+ {
+  "source": "Myrtlebloom",
+  "target": "Oakpaw (TC)",
+  "type": "parent"
+ },
+ {
+  "source": "Violetshine",
+  "target": "Needleclaw",
+  "type": "parent"
+ },
+ {
+  "source": "Tree",
+  "target": "Needleclaw",
+  "type": "parent"
+ },
+ {
+  "source": "Needleclaw",
+  "target": "Robinpaw (SkC)",
+  "type": "parent"
+ },
+ {
+  "source": "Needleclaw",
+  "target": "Starlingflight",
+  "type": "parent"
+ },
+ {
+  "source": "Reedclaw",
+  "target": "Needleclaw",
+  "type": "mentor"
+ },
+ {
+  "source": "Nettlesting",
+  "target": "Quailpaw (StoC)",
+  "type": "parent"
+ },
+ {
+  "source": "Nettlesting",
+  "target": "Wasppaw",
+  "type": "parent"
+ },
+ {
+  "source": "Shellheart",
+  "target": "Oakheart",
+  "type": "parent"
+ },
+ {
+  "source": "Rainflower",
+  "target": "Oakheart",
+  "type": "parent"
+ },
+ {
+  "source": "Oakheart",
+  "target": "Stonefur",
+  "type": "parent"
+ },
+ {
+  "source": "Shellheart",
+  "target": "Oakheart",
+  "type": "mentor"
  },
  {
   "source": "Onestar",
@@ -716,17 +7586,1007 @@
  },
  {
   "source": "Onestar",
+  "target": "Smoke",
+  "type": "mate"
+ },
+ {
+  "source": "Wrenflight (WiC)",
+  "target": "Onestar",
+  "type": "parent"
+ },
+ {
+  "source": "Stagleap (WiC)",
+  "target": "Onestar",
+  "type": "parent"
+ },
+ {
+  "source": "Onestar",
   "target": "Whitetail (WiC)",
   "type": "mentor"
  },
  {
-  "source": "Runningnose",
-  "target": "Littlecloud",
+  "source": "Rainfur (TC)",
+  "target": "One-eye",
+  "type": "adoptive"
+ },
+ {
+  "source": "Stagleap (TC)",
+  "target": "One-eye",
+  "type": "parent"
+ },
+ {
+  "source": "One-eye",
+  "target": "Runningwind",
+  "type": "parent"
+ },
+ {
+  "source": "Smallear",
+  "target": "One-eye",
   "type": "mentor"
  },
  {
-  "source": "Mudclaw (WiC)",
-  "target": "Webfoot",
+  "source": "Toadskip",
+  "target": "Nightstar (ShC)",
+  "type": "parent"
+ },
+ {
+  "source": "Nightstar (ShC)",
+  "target": "Volewhisper",
+  "type": "mentor"
+ },
+ {
+  "source": "Wetfoot",
+  "target": "Oakfur",
+  "type": "mentor"
+ },
+ {
+  "source": "Oakfur",
+  "target": "Tawnypelt",
+  "type": "mentor"
+ },
+ {
+  "source": "Oakfur",
+  "target": "Smokepaw (TNP)",
+  "type": "mentor"
+ },
+ {
+  "source": "Oakfur",
+  "target": "Tigerstar (AVoS)",
+  "type": "mentor"
+ },
+ {
+  "source": "Smokefoot",
+  "target": "Owlclaw",
+  "type": "mentor"
+ },
+ {
+  "source": "Nightfur",
+  "target": "Oakstep",
+  "type": "mentor"
+ },
+ {
+  "source": "Night of No Stars",
+  "target": "Sheer Path Beside Waterfall",
+  "type": "mate"
+ },
+ {
+  "source": "Otterheart",
+  "target": "Sneezecloud",
+  "type": "mentor"
+ },
+ {
+  "source": "Owl Feather",
+  "target": "Running Fox",
+  "type": "parent"
+ },
+ {
+  "source": "Owl Feather",
+  "target": "Strong Pounce",
+  "type": "parent"
+ },
+ {
+  "source": "Owlfur",
+  "target": "Softwing",
+  "type": "mate"
+ },
+ {
+  "source": "Owlfur",
+  "target": "Willowbreeze",
+  "type": "mentor"
+ },
+ {
+  "source": "Ottersplash",
+  "target": "Timberfur",
+  "type": "mate"
+ },
+ {
+  "source": "Ottersplash",
+  "target": "Reedtail",
+  "type": "parent"
+ },
+ {
+  "source": "Ottersplash",
+  "target": "Sedgecreek",
+  "type": "parent"
+ },
+ {
+  "source": "Pinestar",
+  "target": "Nightkit (TC)",
+  "type": "parent"
+ },
+ {
+  "source": "Nutmeg (TPB)",
+  "target": "Princess",
+  "type": "parent"
+ },
+ {
+  "source": "Nutmeg (TPB)",
+  "target": "Tommy",
+  "type": "parent"
+ },
+ {
+  "source": "Oatclaw",
+  "target": "Whistlebreeze",
+  "type": "parent"
+ },
+ {
+  "source": "Oatclaw",
+  "target": "Songleap",
+  "type": "parent"
+ },
+ {
+  "source": "One Eye",
+  "target": "Star Flower",
+  "type": "parent"
+ },
+ {
+  "source": "Oakstar",
+  "target": "Sweetbriar",
+  "type": "mate"
+ },
+ {
+  "source": "Oakstar",
+  "target": "Pinestar",
+  "type": "parent"
+ },
+ {
+  "source": "Oatspeckle",
+  "target": "Ravenwing",
+  "type": "mentor"
+ },
+ {
+  "source": "Shimmerpelt (BrS)",
+  "target": "Nightsky (TBC)",
+  "type": "mentor"
+ },
+ {
+  "source": "Petalfur",
+  "target": "Owlnose",
+  "type": "parent"
+ },
+ {
+  "source": "Oliver",
+  "target": "Princess",
+  "type": "mate"
+ },
+ {
+  "source": "Oliver",
+  "target": "Zack",
+  "type": "parent"
+ },
+ {
+  "source": "Oliver",
+  "target": "Taylor",
+  "type": "parent"
+ },
+ {
+  "source": "Sparkpelt",
+  "target": "Nightheart (ASC)",
+  "type": "parent"
+ },
+ {
+  "source": "Sorrelstripe",
+  "target": "Nightheart (ASC)",
+  "type": "adoptive"
+ },
+ {
+  "source": "Nightheart (ASC)",
+  "target": "Sunbeam",
+  "type": "mate"
+ },
+ {
+  "source": "Nightheart (ASC)",
+  "target": "Shinepool",
+  "type": "parent"
+ },
+ {
+  "source": "Nightheart (ASC)",
+  "target": "Wafflepelt",
+  "type": "mentor"
+ },
+ {
+  "source": "Rosebush",
+  "target": "Owlpaw (TC)",
+  "type": "mentor"
+ },
+ {
+  "source": "Swiftbreeze",
+  "target": "Patchpelt",
+  "type": "parent"
+ },
+ {
+  "source": "Patchpelt",
+  "target": "Robinwing (TC)",
+  "type": "mate"
+ },
+ {
+  "source": "Patchpelt",
+  "target": "Swiftpaw (TPB)",
+  "type": "parent"
+ },
+ {
+  "source": "Patchpelt",
+  "target": "Whitestorm",
+  "type": "mentor"
+ },
+ {
+  "source": "Turtle Tail",
+  "target": "Pebble Heart",
+  "type": "parent"
+ },
+ {
+  "source": "Tom (ES)",
+  "target": "Pebble Heart",
+  "type": "parent"
+ },
+ {
+  "source": "Petalnose",
+  "target": "Rainfur (SkC)",
+  "type": "mate"
+ },
+ {
+  "source": "Petalnose",
+  "target": "Sagenose",
+  "type": "parent"
+ },
+ {
+  "source": "Petalnose",
+  "target": "Sagenose",
+  "type": "mentor"
+ },
+ {
+  "source": "Pebblefoot",
+  "target": "Rushtail (RC)",
+  "type": "mentor"
+ },
+ {
+  "source": "Tornear",
+  "target": "Owlwhisker",
+  "type": "mentor"
+ },
+ {
+  "source": "Owlwhisker",
+  "target": "Whiskernose",
+  "type": "mentor"
+ },
+ {
+  "source": "Patchfoot",
+  "target": "Sandynose",
+  "type": "parent"
+ },
+ {
+  "source": "Palebird",
+  "target": "Woollytail",
+  "type": "mate"
+ },
+ {
+  "source": "Palebird",
+  "target": "Sandgorse",
+  "type": "mate"
+ },
+ {
+  "source": "Palebird",
+  "target": "Tallstar",
+  "type": "parent"
+ },
+ {
+  "source": "Palebird",
+  "target": "Wrenflight (WiC)",
+  "type": "parent"
+ },
+ {
+  "source": "Palebird",
+  "target": "Rabbitear",
+  "type": "parent"
+ },
+ {
+  "source": "Petal and Fox's mother",
+  "target": "Petal (DotC)",
+  "type": "parent"
+ },
+ {
+  "source": "Violet (KP)",
+  "target": "Patch (RF)",
+  "type": "parent"
+ },
+ {
+  "source": "Tinycloud",
+  "target": "Parsleyseed",
+  "type": "parent"
+ },
+ {
+  "source": "Sparrowpelt (SkC)",
+  "target": "Parsleyseed",
+  "type": "parent"
+ },
+ {
+  "source": "Rabbitleap (SkC)",
+  "target": "Parsleyseed",
+  "type": "mentor"
+ },
+ {
+  "source": "Pebbleshine",
+  "target": "Violetshine",
+  "type": "parent"
+ },
+ {
+  "source": "Pebbleshine",
+  "target": "Twigbranch",
+  "type": "parent"
+ },
+ {
+  "source": "Sparrowpelt (SkC)",
+  "target": "Pebbleshine",
+  "type": "parent"
+ },
+ {
+  "source": "Tinycloud",
+  "target": "Pebbleshine",
+  "type": "parent"
+ },
+ {
+  "source": "Sandynose",
+  "target": "Pebbleshine",
+  "type": "mentor"
+ },
+ {
+  "source": "Rabbitleap (SkC)",
+  "target": "Palesky",
+  "type": "mentor"
+ },
+ {
+  "source": "Petal (Sister)",
+  "target": "Stream",
+  "type": "parent"
+ },
+ {
+  "source": "Turtle Tail",
+  "target": "Owlstar (SotC)",
+  "type": "parent"
+ },
+ {
+  "source": "Tom (ES)",
+  "target": "Owlstar (SotC)",
+  "type": "parent"
+ },
+ {
+  "source": "Owlstar (SotC)",
+  "target": "Snail Shell",
+  "type": "mentor"
+ },
+ {
+  "source": "Skystar",
+  "target": "Pale Sky",
+  "type": "parent"
+ },
+ {
+  "source": "Pebblenose",
+  "target": "Thrushcall",
+  "type": "mate"
+ },
+ {
+  "source": "Swiftwing",
+  "target": "Palepaw (StoC)",
+  "type": "mentor"
+ },
+ {
+  "source": "Stripebark",
+  "target": "Pebble Lunge",
+  "type": "parent"
+ },
+ {
+  "source": "Peony",
+  "target": "Stem",
+  "type": "mate"
+ },
+ {
+  "source": "Princess",
+  "target": "Zack",
+  "type": "parent"
+ },
+ {
+  "source": "Princess",
+  "target": "Taylor",
+  "type": "parent"
+ },
+ {
+  "source": "Sorreltail",
+  "target": "Poppyfrost",
+  "type": "parent"
+ },
+ {
+  "source": "Thornclaw",
+  "target": "Poppyfrost",
+  "type": "mentor"
+ },
+ {
+  "source": "Reedwhisker",
+  "target": "Pouncetail (RC)",
+  "type": "mentor"
+ },
+ {
+  "source": "Pricklenose",
+  "target": "Skywatcher",
+  "type": "mentor"
+ },
+ {
+  "source": "Pricklenose",
+  "target": "Twig",
+  "type": "mentor"
+ },
+ {
+  "source": "Pinefur",
+  "target": "Robinwing (RC)",
+  "type": "mentor"
+ },
+ {
+  "source": "Poppydawn",
+  "target": "Windflight",
+  "type": "mate"
+ },
+ {
+  "source": "Poppydawn",
+  "target": "Rosetail",
+  "type": "parent"
+ },
+ {
+  "source": "Poppydawn",
+  "target": "Sweetpaw",
+  "type": "parent"
+ },
+ {
+  "source": "Poppydawn",
+  "target": "Thistleclaw",
+  "type": "parent"
+ },
+ {
+  "source": "Poppydawn",
+  "target": "Willowpelt",
+  "type": "mentor"
+ },
+ {
+  "source": "Sweetbriar",
+  "target": "Pinestar",
+  "type": "parent"
+ },
+ {
+  "source": "Pinestar",
+  "target": "Tigerstar (TPB)",
+  "type": "parent"
+ },
+ {
+  "source": "Poolcloud",
+  "target": "Toadskip",
+  "type": "mate"
+ },
+ {
+  "source": "Poolcloud",
+  "target": "Wolfstep",
+  "type": "parent"
+ },
+ {
+  "source": "Pinenose",
+  "target": "Spikefur",
+  "type": "mate"
+ },
+ {
+  "source": "Pinenose",
+  "target": "Puddleshine",
+  "type": "parent"
+ },
+ {
+  "source": "Pinenose",
+  "target": "Slatefur",
+  "type": "parent"
+ },
+ {
+  "source": "Pinenose",
+  "target": "Weaselkit",
+  "type": "parent"
+ },
+ {
+  "source": "Pinenose",
+  "target": "Violetshine",
+  "type": "adoptive"
+ },
+ {
+  "source": "Ratscar",
+  "target": "Pinenose",
+  "type": "mentor"
+ },
+ {
+  "source": "Plumwillow",
+  "target": "Sandynose",
+  "type": "mate"
+ },
+ {
+  "source": "Waspwhisker",
+  "target": "Plumwillow",
+  "type": "parent"
+ },
+ {
+  "source": "Plumwillow",
+  "target": "Reedclaw",
+  "type": "parent"
+ },
+ {
+  "source": "Plumwillow",
+  "target": "Sunnypelt",
+  "type": "mentor"
+ },
+ {
+  "source": "Stormfur",
+  "target": "Pine That Clings to Rock",
+  "type": "parent"
+ },
+ {
+  "source": "Piketooth",
+  "target": "Shimmerpelt (CrP)",
+  "type": "mate"
+ },
+ {
+  "source": "Piketooth",
+  "target": "Skyheart",
+  "type": "parent"
+ },
+ {
+  "source": "Plumclaw",
+  "target": "Rabbitear",
+  "type": "mentor"
+ },
+ {
+  "source": "Spikefur",
+  "target": "Puddleshine",
+  "type": "parent"
+ },
+ {
+  "source": "Puddleshine",
+  "target": "Shadowsight",
+  "type": "mentor"
+ },
+ {
+  "source": "Thornclaw",
+  "target": "Plumstone",
+  "type": "parent"
+ },
+ {
+  "source": "Tinycloud",
+  "target": "Pigeonfoot",
+  "type": "parent"
+ },
+ {
+  "source": "Sparrowpelt (SkC)",
+  "target": "Pigeonfoot",
+  "type": "parent"
+ },
+ {
+  "source": "Tigerstar (AVoS)",
+  "target": "Pouncestep",
+  "type": "parent"
+ },
+ {
+  "source": "Pouncestep",
+  "target": "Sprucetip",
+  "type": "parent"
+ },
+ {
+  "source": "Pouncestep",
+  "target": "Redcloud",
+  "type": "parent"
+ },
+ {
+  "source": "Snowbird",
+  "target": "Pouncestep",
+  "type": "mentor"
+ },
+ {
+  "source": "Tumble Leap",
+  "target": "Pounce Whisper",
+  "type": "parent"
+ },
+ {
+  "source": "Stalk Purr",
+  "target": "Pounce Whisper",
+  "type": "parent"
+ },
+ {
+  "source": "Slatefur",
+  "target": "Poolpaw",
+  "type": "mentor"
+ },
+ {
+  "source": "Shellfur",
+  "target": "Puffkit",
+  "type": "parent"
+ },
+ {
+  "source": "Robinwing (TC)",
+  "target": "Ravenpaw",
+  "type": "parent"
+ },
+ {
+  "source": "Tigerstar (TPB)",
+  "target": "Ravenpaw",
+  "type": "mentor"
+ },
+ {
+  "source": "Ravenpaw",
+  "target": "Rileypool",
+  "type": "mentor"
+ },
+ {
+  "source": "Raggedstar",
+  "target": "Yellowfang",
+  "type": "mate"
+ },
+ {
+  "source": "Raggedstar",
+  "target": "Wishkit",
+  "type": "parent"
+ },
+ {
+  "source": "Willowpelt",
+  "target": "Rainwhisker",
+  "type": "parent"
+ },
+ {
+  "source": "Whitestorm",
+  "target": "Rainwhisker",
+  "type": "parent"
+ },
+ {
+  "source": "Rainfur (SkC)",
+  "target": "Sagenose",
+  "type": "parent"
+ },
+ {
+  "source": "Quince",
+  "target": "Ruby",
+  "type": "parent"
+ },
+ {
+  "source": "Quince",
+  "target": "Socks",
+  "type": "parent"
+ },
+ {
+  "source": "Quince",
+  "target": "Scourge",
+  "type": "parent"
+ },
+ {
+  "source": "Ratscar",
+  "target": "Shrewfoot",
+  "type": "mentor"
+ },
+ {
+  "source": "Redclaw",
+  "target": "Shrewclaw",
+  "type": "parent"
+ },
+ {
+  "source": "Stick",
+  "target": "Red (SD)",
+  "type": "parent"
+ },
+ {
+  "source": "Velvet (SD)",
+  "target": "Red (SD)",
+  "type": "parent"
+ },
+ {
+  "source": "Waspwhisker",
+  "target": "Rabbitleap (SkC)",
+  "type": "parent"
+ },
+ {
+  "source": "Rabbitleap (SkC)",
+  "target": "Wrenflight (SkC)",
+  "type": "parent"
+ },
+ {
+  "source": "Rabbitleap (SkC)",
+  "target": "Violetshine",
+  "type": "mentor"
+ },
+ {
+  "source": "Rabbitleap (SkC)",
+  "target": "Wrenflight (SkC)",
+  "type": "mentor"
+ },
+ {
+  "source": "Rainflower",
+  "target": "Shellheart",
+  "type": "mate"
+ },
+ {
+  "source": "Quiet Rain",
+  "target": "Skystar",
+  "type": "parent"
+ },
+ {
+  "source": "Shaded Moss",
+  "target": "Rainswept Flower",
+  "type": "parent"
+ },
+ {
+  "source": "Woollytail",
+  "target": "Rabbitear",
+  "type": "parent"
+ },
+ {
+  "source": "Rainfur (TC)",
+  "target": "Windflight",
+  "type": "mate"
+ },
+ {
+  "source": "Rainfur (TC)",
+  "target": "Tawnyspots",
+  "type": "parent"
+ },
+ {
+  "source": "Rainfur (TC)",
+  "target": "Thrushpelt (TC)",
+  "type": "parent"
+ },
+ {
+  "source": "Rainfur (TC)",
+  "target": "Speckletail",
+  "type": "adoptive"
+ },
+ {
+  "source": "Ravenstar",
+  "target": "Shade Pelt",
+  "type": "parent"
+ },
+ {
+  "source": "Rain (DotC)",
+  "target": "Violet Dawn",
+  "type": "mate"
+ },
+ {
+  "source": "Tinycloud",
+  "target": "Quailfeather (TBC)",
+  "type": "parent"
+ },
+ {
+  "source": "Sparrowpelt (SkC)",
+  "target": "Quailfeather (TBC)",
+  "type": "parent"
+ },
+ {
+  "source": "Quailfeather (TBC)",
+  "target": "Reedclaw",
+  "type": "mate"
+ },
+ {
+  "source": "Quailfeather (TBC)",
+  "target": "Turtlecrawl",
+  "type": "parent"
+ },
+ {
+  "source": "Sandynose",
+  "target": "Quailfeather (TBC)",
+  "type": "mentor"
+ },
+ {
+  "source": "Sneezecloud",
+  "target": "Rapidsplash",
+  "type": "parent"
+ },
+ {
+  "source": "Snaketooth (ShC)",
+  "target": "Redcloud",
+  "type": "mentor"
+ },
+ {
+  "source": "Swiftbreeze",
+  "target": "Redtail",
+  "type": "parent"
+ },
+ {
+  "source": "Windflight",
+  "target": "Rosetail",
+  "type": "parent"
+ },
+ {
+  "source": "Tawnyspots",
+  "target": "Rosetail",
+  "type": "mentor"
+ },
+ {
+  "source": "Reedwhisker",
+  "target": "Rippletail (RC)",
+  "type": "mentor"
+ },
+ {
+  "source": "Robinwing (WiC)",
+  "target": "Thistlepaw (TNP)",
+  "type": "mentor"
+ },
+ {
+  "source": "Rockshade",
+  "target": "Sandynose",
+  "type": "mentor"
+ },
+ {
+  "source": "Riverstar",
+  "target": "Ripple Shine",
+  "type": "parent"
+ },
+ {
+  "source": "Riverstar",
+  "target": "Spider Paw",
+  "type": "adoptive"
+ },
+ {
+  "source": "Spiderleg",
+  "target": "Rosepetal",
+  "type": "parent"
+ },
+ {
+  "source": "Squirrelstar",
+  "target": "Rosepetal",
+  "type": "mentor"
+ },
+ {
+  "source": "Rosepetal",
+  "target": "Stemleaf",
+  "type": "mentor"
+ },
+ {
+  "source": "Whitewater",
+  "target": "Redwillow",
+  "type": "mentor"
+ },
+ {
+  "source": "Reedshine (CotC)",
+  "target": "Splashheart",
+  "type": "mentor"
+ },
+ {
+  "source": "Robinwing (SkC)",
+  "target": "Rubblepaw",
+  "type": "mentor"
+ },
+ {
+  "source": "Robinwing (TC)",
+  "target": "Whitestorm",
+  "type": "adoptive"
+ },
+ {
+  "source": "Reedfeather",
+  "target": "Willowbreeze",
+  "type": "parent"
+ },
+ {
+  "source": "Rippleclaw",
+  "target": "Splashkit (CrP)",
+  "type": "parent"
+ },
+ {
+  "source": "Rippleclaw",
+  "target": "Swankit",
+  "type": "parent"
+ },
+ {
+  "source": "Rippleclaw",
+  "target": "Voleclaw",
+  "type": "mentor"
+ },
+ {
+  "source": "Timberfur",
+  "target": "Reedtail",
+  "type": "parent"
+ },
+ {
+  "source": "Reedshine (MV)",
+  "target": "Shyheart",
+  "type": "parent"
+ },
+ {
+  "source": "Reedshine (MV)",
+  "target": "Willownose",
+  "type": "parent"
+ },
+ {
+  "source": "Reed Tail",
+  "target": "Swift Minnow",
+  "type": "mate"
+ },
+ {
+  "source": "Rooktail",
+  "target": "Stormtail",
+  "type": "mentor"
+ },
+ {
+  "source": "Redthistle",
+  "target": "Sagewhisker",
+  "type": "mentor"
+ },
+ {
+  "source": "Squirrelwhisker",
+  "target": "Rockfall",
+  "type": "mentor"
+ },
+ {
+  "source": "Violet (KP)",
+  "target": "Rileypool",
+  "type": "parent"
+ },
+ {
+  "source": "Sandynose",
+  "target": "Reedclaw",
+  "type": "parent"
+ },
+ {
+  "source": "Reedclaw",
+  "target": "Turtlecrawl",
+  "type": "parent"
+ },
+ {
+  "source": "Violetshine",
+  "target": "Rootspring",
+  "type": "parent"
+ },
+ {
+  "source": "Tree",
+  "target": "Rootspring",
+  "type": "parent"
+ },
+ {
+  "source": "Root",
+  "target": "Tree",
+  "type": "parent"
+ },
+ {
+  "source": "Root",
+  "target": "Sunrise (Sister)",
+  "type": "parent"
+ },
+ {
+  "source": "Rosebush",
+  "target": "Whitestar (SF)",
+  "type": "mate"
+ },
+ {
+  "source": "Sandstorm",
+  "target": "Squirrelstar",
+  "type": "parent"
+ },
+ {
+  "source": "Whitestorm",
+  "target": "Sandstorm",
+  "type": "mentor"
+ },
+ {
+  "source": "Sandstorm",
+  "target": "Sorreltail",
+  "type": "mentor"
+ },
+ {
+  "source": "Sandstorm",
+  "target": "Sparrowpelt (SkC)",
   "type": "mentor"
  },
  {
@@ -735,14 +8595,249 @@
   "type": "mentor"
  },
  {
-  "source": "Tallstar",
-  "target": "Morningflower",
+  "source": "Sasha",
+  "target": "Tigerstar (TPB)",
+  "type": "mate"
+ },
+ {
+  "source": "Sasha",
+  "target": "Tadpole",
+  "type": "parent"
+ },
+ {
+  "source": "Tornear",
+  "target": "Runningbrook",
   "type": "mentor"
  },
  {
-  "source": "Raggedstar",
-  "target": "Yellowfang",
+  "source": "Scorchfur",
+  "target": "Snowbird",
   "type": "mate"
+ },
+ {
+  "source": "Scorchfur",
+  "target": "Yarrowleaf",
+  "type": "parent"
+ },
+ {
+  "source": "Snaketail (PoT)",
+  "target": "Scorchfur",
+  "type": "mentor"
+ },
+ {
+  "source": "Sagewhisker",
+  "target": "Yellowfang",
+  "type": "mentor"
+ },
+ {
+  "source": "Tinycloud",
+  "target": "Sandynose",
+  "type": "mentor"
+ },
+ {
+  "source": "Sandynose",
+  "target": "Twigbranch",
+  "type": "mentor"
+ },
+ {
+  "source": "Sagenose",
+  "target": "Snipkit",
+  "type": "parent"
+ },
+ {
+  "source": "Rowanberry",
+  "target": "Stumpytail",
+  "type": "parent"
+ },
+ {
+  "source": "Rowanberry",
+  "target": "Blackstar",
+  "type": "mentor"
+ },
+ {
+  "source": "Rowanberry",
+  "target": "Fernshade",
+  "type": "mentor"
+ },
+ {
+  "source": "Rowanberry",
+  "target": "Flintfang",
+  "type": "mentor"
+ },
+ {
+  "source": "Scorchwind",
+  "target": "Rowanclaw",
+  "type": "parent"
+ },
+ {
+  "source": "Scorchwind",
+  "target": "Blackstar",
+  "type": "mentor"
+ },
+ {
+  "source": "Scorchwind",
+  "target": "Fernshade",
+  "type": "mentor"
+ },
+ {
+  "source": "Scorchwind",
+  "target": "Flintfang",
+  "type": "mentor"
+ },
+ {
+  "source": "Sandgorse",
+  "target": "Tallstar",
+  "type": "parent"
+ },
+ {
+  "source": "Ryestalk",
+  "target": "Shrewclaw",
+  "type": "mate"
+ },
+ {
+  "source": "Ryestalk",
+  "target": "Tornear",
+  "type": "parent"
+ },
+ {
+  "source": "Rowanclaw",
+  "target": "Tawnypelt",
+  "type": "mate"
+ },
+ {
+  "source": "Rowanclaw",
+  "target": "Tigerstar (AVoS)",
+  "type": "parent"
+ },
+ {
+  "source": "Rowanclaw",
+  "target": "Talonpaw",
+  "type": "mentor"
+ },
+ {
+  "source": "Tigerstar (AVoS)",
+  "target": "Rowankit (ASC)",
+  "type": "parent"
+ },
+ {
+  "source": "Skystar",
+  "target": "Rumble",
+  "type": "parent"
+ },
+ {
+  "source": "Storm (Ro)",
+  "target": "Rumble",
+  "type": "parent"
+ },
+ {
+  "source": "Tumbletail",
+  "target": "Russetkit",
+  "type": "parent"
+ },
+ {
+  "source": "Thornclaw",
+  "target": "Shrewpaw (TC)",
+  "type": "mentor"
+ },
+ {
+  "source": "Sedgewhisker",
+  "target": "Silkypod",
+  "type": "parent"
+ },
+ {
+  "source": "Stonefur",
+  "target": "Shadepelt (TPB)",
+  "type": "mentor"
+ },
+ {
+  "source": "Shorty",
+  "target": "Stone (HJ)",
+  "type": "parent"
+ },
+ {
+  "source": "Sheeptail",
+  "target": "Thistlepaw (CotC)",
+  "type": "mentor"
+ },
+ {
+  "source": "Shrewclaw",
+  "target": "Tornear",
+  "type": "parent"
+ },
+ {
+  "source": "Willownose",
+  "target": "Shellheart",
+  "type": "parent"
+ },
+ {
+  "source": "Shimmerpelt (CrP)",
+  "target": "Skyheart",
+  "type": "parent"
+ },
+ {
+  "source": "Timberfur",
+  "target": "Sedgecreek",
+  "type": "parent"
+ },
+ {
+  "source": "Sorreltail",
+  "target": "Seedpaw",
+  "type": "parent"
+ },
+ {
+  "source": "Slate (DotC)",
+  "target": "Silver Stripe",
+  "type": "parent"
+ },
+ {
+  "source": "Thornclaw",
+  "target": "Shellfur",
+  "type": "parent"
+ },
+ {
+  "source": "Shellfur",
+  "target": "Shykit",
+  "type": "parent"
+ },
+ {
+  "source": "Violet Dawn",
+  "target": "Shell Claw",
+  "type": "parent"
+ },
+ {
+  "source": "Thunderstar",
+  "target": "Shell Claw",
+  "type": "parent"
+ },
+ {
+  "source": "Tigerstar (AVoS)",
+  "target": "Shadowsight",
+  "type": "parent"
+ },
+ {
+  "source": "Sunbeam",
+  "target": "Shinepool",
+  "type": "parent"
+ },
+ {
+  "source": "Songleap",
+  "target": "Silkypod",
+  "type": "mentor"
+ },
+ {
+  "source": "Willowbreeze",
+  "target": "Silverstream",
+  "type": "parent"
+ },
+ {
+  "source": "Sunfish",
+  "target": "Silverstream",
+  "type": "adoptive"
+ },
+ {
+  "source": "Silverstream",
+  "target": "Stormfur",
+  "type": "parent"
  },
  {
   "source": "Smallear",
@@ -756,32 +8851,152 @@
  },
  {
   "source": "Smallear",
-  "target": "Mistlekit (TC)",
-  "type": "parent"
- },
- {
-  "source": "Smallear",
-  "target": "One-eye",
+  "target": "Sweetpaw",
   "type": "mentor"
  },
  {
-  "source": "Patchpelt",
-  "target": "Swiftpaw (TPB)",
+  "source": "Sneezecloud",
+  "target": "Splashtail",
   "type": "parent"
  },
  {
-  "source": "Patchpelt",
-  "target": "Whitestorm",
+  "source": "Sneezecloud",
+  "target": "Troutshine",
+  "type": "parent"
+ },
+ {
+  "source": "Skystar",
+  "target": "Storm (Ro)",
+  "type": "mate"
+ },
+ {
+  "source": "Skystar",
+  "target": "Star Flower",
+  "type": "mate"
+ },
+ {
+  "source": "Skystar",
+  "target": "Tiger Tail",
+  "type": "parent"
+ },
+ {
+  "source": "Skystar",
+  "target": "Thunderstar",
+  "type": "parent"
+ },
+ {
+  "source": "Skystar",
+  "target": "Tiny Branch",
+  "type": "parent"
+ },
+ {
+  "source": "Slatepelt",
+  "target": "Specklepaw",
   "type": "mentor"
+ },
+ {
+  "source": "Willie",
+  "target": "Sniff",
+  "type": "parent"
+ },
+ {
+  "source": "Softwing",
+  "target": "Skyheart",
+  "type": "mentor"
+ },
+ {
+  "source": "Slightfoot",
+  "target": "Stretchpaw",
+  "type": "mentor"
+ },
+ {
+  "source": "Slate (DotC)",
+  "target": "White Tail",
+  "type": "parent"
+ },
+ {
+  "source": "Tigerstar (AVoS)",
+  "target": "Sleekwhisker",
+  "type": "mentor"
+ },
+ {
+  "source": "Smokehaze",
+  "target": "Woodsong",
+  "type": "mentor"
+ },
+ {
+  "source": "Spikefur",
+  "target": "Slatefur",
+  "type": "parent"
+ },
+ {
+  "source": "Slatefur",
+  "target": "Whisperbreeze",
+  "type": "parent"
+ },
+ {
+  "source": "Slatefur",
+  "target": "Streamripple",
+  "type": "parent"
+ },
+ {
+  "source": "Yew Tail",
+  "target": "Snail Shell",
+  "type": "parent"
+ },
+ {
+  "source": "Stonewing",
+  "target": "Snaketooth (ShC)",
+  "type": "parent"
+ },
+ {
+  "source": "Tawnypelt",
+  "target": "Snaketooth (ShC)",
+  "type": "mentor"
+ },
+ {
+  "source": "Snaketooth (ShC)",
+  "target": "Sunbeam",
+  "type": "mentor"
+ },
+ {
+  "source": "Violet Dawn",
+  "target": "Sleek Fur",
+  "type": "parent"
+ },
+ {
+  "source": "Thunderstar",
+  "target": "Sleek Fur",
+  "type": "parent"
  },
  {
   "source": "Willowpelt",
-  "target": "Rainwhisker",
+  "target": "Sorreltail",
   "type": "parent"
  },
  {
   "source": "Whitestorm",
-  "target": "Rainwhisker",
+  "target": "Sorreltail",
+  "type": "parent"
+ },
+ {
+  "source": "Stagleap (TC)",
+  "target": "Speckletail",
+  "type": "parent"
+ },
+ {
+  "source": "Speckletail",
+  "target": "Snowkit (TPB)",
+  "type": "parent"
+ },
+ {
+  "source": "Speckletail",
+  "target": "Snowkit (TPB)",
+  "type": "mentor"
+ },
+ {
+  "source": "Spiderleg",
+  "target": "Toadstep",
   "type": "parent"
  },
  {
@@ -800,63 +9015,298 @@
   "type": "mentor"
  },
  {
-  "source": "Wetfoot",
-  "target": "Oakfur",
-  "type": "mentor"
- },
- {
-  "source": "Oakfur",
-  "target": "Tawnypelt",
-  "type": "mentor"
- },
- {
-  "source": "Stonefur",
-  "target": "Shadepelt (TPB)",
-  "type": "mentor"
- },
- {
-  "source": "Speckletail",
-  "target": "Snowkit (TPB)",
-  "type": "parent"
- },
- {
-  "source": "Speckletail",
-  "target": "Snowkit (TPB)",
-  "type": "mentor"
- },
- {
-  "source": "Mosspelt",
-  "target": "Stormfur",
-  "type": "adoptive"
- },
- {
-  "source": "Tornear",
-  "target": "Runningbrook",
-  "type": "mentor"
- },
- {
-  "source": "Loudbelly",
-  "target": "Silverpaw (TPB)",
-  "type": "mentor"
- },
- {
-  "source": "Loudbelly",
-  "target": "Pikepaw (MO)",
-  "type": "mentor"
- },
- {
-  "source": "Rippleclaw",
-  "target": "Swankit",
-  "type": "parent"
- },
- {
-  "source": "Rowanclaw",
-  "target": "Tawnypelt",
+  "source": "Sparrowpelt (SkC)",
+  "target": "Tinycloud",
   "type": "mate"
  },
  {
-  "source": "Speckletail",
-  "target": "Mistlekit (TC)",
+  "source": "Sparrowpelt (SkC)",
+  "target": "Sunnypelt",
+  "type": "parent"
+ },
+ {
+  "source": "Sparrowpelt (SkC)",
+  "target": "Tinycloud",
+  "type": "mentor"
+ },
+ {
+  "source": "Stormtail",
+  "target": "Snowfur",
+  "type": "parent"
+ },
+ {
+  "source": "Snowfur",
+  "target": "Thistleclaw",
+  "type": "mate"
+ },
+ {
+  "source": "Snowfur",
+  "target": "Whitestorm",
+  "type": "parent"
+ },
+ {
+  "source": "Snowbird",
+  "target": "Yarrowleaf",
+  "type": "parent"
+ },
+ {
+  "source": "Sol's father",
+  "target": "Sol",
+  "type": "parent"
+ },
+ {
+  "source": "Willie",
+  "target": "Snowflake (Ro)",
+  "type": "parent"
+ },
+ {
+  "source": "Sparrowtail",
+  "target": "Sunbeam",
+  "type": "parent"
+ },
+ {
+  "source": "Sparrowtail",
+  "target": "Spireclaw",
+  "type": "parent"
+ },
+ {
+  "source": "Softwing",
+  "target": "Stonefur",
+  "type": "mentor"
+ },
+ {
+  "source": "Sorrelshine",
+  "target": "Whitetail (WiC)",
+  "type": "parent"
+ },
+ {
+  "source": "Stagleap (WiC)",
+  "target": "Sorrelshine",
+  "type": "mentor"
+ },
+ {
+  "source": "Turtle Tail",
+  "target": "Sparrowstar",
+  "type": "parent"
+ },
+ {
+  "source": "Tom (ES)",
+  "target": "Sparrowstar",
+  "type": "parent"
+ },
+ {
+  "source": "Spikefur",
+  "target": "Yarrowleaf",
+  "type": "mentor"
+ },
+ {
+  "source": "Squirrelstar",
+  "target": "Sparkpelt",
+  "type": "parent"
+ },
+ {
+  "source": "Sparkpelt",
+  "target": "Twigbranch",
+  "type": "mentor"
+ },
+ {
+  "source": "Yarrowleaf",
+  "target": "Spireclaw",
+  "type": "mentor"
+ },
+ {
+  "source": "Softpelt",
+  "target": "Splashtail",
+  "type": "mentor"
+ },
+ {
+  "source": "Swiftbreeze",
+  "target": "Spottedleaf",
+  "type": "parent"
+ },
+ {
+  "source": "Thrushpelt (TC)",
+  "target": "Spottedleaf",
+  "type": "mentor"
+ },
+ {
+  "source": "Squirrelstar",
+  "target": "Stormcloud",
+  "type": "mentor"
+ },
+ {
+  "source": "Thrushpelt (TC)",
+  "target": "Stonefur",
+  "type": "adoptive"
+ },
+ {
+  "source": "Stonefur",
+  "target": "Stormfur",
+  "type": "mentor"
+ },
+ {
+  "source": "Swallowtail (RC)",
+  "target": "Splashpaw (TNP)",
+  "type": "mentor"
+ },
+ {
+  "source": "Stick",
+  "target": "Velvet (SD)",
+  "type": "mate"
+ },
+ {
+  "source": "Tawnypelt",
+  "target": "Starlingwing",
+  "type": "mentor"
+ },
+ {
+  "source": "Stoatfur (SkC)",
+  "target": "Tansypaw (SkC)",
+  "type": "mentor"
+ },
+ {
+  "source": "Stagleap (WiC)",
+  "target": "Wrenflight (WiC)",
+  "type": "mate"
+ },
+ {
+  "source": "Star Flower",
+  "target": "Tiny Branch",
+  "type": "parent"
+ },
+ {
+  "source": "Squirrelwhisker",
+  "target": "Windflight",
+  "type": "parent"
+ },
+ {
+  "source": "Splinter",
+  "target": "Thistle (TC)",
+  "type": "parent"
+ },
+ {
+  "source": "Stonewing",
+  "target": "Whorlpelt",
+  "type": "parent"
+ },
+ {
+  "source": "Thornclaw",
+  "target": "Stemleaf",
+  "type": "parent"
+ },
+ {
+  "source": "Stemleaf",
+  "target": "Spotfur",
+  "type": "mate"
+ },
+ {
+  "source": "Stemleaf",
+  "target": "Stemtail",
+  "type": "parent"
+ },
+ {
+  "source": "Spotfur",
+  "target": "Stemtail",
+  "type": "parent"
+ },
+ {
+  "source": "Tempest",
+  "target": "Stone (Sister)",
+  "type": "parent"
+ },
+ {
+  "source": "Tempest",
+  "target": "Stone (Sister)",
+  "type": "mentor"
+ },
+ {
+  "source": "Violetshine",
+  "target": "Squirrel (Sister)",
+  "type": "adoptive"
+ },
+ {
+  "source": "Stalk Purr",
+  "target": "Tumble Leap",
+  "type": "mate"
+ },
+ {
+  "source": "Stalk Purr",
+  "target": "Stretch Blink",
+  "type": "parent"
+ },
+ {
+  "source": "Willowclaw",
+  "target": "Swallowtail (WiC)",
+  "type": "mentor"
+ },
+ {
+  "source": "Swiftbreeze",
+  "target": "Willowpelt",
+  "type": "parent"
+ },
+ {
+  "source": "Windflight",
+  "target": "Swiftbreeze",
+  "type": "mentor"
+ },
+ {
+  "source": "Windflight",
+  "target": "Sweetpaw",
+  "type": "parent"
+ },
+ {
+  "source": "Sunfish",
+  "target": "Whiteclaw",
+  "type": "parent"
+ },
+ {
+  "source": "Sunfish",
+  "target": "Vixenleap",
+  "type": "parent"
+ },
+ {
+  "source": "Voleclaw",
+  "target": "Sunfish",
+  "type": "mentor"
+ },
+ {
+  "source": "Storm (Ro)",
+  "target": "Thunderstar",
+  "type": "parent"
+ },
+ {
+  "source": "Storm Pelt",
+  "target": "White Tail",
+  "type": "mentor"
+ },
+ {
+  "source": "Wasptail",
+  "target": "Strikestone",
+  "type": "mentor"
+ },
+ {
+  "source": "Tinycloud",
+  "target": "Sunnypelt",
+  "type": "parent"
+ },
+ {
+  "source": "Stripebark",
+  "target": "Thrush Roll",
+  "type": "parent"
+ },
+ {
+  "source": "Strike Slash",
+  "target": "Wish Stalk",
+  "type": "mate"
+ },
+ {
+  "source": "Tumble Leap",
+  "target": "Stretch Blink",
+  "type": "parent"
+ },
+ {
+  "source": "Tigerstar (TPB)",
+  "target": "Tadpole",
   "type": "parent"
  },
  {
@@ -870,13 +9320,88 @@
   "type": "mentor"
  },
  {
-  "source": "Stonefur",
-  "target": "Stormfur",
-  "type": "mentor"
+  "source": "Tawnypelt",
+  "target": "Tigerstar (AVoS)",
+  "type": "parent"
+ },
+ {
+  "source": "Windflight",
+  "target": "Tawnyspots",
+  "type": "parent"
+ },
+ {
+  "source": "Windflight",
+  "target": "Thistleclaw",
+  "type": "parent"
  },
  {
   "source": "Thistleclaw",
   "target": "Whitestorm",
+  "type": "parent"
+ },
+ {
+  "source": "Tallpoppy",
+  "target": "Toadfoot",
+  "type": "parent"
+ },
+ {
+  "source": "Thunderstar",
+  "target": "Violet Dawn",
+  "type": "mate"
+ },
+ {
+  "source": "Tornear",
+  "target": "Tawnyfur",
+  "type": "mentor"
+ },
+ {
+  "source": "Windflight",
+  "target": "Thrushpelt (TC)",
+  "type": "parent"
+ },
+ {
+  "source": "Wolfstep",
+  "target": "Tangleburr",
+  "type": "mentor"
+ },
+ {
+  "source": "Tansy (cat)",
+  "target": "Willow Tail",
+  "type": "parent"
+ },
+ {
+  "source": "Timberfur",
+  "target": "Whitefang",
+  "type": "mentor"
+ },
+ {
+  "source": "Toadskip",
+  "target": "Wolfstep",
+  "type": "parent"
+ },
+ {
+  "source": "Turtle Tail",
+  "target": "Tom (ES)",
+  "type": "mate"
+ },
+ {
+  "source": "Violetshine",
+  "target": "Tree",
+  "type": "mate"
+ },
+ {
+  "source": "Moonlight",
+  "target": "Tree",
+  "type": "mentor"
+ },
+ {
+  "source": "Whitestorm",
+  "target": "Tulipkit",
+  "type": "parent"
+ },
+ {
+  "source": "Wrenflight (SkC)",
+  "target": "Vinekit",
   "type": "parent"
  },
  {
@@ -885,13 +9410,28 @@
   "type": "mate"
  },
  {
-  "source": "Whitestorm",
-  "target": "Tulipkit",
+  "source": "Whitefang",
+  "target": "Whiteclaw",
+  "type": "mentor"
+ },
+ {
+  "source": "Webfoot",
+  "target": "Weaselfur",
+  "type": "mentor"
+ },
+ {
+  "source": "Willowbreeze",
+  "target": "Willowkit (Crookedstar's daughter)",
   "type": "parent"
  },
  {
-  "source": "Tornear",
-  "target": "Tawnyfur",
-  "type": "mentor"
+  "source": "Yellowfang",
+  "target": "Wishkit",
+  "type": "parent"
+ },
+ {
+  "source": "Woollytail",
+  "target": "Wrenflight (WiC)",
+  "type": "parent"
  }
 ]

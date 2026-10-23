@@ -1,14 +1,76 @@
 {
-  "_comment": "code 对应 Wiki 书目引用 {{r/book|<code><n>}} 的前缀；category 是 Wiki 的「出场角色」分类。enabled=false 的部暂不抓取（P4 再开）。",
+  "_comment": "code 对应 Wiki 书目引用 {{r/book|<code><n>}} 的前缀；category 是 Wiki 的「出场角色」分类。抓取范围是 sourceCategory（全部角色），不属于任何一部的归入 extra（外传）。",
   "arcs": [
-    { "id": "arc1", "zh": "第一部", "en": "The Prophecies Begin", "code": "os", "category": "The Prophecies Begin characters", "enabled": true },
-    { "id": "arc2", "zh": "第二部", "en": "The New Prophecy", "code": "np", "category": "The New Prophecy characters", "enabled": false },
-    { "id": "arc3", "zh": "第三部", "en": "Power of Three", "code": "po", "category": "Power of Three characters", "enabled": false },
-    { "id": "arc4", "zh": "第四部", "en": "Omen of the Stars", "code": "om", "category": "Omen of the Stars characters", "enabled": false },
-    { "id": "arc5", "zh": "第五部", "en": "Dawn of the Clans", "code": "dc", "category": "Dawn of the Clans characters", "enabled": false },
-    { "id": "arc6", "zh": "第六部", "en": "A Vision of Shadows", "code": "vs", "category": "A Vision of Shadows characters", "enabled": false },
-    { "id": "arc7", "zh": "第七部", "en": "The Broken Code", "code": "tbc", "category": "The Broken Code characters", "enabled": false },
-    { "id": "arc8", "zh": "第八部", "en": "A Starless Clan", "code": "asc", "category": "A Starless Clan characters", "enabled": false },
-    { "id": "arc9", "zh": "第九部", "en": "Changing Skies", "code": "cs", "category": "Changing Skies characters", "enabled": false }
-  ]
+    {
+      "id": "arc1",
+      "zh": "第一部",
+      "en": "The Prophecies Begin",
+      "code": "os",
+      "category": "The Prophecies Begin characters"
+    },
+    {
+      "id": "arc2",
+      "zh": "第二部",
+      "en": "The New Prophecy",
+      "code": "np",
+      "category": "The New Prophecy characters"
+    },
+    {
+      "id": "arc3",
+      "zh": "第三部",
+      "en": "Power of Three",
+      "code": "po",
+      "category": "Power of Three characters"
+    },
+    {
+      "id": "arc4",
+      "zh": "第四部",
+      "en": "Omen of the Stars",
+      "code": "om",
+      "category": "Omen of the Stars characters"
+    },
+    {
+      "id": "arc5",
+      "zh": "第五部",
+      "en": "Dawn of the Clans",
+      "code": "dc",
+      "category": "Dawn of the Clans characters"
+    },
+    {
+      "id": "arc6",
+      "zh": "第六部",
+      "en": "A Vision of Shadows",
+      "code": "vs",
+      "category": "A Vision of Shadows characters"
+    },
+    {
+      "id": "arc7",
+      "zh": "第七部",
+      "en": "The Broken Code",
+      "code": "tbc",
+      "category": "The Broken Code characters"
+    },
+    {
+      "id": "arc8",
+      "zh": "第八部",
+      "en": "A Starless Clan",
+      "code": "asc",
+      "category": "A Starless Clan characters"
+    },
+    {
+      "id": "arc9",
+      "zh": "第九部",
+      "en": "Changing Skies",
+      "code": "cs",
+      "category": "Changing Skies characters"
+    },
+    {
+      "id": "extra",
+      "zh": "外传",
+      "en": "Super Editions, novellas and others",
+      "code": null,
+      "category": null
+    }
+  ],
+  "sourceCategory": "Characters"
 }
