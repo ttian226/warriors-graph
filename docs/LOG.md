@@ -53,6 +53,10 @@
   - 风险：大陆第一部有中少社、未来社两个版本，译名可能不同，待孩子对照书确认（沙风还是沙暴、黑莓掌还是棘爪）
   - 导入后：导入 124 + 词根 334 个名字有中文，1340 个仍为英文
 - [ ] 中文名（旧记录，导入前）：全量 1508 个非幼崽名字没有中文。缺得最多的前缀 Owl/Dawn/Gorse/Birch/Reed/Sun/Ash/Hare…，后缀 wing/berry/storm…；650 个名字前后缀都不认识（多为外传配角、部落猫、两脚兽家的猫）
+- [x] P5 部署（2026-10-23）：公开仓库 https://github.com/ttian226/warriors-graph ，推送 main 触发 `.github/workflows/pages.yml` 构建部署到 https://ttian226.github.io/warriors-graph/ （Pages 来源 = GitHub Actions）
+  - `vite.config.js` 用 `base: './'`，子路径下资源可加载（本地模拟 /warriors-graph/ 子路径验证过）
+  - 生产包 JS 约 3.8MB（gzip 约 1MB），主要是 cats.json 与 elkjs；iPad 首次加载若慢可考虑把家谱视图（cytoscape+elk）拆成按需加载
+- [ ] iPad Safari 全面实测（性能、横竖屏、触控）
 
 ## 解析要点（踩过的坑）
 
