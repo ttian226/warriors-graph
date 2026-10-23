@@ -126,9 +126,18 @@ function parsePelt(wikitext) {
 const warnings = [];
 
 // —— 族群 ——
-const CLAN_NOTES = { exiled: '被流放', prisoner: '囚禁', temporarily: '短暂', refugee: '避难', birth: '出生', born: '出生', formerly: '曾经', captive: '被俘', 'mind-controlled': '被控制' };
+const CLAN_NOTES = { exiled: '被流放', prisoner: '囚禁', temporarily: '短暂', temporary: '短暂', unwillingly: '被迫', 'later prisoner': '后被囚禁', 'formerly exiled': '曾被流放', 'formerly prisoner': '曾被囚禁', refugee: '避难', birth: '出生', born: '出生', formerly: '曾经', captive: '被俘', 'mind-controlled': '被控制' };
 const MAIN_CLANS = new Set(['ThunderClan', 'RiverClan', 'WindClan', 'ShadowClan', 'SkyClan']);
 const WEAK_NOTES = /prisoner|temporar|refugee|birth|born|captive|hostage|exiled/i;
+
+// 组合备注如 "formerly and refugee"：逐个翻译，认不出的保留英文
+function noteZh(note) {
+  return note
+    .split(/\s*(?:,|\band\b)\s*/i)
+    .filter(Boolean)
+    .map((w) => CLAN_NOTES[w.toLowerCase()] || w)
+    .join('、');
+}
 
 function clanEntries(value, id) {
   const out = [];
@@ -139,7 +148,7 @@ function clanEntries(value, id) {
     if (!(raw in CLAN_TEMPLATES)) warnings.push(`${id}: 未知族群模板 ${raw}（已忽略）`);
     if (!clan) continue;
     const note = /\{\{\s*i\s*\|([^}]*)\}\}/i.exec(seg)?.[1]?.trim() || '';
-    out.push({ clan, ...(note ? { note: CLAN_NOTES[note.toLowerCase()] || note, rawNote: note } : {}) });
+    out.push({ clan, ...(note ? { note: noteZh(note), rawNote: note } : {}) });
   }
   return out;
 }

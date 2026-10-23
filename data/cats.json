@@ -180,12 +180,12 @@
    },
    {
     "clan": "ThunderClan",
-    "note": "temporary",
+    "note": "短暂",
     "rawNote": "temporary"
    },
    {
     "clan": "SkyClan",
-    "note": "temporary",
+    "note": "短暂",
     "rawNote": "temporary"
    },
    {
@@ -521,7 +521,7 @@
    },
    {
     "clan": "DarkForest",
-    "note": "unwillingly and later prisoner",
+    "note": "被迫、后被囚禁",
     "rawNote": "unwillingly and later prisoner"
    },
    {
@@ -1357,7 +1357,7 @@
    },
    {
     "clan": "ThunderClan",
-    "note": "formerly and refugee",
+    "note": "曾经、避难",
     "rawNote": "formerly and refugee"
    },
    {
@@ -1717,7 +1717,7 @@
    },
    {
     "clan": "Tribe",
-    "note": "temporary",
+    "note": "短暂",
     "rawNote": "temporary"
    },
    {
@@ -2266,7 +2266,7 @@
   "clans": [
    {
     "clan": "ThunderClan",
-    "note": "formerly and refugee",
+    "note": "曾经、避难",
     "rawNote": "formerly and refugee"
    },
    {
@@ -2532,7 +2532,7 @@
   "clans": [
    {
     "clan": "RiverClan",
-    "note": "formerly exiled",
+    "note": "曾被流放",
     "rawNote": "formerly exiled"
    },
    {
@@ -3558,7 +3558,7 @@
    },
    {
     "clan": "SkyClan",
-    "note": "temporary",
+    "note": "短暂",
     "rawNote": "temporary"
    },
    {
@@ -4046,12 +4046,12 @@
   "clans": [
    {
     "clan": "ThunderClan",
-    "note": "formerly and refugee",
+    "note": "曾经、避难",
     "rawNote": "formerly and refugee"
    },
    {
     "clan": "RiverClan",
-    "note": "formerly and exiled",
+    "note": "曾经、被流放",
     "rawNote": "formerly and exiled"
    },
    {
@@ -4330,7 +4330,7 @@
   "clans": [
    {
     "clan": "ThunderClan",
-    "note": "formerly and refugee",
+    "note": "曾经、避难",
     "rawNote": "formerly and refugee"
    },
    {
@@ -4938,7 +4938,7 @@
    },
    {
     "clan": "ThunderClan",
-    "note": "formerly prisoner",
+    "note": "曾被囚禁",
     "rawNote": "formerly prisoner"
    },
    {

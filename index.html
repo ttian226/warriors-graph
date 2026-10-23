@@ -11,15 +11,22 @@
 </head>
 <body>
   <div id="graph"></div>
+  <div id="family" hidden></div>
 
   <div id="topbar">
     <div class="search">
       <input id="search" type="search" placeholder="搜索猫名（中 / 英）" autocomplete="off" />
       <ul id="results" hidden></ul>
     </div>
-    <div class="tools">
+    <div class="tools" id="galaxyTools">
       <button id="bloomBtn" type="button">辉光 开</button>
       <span id="fps"></span>
+    </div>
+    <div class="tools" id="familyTools" hidden>
+      <span id="famTitle"></span>
+      <div class="stepper"><span>上</span><button data-dir="up" data-step="-1" type="button">−</button><b id="upVal"></b><button data-dir="up" data-step="1" type="button">+</button><span>代</span></div>
+      <div class="stepper"><span>下</span><button data-dir="down" data-step="-1" type="button">−</button><b id="downVal"></b><button data-dir="down" data-step="1" type="button">+</button><span>代</span></div>
+      <button id="backBtn" type="button">回到星系</button>
     </div>
   </div>
 

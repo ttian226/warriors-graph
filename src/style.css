@@ -8,6 +8,7 @@
 }
 
 * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+[hidden] { display: none !important; }
 
 html, body {
   margin: 0;
@@ -216,3 +217,69 @@ footer a { color: inherit; pointer-events: auto; }
 /* —— 头像 —— */
 #panelBody .avatar { width: 64px; height: 64px; display: block; margin-bottom: 8px; }
 .avatar-sm { width: 28px; height: 28px; flex: none; }
+
+/* —— 家谱视图 —— */
+#family {
+  position: fixed;
+  inset: 72px 0 0 0;
+  background:
+    radial-gradient(1px 1px at 20% 30%, rgba(160, 175, 230, 0.5), transparent),
+    radial-gradient(1px 1px at 70% 60%, rgba(160, 175, 230, 0.4), transparent),
+    radial-gradient(1px 1px at 40% 80%, rgba(160, 175, 230, 0.35), transparent),
+    radial-gradient(1px 1px at 85% 20%, rgba(160, 175, 230, 0.45), transparent),
+    radial-gradient(ellipse at 50% 40%, #0b0e1d 0%, var(--bg) 70%);
+  background-size: 180px 180px, 230px 230px, 150px 150px, 260px 260px, 100% 100%;
+}
+#family[hidden] { display: none; }
+body[data-view="family"] #graph { visibility: hidden; }
+@media (orientation: landscape) {
+  body.panel-open #family { right: 372px; }
+}
+@media (orientation: portrait) {
+  body.panel-open #family { bottom: calc(45vh + 16px); }
+}
+
+#familyTools { flex-wrap: wrap; justify-content: flex-end; }
+#famTitle { color: var(--muted); font-size: 13px; }
+.stepper {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  height: 44px;
+  padding: 0 6px 0 12px;
+  border-radius: 22px;
+  border: 1px solid var(--line);
+  background: var(--panel);
+  font-size: 13px;
+  color: var(--muted);
+}
+.stepper b { min-width: 14px; text-align: center; color: var(--text); font-weight: 600; }
+.tools .stepper button {
+  width: 34px;
+  height: 34px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.06);
+  font-size: 18px;
+}
+
+/* 面板里的操作按钮 */
+.actions { display: flex; gap: 8px; margin-top: 14px; }
+.action {
+  flex: 1;
+  min-height: 40px;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  background: rgba(255, 210, 122, 0.1);
+  color: var(--accent);
+  font: inherit;
+  font-size: 14px;
+}
+.action:disabled { opacity: 0.35; }
+
+@media (orientation: portrait) {
+  /* 竖屏时家谱工具栏会折行，家谱区域下移避开；面板展开时隐藏页脚 */
+  #family { top: 128px; }
+  body.panel-open footer { display: none; }
+}

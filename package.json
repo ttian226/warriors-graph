@@ -13,6 +13,8 @@
   },
   "dependencies": {
     "3d-force-graph": "^1.80.1",
+    "cytoscape": "^3.34.4",
+    "cytoscape-elk": "^2.3.0",
     "three": "^0.186.1"
   },
   "devDependencies": {
